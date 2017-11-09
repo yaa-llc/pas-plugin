@@ -12,6 +12,101 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 if( function_exists('acf_add_local_field_group') ):
 
     acf_add_local_field_group(array(
+        'key' => 'group_5a048d8f05749',
+        'title' => 'Header Options',
+        'fields' => array(
+            array(
+                'key' => 'field_5a048d9aef092',
+                'label' => 'Telephone Number',
+                'name' => 'telephone_number',
+                'type' => 'text',
+                'instructions' => '',
+                'required' => 0,
+                'conditional_logic' => 0,
+                'wrapper' => array(
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'default_value' => '',
+                'placeholder' => '',
+                'prepend' => '',
+                'append' => '',
+                'maxlength' => '',
+            ),
+            array(
+                'key' => 'field_5a049040ef093',
+                'label' => 'Featured on Houzz Button',
+                'name' => 'featured_on_houzz_button',
+                'type' => 'group',
+                'instructions' => '',
+                'required' => 0,
+                'conditional_logic' => 0,
+                'wrapper' => array(
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'layout' => 'block',
+                'sub_fields' => array(
+                    array(
+                        'key' => 'field_5a049071ef094',
+                        'label' => 'Button Image',
+                        'name' => 'button_image',
+                        'type' => 'text',
+                        'instructions' => '',
+                        'required' => 0,
+                        'conditional_logic' => 0,
+                        'wrapper' => array(
+                            'width' => '',
+                            'class' => '',
+                            'id' => '',
+                        ),
+                        'default_value' => '',
+                        'placeholder' => '',
+                        'prepend' => '',
+                        'append' => '',
+                        'maxlength' => '',
+                    ),
+                    array(
+                        'key' => 'field_5a04907aef095',
+                        'label' => 'Houzz URL',
+                        'name' => 'houzz_url',
+                        'type' => 'url',
+                        'instructions' => '',
+                        'required' => 0,
+                        'conditional_logic' => 0,
+                        'wrapper' => array(
+                            'width' => '',
+                            'class' => '',
+                            'id' => '',
+                        ),
+                        'default_value' => '',
+                        'placeholder' => '',
+                    ),
+                ),
+            ),
+        ),
+        'location' => array(
+            array(
+                array(
+                    'param' => 'options_page',
+                    'operator' => '==',
+                    'value' => 'acf-options-header-options',
+                ),
+            ),
+        ),
+        'menu_order' => 0,
+        'position' => 'normal',
+        'style' => 'default',
+        'label_placement' => 'top',
+        'instruction_placement' => 'label',
+        'hide_on_screen' => '',
+        'active' => 1,
+        'description' => '',
+    ));
+
+    acf_add_local_field_group(array(
         'key' => 'group_5a04737b386c5',
         'title' => 'Home Page Custom Fields',
         'fields' => array(
