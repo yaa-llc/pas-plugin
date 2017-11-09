@@ -17,8 +17,8 @@ if( function_exists('acf_add_local_field_group') ):
         'fields' => array(
             array(
                 'key' => 'field_5a0473a957b19',
-                'label' => 'Home Page Header Content',
-                'name' => 'home_page_header_content',
+                'label' => 'Home Page Hero Bar',
+                'name' => 'home_page_hero_bar',
                 'type' => 'flexible_content',
                 'instructions' => '',
                 'required' => 0,
