@@ -17,11 +17,26 @@ function create_posttype() {
         array(
             'labels' => array(
                 'name' => __( 'Dealers' ),
-                'singular_name' => __( 'Dealer' )
+                'singular_name' => __( 'Dealer' ),
+                'taxonomies'  => array( 'category' ),
             ),
             'public' => true,
             'has_archive' => true,
             'rewrite' => array('slug' => 'dealers'),
+        )
+    );
+
+    register_post_type( 'altera_stone',
+        // CPT Options
+        array(
+            'labels' => array(
+                'name' => __( 'Altera Stone' ),
+                'singular_name' => __( 'Altera Stone' ),
+                'taxonomies'  => array( 'category' ),
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => array('slug' => 'altera'),
         )
     );
 }
