@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ed36713-f509-4e97-b362-9e32f300a181" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pas-custom-post-type.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pas-custom-fields.php" afterPath="$PROJECT_DIR$/pas-custom-fields.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,7 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pas-custom-post-type.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pas-custom-post-type.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pas-custom-post-type.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="494">
@@ -27,13 +25,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pas-custom-fields.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="pas-custom-fields.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pas-custom-fields.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="9" selection-end-column="2" />
+            <state relative-caret-position="264">
+              <caret line="959" column="6" lean-forward="false" selection-start-line="959" selection-start-column="6" selection-end-line="959" selection-end-column="6" />
               <folding>
                 <element signature="e#6#270#0#PHP" expanded="true" />
+                <element signature="e#272#41807#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -48,6 +47,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pas-custom-post-type.php" />
+        <option value="$PROJECT_DIR$/pas-custom-fields.php" />
       </list>
     </option>
   </component>
@@ -120,12 +120,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510757150105</updated>
-      <workItem from="1510757151352" duration="121000" />
+      <workItem from="1510757151352" duration="891000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121000" />
+    <option name="totallyTimeSpent" value="891000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="877" extended-state="6" />
@@ -161,22 +161,23 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pas-custom-fields.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="9" selection-end-column="2" />
-          <folding>
-            <element signature="e#6#270#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pas-custom-post-type.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="23" column="49" lean-forward="false" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
           <folding>
             <element signature="e#6#278#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pas-custom-fields.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="959" column="6" lean-forward="false" selection-start-line="959" selection-start-column="6" selection-end-line="959" selection-end-column="6" />
+          <folding>
+            <element signature="e#6#270#0#PHP" expanded="true" />
+            <element signature="e#272#41807#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
