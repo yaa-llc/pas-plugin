@@ -13,7 +13,7 @@ if( function_exists('acf_add_local_field_group') ):
 
     acf_add_local_field_group(array(
         'key' => 'group_5a0d8dbc8eabb',
-        'title' => 'Dealer Field Group',
+        'title' => 'Dealer Locator',
         'fields' => array(
             array(
                 'key' => 'field_5a0d92093d062',
@@ -276,7 +276,9 @@ For example, www.pacificartstone.com',
         'style' => 'default',
         'label_placement' => 'top',
         'instruction_placement' => 'label',
-        'hide_on_screen' => '',
+        'hide_on_screen' => array(
+            0 => 'the_content',
+        ),
         'active' => 1,
         'description' => '',
     ));
