@@ -1203,8 +1203,8 @@ For example, www.pacificartstone.com',
         'fields' => array(
             array(
                 'key' => 'field_5a0dda10726a4',
-                'label' => 'Stone Collection CTA Links',
-                'name' => 'stone_collection_cta_links',
+                'label' => 'Stone Collection Information',
+                'name' => 'stone_collection_information',
                 'type' => 'flexible_content',
                 'instructions' => '',
                 'required' => 0,
@@ -1295,9 +1295,9 @@ For example, www.pacificartstone.com',
         'location' => array(
             array(
                 array(
-                    'param' => 'page_type',
+                    'param' => 'page_template',
                     'operator' => '==',
-                    'value' => 'child',
+                    'value' => 'page-stone-collection.php',
                 ),
             ),
         ),
