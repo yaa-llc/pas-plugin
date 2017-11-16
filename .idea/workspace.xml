@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ed36713-f509-4e97-b362-9e32f300a181" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pas-custom-fields.php" afterPath="$PROJECT_DIR$/pas-custom-fields.php" />
-    </list>
+    <list default="true" id="7ed36713-f509-4e97-b362-9e32f300a181" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,11 +24,10 @@
       <file leaf-file-name="pas-custom-fields.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pas-custom-fields.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
+            <state relative-caret-position="614">
               <caret line="1309" column="6" lean-forward="false" selection-start-line="1309" selection-start-column="6" selection-end-line="1309" selection-end-column="6" />
               <folding>
                 <element signature="e#6#270#0#PHP" expanded="true" />
-                <element signature="e#272#56407#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -137,12 +134,12 @@
       <updated>1510757150105</updated>
       <workItem from="1510757151352" duration="1032000" />
       <workItem from="1510760961080" duration="2259000" />
-      <workItem from="1510837086187" duration="2983000" />
+      <workItem from="1510837086187" duration="3119000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6274000" />
+    <option name="totallyTimeSpent" value="6410000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="877" extended-state="0" />
@@ -211,7 +208,6 @@
           <caret line="1001" column="6" lean-forward="false" selection-start-line="1001" selection-start-column="6" selection-end-line="1001" selection-end-column="6" />
           <folding>
             <element signature="e#6#270#0#PHP" expanded="true" />
-            <element signature="e#272#56407#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -238,7 +234,6 @@
           <caret line="959" column="6" lean-forward="false" selection-start-line="959" selection-start-column="6" selection-end-line="959" selection-end-column="6" />
           <folding>
             <element signature="e#6#270#0#PHP" expanded="true" />
-            <element signature="e#272#56407#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -268,11 +263,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pas-custom-fields.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
+        <state relative-caret-position="614">
           <caret line="1309" column="6" lean-forward="false" selection-start-line="1309" selection-start-column="6" selection-end-line="1309" selection-end-column="6" />
           <folding>
             <element signature="e#6#270#0#PHP" expanded="true" />
-            <element signature="e#272#56407#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
