@@ -1198,94 +1198,100 @@ For example, www.pacificartstone.com',
     ));
 
     acf_add_local_field_group(array(
-        'key' => 'group_5a0c5788f2499',
-        'title' => 'Stone Collection CTA',
-        'fields' => array(
-            array(
-                'key' => 'field_5a0c57e5f165f',
-                'label' => 'Stone Collection Brochure',
-                'name' => 'stone_collection_brochure',
-                'type' => 'file',
-                'instructions' => 'Please upload the spec sheet for this collection here',
-                'required' => 0,
-                'conditional_logic' => 0,
-                'wrapper' => array(
-                    'width' => '',
-                    'class' => '',
-                    'id' => '',
-                ),
-                'return_format' => 'array',
-                'library' => 'all',
-                'min_size' => '',
-                'max_size' => '',
-                'mime_types' => '',
-            ),
-            array(
-                'key' => 'field_5a0c6c9405f46',
-                'label' => 'Inspiration Gallery',
-                'name' => 'inspiration_gallery',
-                'type' => 'page_link',
-                'instructions' => '',
-                'required' => 0,
-                'conditional_logic' => 0,
-                'wrapper' => array(
-                    'width' => '',
-                    'class' => '',
-                    'id' => '',
-                ),
-                'post_type' => array(
-                ),
-                'taxonomy' => array(
-                ),
-                'allow_null' => 0,
-                'multiple' => 0,
-                'allow_archives' => 1,
-            ),
-            array(
-                'key' => 'field_5a0c6ca905f47',
-                'label' => 'Find a Dealer',
-                'name' => 'find_a_dealer',
-                'type' => 'page_link',
-                'instructions' => '',
-                'required' => 0,
-                'conditional_logic' => 0,
-                'wrapper' => array(
-                    'width' => '',
-                    'class' => '',
-                    'id' => '',
-                ),
-                'post_type' => array(
-                ),
-                'taxonomy' => array(
-                ),
-                'allow_null' => 0,
-                'allow_archives' => 1,
-                'multiple' => 0,
-            ),
-        ),
-        'location' => array(
-            array(
-                array(
-                    'param' => 'page_template',
-                    'operator' => '==',
-                    'value' => 'page-stone-collection.php',
-                ),
-            ),
-        ),
-        'menu_order' => 0,
-        'position' => 'normal',
-        'style' => 'default',
-        'label_placement' => 'top',
-        'instruction_placement' => 'label',
-        'hide_on_screen' => '',
-        'active' => 1,
-        'description' => '',
-    ));
-
-    acf_add_local_field_group(array(
         'key' => 'group_5a088a2ac6331',
         'title' => 'Stone Collection Page Fields',
-        'fields' => false,
+        'fields' => array(
+            array(
+                'key' => 'field_5a0dda10726a4',
+                'label' => 'Stone Collection CTA Links',
+                'name' => 'stone_collection_cta_links',
+                'type' => 'flexible_content',
+                'instructions' => '',
+                'required' => 0,
+                'conditional_logic' => 0,
+                'wrapper' => array(
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'layouts' => array(
+                    '5a0dda2292890' => array(
+                        'key' => '5a0dda2292890',
+                        'name' => 'link_group',
+                        'label' => 'Link Group',
+                        'display' => 'block',
+                        'sub_fields' => array(
+                            array(
+                                'key' => 'field_5a0dda43726a5',
+                                'label' => 'Stone Collection Brochure',
+                                'name' => 'stone_collection_brochure',
+                                'type' => 'file',
+                                'instructions' => '',
+                                'required' => 0,
+                                'conditional_logic' => 0,
+                                'wrapper' => array(
+                                    'width' => '',
+                                    'class' => '',
+                                    'id' => '',
+                                ),
+                                'return_format' => 'array',
+                                'library' => 'all',
+                                'min_size' => '',
+                                'max_size' => '',
+                                'mime_types' => '',
+                            ),
+                            array(
+                                'key' => 'field_5a0dda57726a6',
+                                'label' => 'Inspiration Gallery',
+                                'name' => 'inspiration_gallery',
+                                'type' => 'page_link',
+                                'instructions' => '',
+                                'required' => 0,
+                                'conditional_logic' => 0,
+                                'wrapper' => array(
+                                    'width' => '',
+                                    'class' => '',
+                                    'id' => '',
+                                ),
+                                'post_type' => array(
+                                ),
+                                'taxonomy' => array(
+                                ),
+                                'allow_null' => 0,
+                                'allow_archives' => 1,
+                                'multiple' => 0,
+                            ),
+                            array(
+                                'key' => 'field_5a0dda6a726a7',
+                                'label' => 'Find a Dealer',
+                                'name' => 'find_a_dealer',
+                                'type' => 'page_link',
+                                'instructions' => '',
+                                'required' => 0,
+                                'conditional_logic' => 0,
+                                'wrapper' => array(
+                                    'width' => '',
+                                    'class' => '',
+                                    'id' => '',
+                                ),
+                                'post_type' => array(
+                                ),
+                                'taxonomy' => array(
+                                ),
+                                'allow_null' => 0,
+                                'allow_archives' => 1,
+                                'multiple' => 0,
+                            ),
+                        ),
+                        'min' => '',
+                        'max' => '',
+                    ),
+                ),
+                'button_label' => 'Add Row',
+                'min' => '',
+                'max' => '',
+            ),
+        ),
         'location' => array(
             array(
                 array(
