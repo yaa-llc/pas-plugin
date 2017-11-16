@@ -12,6 +12,87 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 if( function_exists('acf_add_local_field_group') ):
 
     acf_add_local_field_group(array(
+        'key' => 'group_5a0d8dbc8eabb',
+        'title' => 'Dealer Field Group',
+        'fields' => array(
+            array(
+                'key' => 'field_5a0d8dc221275',
+                'label' => 'Dealer Address',
+                'name' => 'dealer_address',
+                'type' => 'google_map',
+                'instructions' => '',
+                'required' => 0,
+                'conditional_logic' => 0,
+                'wrapper' => array(
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'center_lat' => '',
+                'center_lng' => '',
+                'zoom' => '',
+                'height' => '',
+            ),
+            array(
+                'key' => 'field_5a0d8deb21276',
+                'label' => 'Dealer Phone Number',
+                'name' => 'dealer_phone_number',
+                'type' => 'text',
+                'instructions' => '',
+                'required' => 0,
+                'conditional_logic' => 0,
+                'wrapper' => array(
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'default_value' => '',
+                'placeholder' => '',
+                'prepend' => '',
+                'append' => '',
+                'maxlength' => '',
+            ),
+            array(
+                'key' => 'field_5a0d8e0c21277',
+                'label' => 'Dealer Website',
+                'name' => 'dealer_website',
+                'type' => 'text',
+                'instructions' => 'Please provide the URL for the dealer.
+For example www.pacficiartstone.com',
+                'required' => 0,
+                'conditional_logic' => 0,
+                'wrapper' => array(
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'default_value' => '',
+                'placeholder' => '',
+                'prepend' => '',
+                'append' => '',
+                'maxlength' => '',
+            ),
+        ),
+        'location' => array(
+            array(
+                array(
+                    'param' => 'post_type',
+                    'operator' => '==',
+                    'value' => 'dealer',
+                ),
+            ),
+        ),
+        'menu_order' => 0,
+        'position' => 'normal',
+        'style' => 'default',
+        'label_placement' => 'top',
+        'instruction_placement' => 'label',
+        'hide_on_screen' => '',
+        'active' => 1,
+        'description' => '',
+    ));
+
+    acf_add_local_field_group(array(
         'key' => 'group_5a08b3b885442',
         'title' => 'Footer Options',
         'fields' => array(
