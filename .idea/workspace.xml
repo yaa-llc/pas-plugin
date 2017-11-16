@@ -27,10 +27,10 @@
         <entry file="file://$PROJECT_DIR$/pas-custom-fields.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="264">
-              <caret line="1118" column="6" lean-forward="false" selection-start-line="1118" selection-start-column="6" selection-end-line="1118" selection-end-column="6" />
+              <caret line="1307" column="6" lean-forward="false" selection-start-line="1307" selection-start-column="6" selection-end-line="1307" selection-end-column="6" />
               <folding>
                 <element signature="e#6#270#0#PHP" expanded="true" />
-                <element signature="e#272#48009#0#PHP" expanded="false" />
+                <element signature="e#272#56353#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -137,12 +137,12 @@
       <updated>1510757150105</updated>
       <workItem from="1510757151352" duration="1032000" />
       <workItem from="1510760961080" duration="2259000" />
-      <workItem from="1510837086187" duration="839000" />
+      <workItem from="1510837086187" duration="1474000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4130000" />
+    <option name="totallyTimeSpent" value="4765000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="877" extended-state="0" />
@@ -211,7 +211,7 @@
           <caret line="1001" column="6" lean-forward="false" selection-start-line="1001" selection-start-column="6" selection-end-line="1001" selection-end-column="6" />
           <folding>
             <element signature="e#6#270#0#PHP" expanded="true" />
-            <element signature="e#272#48009#0#PHP" expanded="false" />
+            <element signature="e#272#56353#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -238,7 +238,7 @@
           <caret line="959" column="6" lean-forward="false" selection-start-line="959" selection-start-column="6" selection-end-line="959" selection-end-column="6" />
           <folding>
             <element signature="e#6#270#0#PHP" expanded="true" />
-            <element signature="e#272#48009#0#PHP" expanded="false" />
+            <element signature="e#272#56353#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -269,10 +269,10 @@
     <entry file="file://$PROJECT_DIR$/pas-custom-fields.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="1118" column="6" lean-forward="false" selection-start-line="1118" selection-start-column="6" selection-end-line="1118" selection-end-column="6" />
+          <caret line="1307" column="6" lean-forward="false" selection-start-line="1307" selection-start-column="6" selection-end-line="1307" selection-end-column="6" />
           <folding>
             <element signature="e#6#270#0#PHP" expanded="true" />
-            <element signature="e#272#48009#0#PHP" expanded="false" />
+            <element signature="e#272#56353#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
