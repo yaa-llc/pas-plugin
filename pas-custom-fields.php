@@ -31,9 +31,8 @@ if( function_exists('acf_add_local_field_group') ):
                 'collapsed' => '',
                 'min' => 0,
                 'max' => 0,
-                'layout' => 'table',
+                'layout' => 'block',
                 'button_label' => '',
-                'jpn-tabs' => 'vertical',
                 'sub_fields' => array(
                     array(
                         'key' => 'field_5a0d92663d065',
@@ -154,9 +153,8 @@ For example, www.pacificartstone.com',
                 'collapsed' => '',
                 'min' => 0,
                 'max' => 0,
-                'layout' => 'table',
+                'layout' => 'block',
                 'button_label' => '',
-                'jpn-tabs' => 'vertical',
                 'sub_fields' => array(
                     array(
                         'key' => 'field_5a0d92f6fd17f',
