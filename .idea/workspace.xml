@@ -26,8 +26,8 @@
       <file leaf-file-name="pas-custom-fields.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pas-custom-fields.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="614">
-              <caret line="2604" column="6" lean-forward="false" selection-start-line="2604" selection-start-column="6" selection-end-line="2604" selection-end-column="6" />
+            <state relative-caret-position="302">
+              <caret line="2610" column="10" lean-forward="true" selection-start-line="2610" selection-start-column="10" selection-end-line="2610" selection-end-column="10" />
               <folding>
                 <element signature="e#6#270#0#PHP" expanded="true" />
               </folding>
@@ -133,12 +133,12 @@
       <workItem from="1511218270782" duration="4172000" />
       <workItem from="1511277869686" duration="1902000" />
       <workItem from="1511293787089" duration="4628000" />
-      <workItem from="1511441244998" duration="683000" />
+      <workItem from="1511441244998" duration="1839000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37233000" />
+    <option name="totallyTimeSpent" value="38389000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="877" extended-state="0" />
@@ -401,8 +401,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pas-custom-fields.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="2604" column="6" lean-forward="false" selection-start-line="2604" selection-start-column="6" selection-end-line="2604" selection-end-column="6" />
+        <state relative-caret-position="302">
+          <caret line="2610" column="10" lean-forward="true" selection-start-line="2610" selection-start-column="10" selection-end-line="2610" selection-end-column="10" />
           <folding>
             <element signature="e#6#270#0#PHP" expanded="true" />
           </folding>
