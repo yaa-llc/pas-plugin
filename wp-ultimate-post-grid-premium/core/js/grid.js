@@ -428,7 +428,7 @@ WPUltimatePostGrid.initFilterIsotope = function(container) {
 
     container.find('.wpupg-filter-isotope-term').on('click keydown', function(e) {
         // On click, space or enter.
-        if(e.which === 1 || e.which === 13 || e.which === 32) {
+        if(e.isTrigger || e.which === 1 || e.which === 13 || e.which === 32) {
             var filter_item = jQuery(this);
             var taxonomy = filter_item.data('taxonomy');
             var filter_all = filter_item.data('filter') == undefined;

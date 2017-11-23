@@ -1,5 +1,5 @@
 <?php
-define( 'WPUPG_VERSION', '2.6.0' );
+define( 'WPUPG_VERSION', '2.6.1' );
 define( 'WPUPG_POST_TYPE', 'wpupg_grid' );
 
 class WPUltimatePostGrid {

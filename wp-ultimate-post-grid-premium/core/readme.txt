@@ -3,7 +3,7 @@ Contributors: BrechtVds
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QG7KZMGFU325Y
 Tags: grid, isotope, filter, custom post type
 Requires at least: 3.5
-Tested up to: 4.8
+Tested up to: 4.9
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -77,6 +77,9 @@ It's still an early version of the plugin and we'll be adding new features every
 5. Everything is fully responsive
 
 == Changelog ==
+
+= 2.6.1 =
+* Fix: Deeplinking not working
 
 = 2.6.0 =
 * Improvement: Accessibility for the isotope filter
@@ -203,6 +206,9 @@ It's still an early version of the plugin and we'll be adding new features every
 * Very first version of this plugin
 
 == Upgrade notice ==
+
+= 2.6.1 =
+Update to fix the deeplinking feature
 
 = 2.6.0 =
 Update for improved accessibility and performance

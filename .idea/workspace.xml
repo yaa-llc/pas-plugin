@@ -2,7 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ed36713-f509-4e97-b362-9e32f300a181" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pas-custom-fields.php" afterPath="$PROJECT_DIR$/pas-custom-fields.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view-admin-as/assets/css/view-admin-as.css" afterPath="$PROJECT_DIR$/view-admin-as/assets/css/view-admin-as.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view-admin-as/assets/css/view-admin-as.min.css" afterPath="$PROJECT_DIR$/view-admin-as/assets/css/view-admin-as.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view-admin-as/assets/js/view-admin-as.js" afterPath="$PROJECT_DIR$/view-admin-as/assets/js/view-admin-as.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view-admin-as/assets/js/view-admin-as.min.js" afterPath="$PROJECT_DIR$/view-admin-as/assets/js/view-admin-as.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view-admin-as/includes/class-api.php" afterPath="$PROJECT_DIR$/view-admin-as/includes/class-api.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view-admin-as/includes/class-settings.php" afterPath="$PROJECT_DIR$/view-admin-as/includes/class-settings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view-admin-as/includes/class-store.php" afterPath="$PROJECT_DIR$/view-admin-as/includes/class-store.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view-admin-as/includes/class-vaa.php" afterPath="$PROJECT_DIR$/view-admin-as/includes/class-vaa.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view-admin-as/includes/class-view.php" afterPath="$PROJECT_DIR$/view-admin-as/includes/class-view.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view-admin-as/modules/class-groups.php" afterPath="$PROJECT_DIR$/view-admin-as/modules/class-groups.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view-admin-as/modules/class-restrict-user-access.php" afterPath="$PROJECT_DIR$/view-admin-as/modules/class-restrict-user-access.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view-admin-as/modules/class-role-defaults.php" afterPath="$PROJECT_DIR$/view-admin-as/modules/class-role-defaults.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view-admin-as/modules/class-role-manager.php" afterPath="$PROJECT_DIR$/view-admin-as/modules/class-role-manager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view-admin-as/readme.txt" afterPath="$PROJECT_DIR$/view-admin-as/readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view-admin-as/ui/class-admin-bar.php" afterPath="$PROJECT_DIR$/view-admin-as/ui/class-admin-bar.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view-admin-as/ui/class-form.php" afterPath="$PROJECT_DIR$/view-admin-as/ui/class-form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view-admin-as/view-admin-as.php" afterPath="$PROJECT_DIR$/view-admin-as/view-admin-as.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-ultimate-post-grid-premium/core/js/grid.js" afterPath="$PROJECT_DIR$/wp-ultimate-post-grid-premium/core/js/grid.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-ultimate-post-grid-premium/core/readme.txt" afterPath="$PROJECT_DIR$/wp-ultimate-post-grid-premium/core/readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-ultimate-post-grid-premium/core/wp-ultimate-post-grid.php" afterPath="$PROJECT_DIR$/wp-ultimate-post-grid-premium/core/wp-ultimate-post-grid.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-ultimate-post-grid-premium/wp-ultimate-post-grid-premium.php" afterPath="$PROJECT_DIR$/wp-ultimate-post-grid-premium/wp-ultimate-post-grid-premium.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,8 +48,8 @@
       <file leaf-file-name="pas-custom-fields.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pas-custom-fields.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="2610" column="10" lean-forward="true" selection-start-line="2610" selection-start-column="10" selection-end-line="2610" selection-end-column="10" />
+            <state relative-caret-position="614">
+              <caret line="2424" column="6" lean-forward="false" selection-start-line="2424" selection-start-column="6" selection-end-line="2424" selection-end-column="6" />
               <folding>
                 <element signature="e#6#270#0#PHP" expanded="true" />
               </folding>
@@ -133,12 +155,13 @@
       <workItem from="1511218270782" duration="4172000" />
       <workItem from="1511277869686" duration="1902000" />
       <workItem from="1511293787089" duration="4628000" />
-      <workItem from="1511441244998" duration="1839000" />
+      <workItem from="1511441244998" duration="2599000" />
+      <workItem from="1511453223328" duration="960000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38389000" />
+    <option name="totallyTimeSpent" value="40109000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="877" extended-state="0" />
@@ -148,12 +171,12 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -401,8 +424,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pas-custom-fields.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="2610" column="10" lean-forward="true" selection-start-line="2610" selection-start-column="10" selection-end-line="2610" selection-end-column="10" />
+        <state relative-caret-position="614">
+          <caret line="2424" column="6" lean-forward="false" selection-start-line="2424" selection-start-column="6" selection-end-line="2424" selection-end-column="6" />
           <folding>
             <element signature="e#6#270#0#PHP" expanded="true" />
           </folding>

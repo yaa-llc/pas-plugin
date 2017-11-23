@@ -3,13 +3,13 @@
 Plugin Name: WP Ultimate Post Grid Premium
 Plugin URI: http://bootstrapped.ventures
 Description: Easily create filterable responsive grids for your posts, pages or custom post types
-Version: 2.6.0
+Version: 2.6.1
 Author: Bootstrapped Ventures
 Author URI: http://bootstrapped.ventures
 License: GPLv2
 */
 
-define( 'WPUPG_PREMIUM_VERSION', '2.6.0' );
+define( 'WPUPG_PREMIUM_VERSION', '2.6.1' );
 
 class WPUltimatePostGridPremium {
 
