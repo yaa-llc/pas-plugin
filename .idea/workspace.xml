@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ed36713-f509-4e97-b362-9e32f300a181" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pas-custom-fields.php" afterPath="$PROJECT_DIR$/pas-custom-fields.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +28,7 @@
         <entry file="file://$PROJECT_DIR$/pas-custom-fields.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="614">
-              <caret line="2574" column="6" lean-forward="false" selection-start-line="2574" selection-start-column="6" selection-end-line="2574" selection-end-column="6" />
+              <caret line="2485" column="6" lean-forward="false" selection-start-line="2485" selection-start-column="6" selection-end-line="2485" selection-end-column="6" />
               <folding>
                 <element signature="e#6#270#0#PHP" expanded="true" />
               </folding>
@@ -134,12 +135,13 @@
       <workItem from="1511277869686" duration="1902000" />
       <workItem from="1511293787089" duration="4628000" />
       <workItem from="1511441244998" duration="2599000" />
-      <workItem from="1511453223328" duration="1195000" />
+      <workItem from="1511453223328" duration="2135000" />
+      <workItem from="1511478667337" duration="460000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40344000" />
+    <option name="totallyTimeSpent" value="41744000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="877" extended-state="0" />
@@ -403,7 +405,7 @@
     <entry file="file://$PROJECT_DIR$/pas-custom-fields.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="614">
-          <caret line="2574" column="6" lean-forward="false" selection-start-line="2574" selection-start-column="6" selection-end-line="2574" selection-end-column="6" />
+          <caret line="2485" column="6" lean-forward="false" selection-start-line="2485" selection-start-column="6" selection-end-line="2485" selection-end-column="6" />
           <folding>
             <element signature="e#6#270#0#PHP" expanded="true" />
           </folding>
