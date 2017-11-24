@@ -225,7 +225,7 @@ if( function_exists('acf_add_local_field_group') ):
                         'key' => 'field_5a174f9afa26e',
                         'label' => 'Distributor Address',
                         'name' => 'distributor_address',
-                        'type' => 'google_map',
+                        'type' => 'address_map',
                         'instructions' => '',
                         'required' => 0,
                         'conditional_logic' => 0,
@@ -237,7 +237,6 @@ if( function_exists('acf_add_local_field_group') ):
                         'center_lat' => '',
                         'center_lng' => '',
                         'zoom' => '',
-                        'height' => '',
                     ),
                     array(
                         'key' => 'field_5a174facfa26f',
