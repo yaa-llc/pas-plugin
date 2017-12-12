@@ -9,7 +9,8 @@
   font-style: normal;
 }
 
-#adminmenu #menu-posts-wpsl_stores .wp-menu-image:before {
+#adminmenu #menu-posts-wpsl_stores .wp-menu-image:before,
+.wpsl-thickbox:before {
     content: '\e801';
     display: inline-block;
     font-family: "fontello" !important;
@@ -22,6 +23,12 @@
     text-decoration: inherit;
     text-transform: none;
     width: 1em;
+}
+
+.wpsl-thickbox:before {
+    padding-top: 1px;
+    font-size: 18px;
+    color: #82878c;
 }
 
 /* Hide the pre 3.8 menu icon */

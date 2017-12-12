@@ -4,8 +4,8 @@ Contributors: tijmensmit
 Donate link: https://www.paypal.me/tijmensmit
 Tags: google maps, store locator, business locations, geocoding, stores, geo, zipcode locator, dealer locater, geocode, gmaps, google map, google map plugin, location finder, map tools, shop locator, wp google map
 Requires at least: 3.7
-Tested up to: 4.9
-Stable tag: 2.2.9
+Tested up to: 4.9.1
+Stable tag: 2.2.10
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 
@@ -87,9 +87,9 @@ You can fix this by setting the [browser](https://wpstorelocator.co/document/con
 
 This is most likely caused by a plugin like W3 Total Cache that tried to minify the HTML output on the store locator page. You can fix this by excluding the store locator from being minified on the settings page of the caching plugin you're using. In W3 Total Cache this is done by going to Minify -> Advanced -> Never minify the following pages, and fill in the page you don't want to have minified. So if your store locator is used on mydomain.com/store-locator, then fill in 'store-locator'.
 
-= Can I use different markers for each category? =
+= Can I use different markers for category or individual store locations? =
 
-Unfortunately not at the moment, but this will be possible in the future.
+How to use custom markers is described [here](https://wpstorelocator.co/document/use-custom-markers/), you can also only use [different markers](https://wpstorelocator.co/document/use-custom-markers/) for a few locations, or just for the [categories](https://wpstorelocator.co/document/set-unique-category-markers/).
 
 = The map doesn't display properly. It's either broken in half or doesn't load at all. =
 
@@ -125,6 +125,27 @@ If you find a plugin or theme that causes a conflict, please report it on the [s
 4. The plugin settings
 
 == Changelog ==
+
+= 2.2.10, December 12, 2017 =
+* Added: The [wpsl_map_tab_anchor](https://wpstorelocator.co/document/wpsl_map_tab_anchor) filter now also accepts an array, so you can show multiple maps ( with the wpsl_map shortcode ) next to eachother in different tabs.
+* Added: A store locator media button in the editor that enables you to generate the shortcode attributes for the wpsl shortcode.
+* Added: A check on the settings page that validates the provided Google Maps API keys in the background when they are saved.
+* Added: Support to the [wpsl](https://wpstorelocator.co/document/shortcodes/) shortcode for 'auto_locate', 'category_selection', 'category_filter_type', 'checkbox_columns', 'map_type', 'start_marker' and 'store_marker'.
+* Added: A requiredFields value to the js_settings function that allows you to customize/remove the required fields check when the 'Preview Location' button is used in the admin area.
+* Added: A wpsl_save_post action.
+* Added: Placed a 'wpsl-no-results' class on the outer div when no results are returned.
+* Changed: Removed unused $i counter from the settings class.
+* Changed: Improved the handling of errors returned by the Geocode API and clarified the meaning of them.
+* Changed: Firefox now also [requires](https://www.mozilla.org/en-US/firefox/55.0/releasenotes/) SSL to access the Geolocation API, so updated the notice text on the settings page.
+* Changed: Included the latest version of the EDD_SL_Plugin_Updater class ( 1.6.14 ).
+* Changed: Replaced $wpsl_settings['category_filter'] with $this->use_category_filter() in the templates to make it compatible with the new category shortcode attributes. So if you're using a custom template, then make the same change.
+* Changed: Renamed the 'no-results' class to 'wpsl-no-results-msg' to prevent conflicts with CSS rules from other themes / plugins.
+* Changed: Included a missing ) in the country name list on the settings page.
+* Changed: Updated the .pot file, and the Dutch and Spanish ( via [Jaime Smeke](http://untaljai.me/) ) translations.
+* Changed: Set the display mode for the wpsl-directions class to table instead of block to prevent some themes from showing a wide underline.
+* Changed: Moved get_ajax_url to the wpsl-functions.php and named it wpsl_get_ajax_url().
+* Fixed: Include the used [travel mode](https://wpstorelocator.co/document/wpsl_direction_travel_mode/) in the generated URL that shows the user the directions on Google Maps itself.
+* Fixed: A notice triggered by Polylang for ICL_SITEPRESS_VERSION.
 
 = 2.2.9, July 9, 2017 =
 * Added: The possibility to load [custom images](https://wpstorelocator.co/document/change-marker-cluster-images/) for the marker clusters.

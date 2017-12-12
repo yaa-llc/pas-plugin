@@ -3,6 +3,7 @@ var geocoder, map, directionsDisplay, directionsService, geolocationLatlng, auto
 	activeWindowMarkerId, infoWindow, markerClusterer, startMarkerData, startAddress,
 	openInfoWindow = [],
 	markersArray = [],
+    mapsArray = [],
 	markerSettings = {},
 	directionMarkerPosition = {},
 	mapDefaults = {},
@@ -43,6 +44,12 @@ if ( $( ".wpsl-gmap-canvas" ).length ) {
 
 		initializeGmap( mapId, mapIndex );
 	});
+
+    /*
+     * Check if we are dealing with a map that's placed in a tab,
+     * if so run a fix to prevent the map from showing up grey.
+     */
+    maybeApplyTabFix();
 }
 
 /**
@@ -54,7 +61,7 @@ if ( $( ".wpsl-gmap-canvas" ).length ) {
  * @returns {void}
  */
 function initializeGmap( mapId, mapIndex ) {
-    var mapOptions, settings, infoWindow, latLng,
+    var mapOptions, mapDetails, settings, infoWindow, latLng,
 		bounds, mapData, maxZoom;
 
 	// Get the settings that belongs to the current map.
@@ -102,18 +109,28 @@ function initializeGmap( mapId, mapIndex ) {
 			bounds.extend( latLng );
 		});
 
-		// Make all the markers fit on the map.
-		map.fitBounds( bounds );
+		// Make sure we don't zoom to far when fitBounds runs.
+        attachBoundsChangedListener( map, maxZoom );
 
-		// Make sure we don't zoom to far.
-		google.maps.event.addListenerOnce( map, "bounds_changed", ( function( currentMap ) {
-			return function() {
-				if ( currentMap.getZoom() > maxZoom ) {
-					currentMap.setZoom( maxZoom );
-				}
-			};
-		}( map ) ) );
-	}
+        // Make all the markers fit on the map.
+        map.fitBounds( bounds );
+
+        /*
+         * If we need to apply the fix for the map showing up grey because
+         * it's used in a tabbed nav multiple times, then collect the active maps.
+         *
+         * See the fixGreyTabMap function.
+         */
+        if ( _.isArray( wpslSettings.mapTabAnchor ) ) {
+            mapDetails = {
+                map: map,
+                bounds: bounds,
+				maxZoom: Number( settings.zoomLevel )
+            };
+
+            mapsArray.push( mapDetails );
+		}
+    }
 
 	// Only run this part if the store locator exist and we don't just have a basic map.
 	if ( $( "#wpsl-gmap" ).length ) {
@@ -143,7 +160,7 @@ function initializeGmap( mapId, mapIndex ) {
 
 		// Check if we need to autolocate the user, or autoload the store locations.
 		if ( !$( ".wpsl-search" ).hasClass( "wpsl-widget" ) ) {
-			if ( wpslSettings.autoLocate == 1 ) {
+            if ( wpslSettings.autoLocate == 1 ) {
 				checkGeolocation( settings.startLatLng, infoWindow );
 			} else if ( wpslSettings.autoLoad == 1 ) {
 				showStores( settings.startLatLng, infoWindow );
@@ -467,7 +484,7 @@ function checkGeolocation( startLatLng, infoWindow ) {
 		 */
 		locationTimeout = setTimeout( function() {
 			geolocationFinished( geolocationInProgress );
-			showStores( startLatLng, infoWindow ); 
+			showStores( startLatLng, infoWindow );
 		}, timeout );
 
 		navigator.geolocation.getCurrentPosition( function( position ) {
@@ -838,7 +855,7 @@ $( "#wpsl-result-list" ).on( "click", ".wpsl-back", function() {
 	}
 
 	// If marker clusters are enabled, restore them.
-	if ( markerClusterer ) {		
+	if ( markerClusterer ) {
 		checkMarkerClusters();			
 	}
 
@@ -1079,12 +1096,12 @@ function prepareStoreSearch( latLng, infoWindow ) {
 	addMarker( latLng, 0, '', true, infoWindow );
 
 	// Try to find stores that match the radius, location criteria.
-	findStoreLocations( latLng, resetMap, autoLoad, infoWindow );	
+	findStoreLocations( latLng, resetMap, autoLoad, infoWindow );
 }
 
 /**
  * Geocode the user input and set the returned zipcode in the input field.
- * 
+ *
  * @since	1.0.0
  * @param	{object} latLng The coordinates of the location that should be reverse geocoded
  * @returns {void}
@@ -1094,7 +1111,7 @@ function reverseGeocode( latLng ) {
 
     geocoder.geocode( {'latLng': latLng}, function( response, status ) {
 		if ( status == google.maps.GeocoderStatus.OK ) {
-			zipCode = filterApiResponse( response );	
+			zipCode = filterApiResponse( response );
 
 			if ( zipCode !== "" ) {
 				$( "#wpsl-search-input" ).val( zipCode );
@@ -1107,7 +1124,7 @@ function reverseGeocode( latLng ) {
 
 /**
  * Filter out the zipcode from the response.
- * 
+ *
  * @since	1.0.0
  * @param	{object} response The complete Google API response
  * @returns {string} zipcode  The zipcode
@@ -1121,7 +1138,7 @@ function filterApiResponse( response ) {
 		responseType = response[0].address_components[i].types;
 
 		// filter out the postal code.
-		if ( ( /^postal_code$/.test( responseType ) ) || ( /^postal_code_prefix,postal_code$/.test( responseType ) ) ) {
+        if ( ( /^postal_code$/.test( responseType ) ) || ( /^postal_code_prefix,postal_code$/.test( responseType ) ) ) {
 			zipcode = response[0].address_components[i].long_name;
 		}
     }
@@ -1184,8 +1201,7 @@ function findFormattedAddress( latLng, callback ) {
  * @returns {void}
  */
 function makeAjaxRequest( startLatLng, resetMap, autoLoad, infoWindow ) {
-	var latLng, noResultsMsg,
-		ajaxData   = {},
+	var latLng, noResultsMsg, ajaxData,
 		storeData  = "",
 		draggable  = false,
 		template   = $( "#wpsl-listing-template" ).html(),
@@ -1196,6 +1212,8 @@ function makeAjaxRequest( startLatLng, resetMap, autoLoad, infoWindow ) {
 
 	// Add the preloader.
 	$storeList.empty().append( "<li class='wpsl-preloader'><img src='" + preloader + "'/>" + wpslLabels.preloader + "</li>" );
+
+    $( "#wpsl-wrap" ).removeClass( "wpsl-no-results" );
 		
 	$.get( wpslSettings.ajaxurl, ajaxData, function( response ) {
 
@@ -1242,8 +1260,10 @@ function makeAjaxRequest( startLatLng, resetMap, autoLoad, infoWindow ) {
 			addMarker( startLatLng, 0, '', true, infoWindow );
 			
 			noResultsMsg = getNoResultsMsg();
+
+			$( "#wpsl-wrap" ).addClass( "wpsl-no-results" );
 			
-			$storeList.html( "<li class='no-results'>" + noResultsMsg + "</li>" );
+			$storeList.html( "<li class='wpsl-no-results-msg'>" + noResultsMsg + "</li>" );
 		}
 		
 		/*
@@ -1591,7 +1611,7 @@ function addMarker( latLng, storeId, infoWindowData, draggable, infoWindow ) {
 
 				// Check if streetview is available at the clicked location.
 				if ( typeof wpslSettings.markerStreetView !== "undefined" && wpslSettings.markerStreetView == 1 ) {
-					checkStreetViewStatus( latLng, function() {	
+					checkStreetViewStatus( latLng, function() {
 						setInfoWindowContent( marker, createInfoWindowHtml( infoWindowData ), infoWindow, currentMap );
 					});
 				} else {
@@ -1920,7 +1940,7 @@ var templateHelpers = {
 		var directionUrl, destinationAddress, zip,
 			url = {};
 
-		if ( wpslSettings.directionRedirect == 1 ) {	
+		if ( wpslSettings.directionRedirect == 1 ) {
 
 			// If we somehow failed to determine the start address, just set it to empty.
 			if ( typeof startAddress === "undefined" ) {
@@ -1942,8 +1962,8 @@ var templateHelpers = {
 				}
 
 				destinationAddress = this.address + ", " + this.city + ", " + zip + this.country;
-				
-				url.src = "https://maps.google.com/maps?saddr=" + templateHelpers.rfc3986EncodeURIComponent( startAddress ) + "&daddr=" + templateHelpers.rfc3986EncodeURIComponent( destinationAddress ) + "";
+
+				url.src = "https://www.google.com/maps/dir/?api=1&origin=" + templateHelpers.rfc3986EncodeURIComponent( startAddress ) + "&destination=" + templateHelpers.rfc3986EncodeURIComponent( destinationAddress ) + "&travelmode=" + wpslSettings.directionsTravelMode.toLowerCase() + "";
 			}
 		} else {
 			url = {
@@ -2003,11 +2023,7 @@ function fitBounds() {
 		bounds  = new google.maps.LatLngBounds();
 		
     // Make sure we don't zoom to far.
-    google.maps.event.addListenerOnce( map, "bounds_changed", function( event ) {
-		if ( this.getZoom() > maxZoom ) {
-			this.setZoom( maxZoom );
-		}
-    });
+    attachBoundsChangedListener( map, maxZoom );
 
     for ( i = 0, markerLen = markersArray.length; i < markerLen; i++ ) {
 		bounds.extend ( markersArray[i].position );
@@ -2115,7 +2131,7 @@ $( "#wpsl-stores" ).on( "click", ".wpsl-store-details", function() {
 			if ( markersArray[i].storeId == storeId ) {
 				google.maps.event.trigger( markersArray[i], "click" );
 			}
-		}	
+		}
 	} else {
 		
 		// Check if we should set the 'more info' item to active or not.
@@ -2244,48 +2260,8 @@ function closeAllDropdowns() {
 }
 
 /**
- * This code prevents the map from showing a large grey area if 
- * the store locator is placed in a tab, and that tab is actived.
- * 
- * The default map anchor is set to 'wpsl-map-tab', but you can
- * change this with the 'wpsl_map_tab_anchor' filter.
- * 
- * Note: If the "Attempt to auto-locate the user" option is enabled,
- * and the user quickly switches to the store locator tab, before the
- * Geolocation timeout is reached, then the map is sometimes centered in the ocean. 
- * 
- * I haven't really figured out why this happens. The only option to fix this
- * is to simply disable the "Attempt to auto-locate the user" option if 
- * you use the store locator in a tab.
- * 
- * @link  http://stackoverflow.com/questions/9458215/google-maps-not-working-in-jquery-tabs
- * @since 2.0.0
- */
-if ( $( "a[href='#" + wpslSettings.mapTabAnchor + "']" ).length ) {
-	var mapZoom, mapCenter,
-		returnBool = Number( wpslSettings.mapTabAnchorReturn ) ? true : false,
-		$wpsl_tab  = $( "a[href='#" + wpslSettings.mapTabAnchor + "']" );
-
-	$wpsl_tab.on( "click", function() {
-		setTimeout( function() {
-			mapZoom   = map.getZoom();
-			mapCenter = map.getCenter();
-
-			google.maps.event.trigger( map, "resize" );
-
-			map.setZoom( mapZoom );
-			map.setCenter( mapCenter );
-
-			fitBounds();
-		}, 50 );
-
-		return returnBool;
-	});
-}
-
-/**
  * Check if the user submitted a search through a search widget.
- *  
+ *
  * @since	2.1.0
  * @returns {void}
  */
@@ -2294,6 +2270,118 @@ function checkWidgetSubmit() {
 		$( "#wpsl-search-btn" ).trigger( "click" );
 		$( ".wpsl-search" ).removeClass( "wpsl-widget" );
 	}
+}
+
+/**
+ * Check if we need to run the code to prevent Google Maps
+ * from showing up grey when placed inside one or more tabs.
+ *
+ * @since 2.2.10
+ * @return {void}
+ */
+function maybeApplyTabFix() {
+	var mapNumber, len;
+
+	if ( _.isArray( wpslSettings.mapTabAnchor ) ) {
+		for ( mapNumber = 0, len = mapsArray.length; mapNumber < len; mapNumber++ ) {
+			fixGreyTabMap( mapsArray[mapNumber], wpslSettings.mapTabAnchor[mapNumber], mapNumber );
+		}
+	} else if ( $( "a[href='#" + wpslSettings.mapTabAnchor + "']" ).length ) {
+		fixGreyTabMap( map, wpslSettings.mapTabAnchor );
+	}
+}
+
+/**
+ * This code prevents the map from showing a large grey area if
+ * the store locator is placed in a tab, and that tab is actived.
+ *
+ * The default map anchor is set to 'wpsl-map-tab', but you can
+ * change this with the 'wpsl_map_tab_anchor' filter.
+ *
+ * Note: If the "Attempt to auto-locate the user" option is enabled,
+ * and the user quickly switches to the store locator tab, before the
+ * Geolocation timeout is reached, then the map is sometimes centered in the ocean.
+ *
+ * I haven't really figured out why this happens. The only option to fix this
+ * is to simply disable the "Attempt to auto-locate the user" option if
+ * you use the store locator in a tab.
+ *
+ * @since   2.2.10
+ * @param   {object} currentMap	  The map object from the current map
+ * @param   {string} mapTabAnchor The anchor used in the tab that holds the map
+ * @param 	(int) 	 mapNumber    Map number
+ * @link    http://stackoverflow.com/questions/9458215/google-maps-not-working-in-jquery-tabs
+ * @returns {void}
+ */
+function fixGreyTabMap( currentMap, mapTabAnchor, mapNumber ) {
+    var mapZoom, mapCenter, maxZoom, bounds, tabMap,
+        returnBool = Number( wpslSettings.mapTabAnchorReturn ) ? true : false,
+		$wpsl_tab  = $( "a[href='#" + mapTabAnchor + "']" );
+
+    if ( typeof currentMap.maxZoom !== "undefined" ) {
+        maxZoom = currentMap.maxZoom;
+	} else {
+        maxZoom = Number( wpslSettings.autoZoomLevel );
+	}
+
+	/*
+	 * We need to do this to prevent the map from flashing if
+	 * there's only a single marker on the first click on the tab.
+	 */
+	if ( typeof mapNumber !== "undefined" && mapNumber == 0 ) {
+        $wpsl_tab.addClass( "wpsl-fitbounds" );
+	}
+
+	$wpsl_tab.on( "click", function() {
+		setTimeout( function() {
+            if ( typeof currentMap.map !== "undefined" ) {
+                bounds = currentMap.bounds;
+                tabMap = currentMap.map;
+            } else {
+            	tabMap = currentMap;
+			}
+
+            mapZoom   = tabMap.getZoom();
+            mapCenter = tabMap.getCenter();
+
+			google.maps.event.trigger( tabMap, "resize" );
+
+			if ( !$wpsl_tab.hasClass( "wpsl-fitbounds" ) ) {
+
+                //Make sure fitBounds doesn't zoom past the max zoom level.
+                attachBoundsChangedListener( tabMap, maxZoom );
+
+                tabMap.setZoom( mapZoom );
+				tabMap.setCenter( mapCenter );
+
+                if ( typeof bounds !== "undefined" ) {
+                    tabMap.fitBounds( bounds );
+                } else {
+                	fitBounds();
+				}
+
+				$wpsl_tab.addClass( "wpsl-fitbounds" );
+            }
+        }, 50 );
+
+        return returnBool;
+    });
+}
+
+/**
+ * Add the bounds_changed event listener to the map object
+ * to make sure we don't zoom past the max zoom level.
+ *
+ * @since 2.2.10
+ * @param object The map object to attach the event listener to
+ * @returns {void}
+ */
+function attachBoundsChangedListener( map, maxZoom ) {
+    google.maps.event.addListenerOnce( map, "bounds_changed", function() {
+        if ( this.getZoom() > maxZoom ) {
+            this.setZoom( maxZoom );
+        }
+    });
 }
 
 });

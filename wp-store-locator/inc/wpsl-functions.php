@@ -503,7 +503,7 @@ function wpsl_bool_check( $atts ) {
     }
 
     return $atts;
-}  
+}
 
 /**
  * Create a string with random characters.
@@ -551,4 +551,48 @@ function wpsl_get_distance_unit() {
     global $wpsl_settings;
 
     return apply_filters( 'wpsl_distance_unit', $wpsl_settings['distance_unit'] );
+}
+
+/**
+ * Find the term ids for the provided term slugs.
+ *
+ * @since 2.2.10
+ * @param  array $cat_list List of term slugs
+ * @return array $term_ids The term ids
+ */
+function wpsl_get_term_ids( $cat_list ) {
+
+    $term_ids = array();
+    $cats     = explode( ',', $cat_list );
+
+    foreach ( $cats as $key => $term_slug ) {
+        $term_data = get_term_by( 'slug', $term_slug, 'wpsl_store_category' );
+
+        if ( isset( $term_data->term_id ) && $term_data->term_id ) {
+            $term_ids[] = $term_data->term_id;
+        }
+    }
+
+    return $term_ids;
+}
+
+/**
+ * Get the url to the admin-ajax.php
+ *
+ * @since 2.2.3
+ * @return string $ajax_url URL to the admin-ajax.php possibly with the WPML lang param included.
+ */
+function wpsl_get_ajax_url() {
+
+    $i18n = new WPSL_i18n();
+
+    $param = '';
+
+    if ( $i18n->wpml_exists() ) {
+        $param = '?lang=' . ICL_LANGUAGE_CODE;
+    }
+
+    $ajax_url = admin_url( 'admin-ajax.php' . $param );
+
+    return $ajax_url;
 }

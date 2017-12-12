@@ -1,0 +1,272 @@
+# Copyright (C) 2016 Soliloquy - Lightbox Addon
+# This file is distributed under the same license as the Soliloquy - Lightbox Addon package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Soliloquy - Lightbox Addon 2.3.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/soliloquy-"
+"lightbox\n"
+"POT-Creation-Date: 2016-09-01 02:22:30+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: includes/admin/metaboxes.php:136
+msgid "Lightbox"
+msgstr ""
+
+#: includes/admin/metaboxes.php:147
+msgid "Enable Lightbox on Mobile?"
+msgstr ""
+
+#: includes/admin/metaboxes.php:151
+msgid "Enables or disables the slider lightbox on mobile devices."
+msgstr ""
+
+#: includes/admin/metaboxes.php:171
+msgid "The settings below adjust the lightbox settings for the slider."
+msgstr ""
+
+#: includes/admin/metaboxes.php:172
+msgid "Need some help?"
+msgstr ""
+
+#: includes/admin/metaboxes.php:172
+msgid " Watch a video on how to setup your slider configuration"
+msgstr ""
+
+#: includes/admin/metaboxes.php:179
+msgid "Enable Lightbox?"
+msgstr ""
+
+#: includes/admin/metaboxes.php:183
+msgid "Enables or disables the slider lightbox."
+msgstr ""
+
+#: includes/admin/metaboxes.php:188
+msgid "Lightbox Theme"
+msgstr ""
+
+#: includes/admin/metaboxes.php:198
+msgid "Sets the theme for the lightbox display."
+msgstr ""
+
+#: includes/admin/metaboxes.php:203
+msgid "Enable Lightbox Supersize?"
+msgstr ""
+
+#: includes/admin/metaboxes.php:207
+msgid "Enables or disables supersize mode for the lightbox."
+msgstr ""
+
+#: includes/admin/metaboxes.php:212
+msgid "Lightbox Caption Position"
+msgstr ""
+
+#: includes/admin/metaboxes.php:222
+msgid "Sets the display of the captions inside of the lightbox."
+msgstr ""
+
+#: includes/admin/metaboxes.php:227
+msgid "Load Videos in Lightbox?"
+msgstr ""
+
+#: includes/admin/metaboxes.php:231
+msgid ""
+"Loads video slides in the lightbox on click instead of inside the slider "
+"itself."
+msgstr ""
+
+#: includes/admin/metaboxes.php:236
+msgid "Enable Lightbox Arrows?"
+msgstr ""
+
+#: includes/admin/metaboxes.php:240
+msgid "Enables or disables the lightbox navigation arrows."
+msgstr ""
+
+#: includes/admin/metaboxes.php:245
+msgid "Enable Keyboard Navigation?"
+msgstr ""
+
+#: includes/admin/metaboxes.php:249
+msgid "Enables or disables keyboard navigation in the lightbox."
+msgstr ""
+
+#: includes/admin/metaboxes.php:254
+msgid "Enable Mousewheel Navigation?"
+msgstr ""
+
+#: includes/admin/metaboxes.php:258
+msgid "Enables or disables mousewheel navigation in the lightbox."
+msgstr ""
+
+#: includes/admin/metaboxes.php:263
+msgid "Loop Lightbox Navigation?"
+msgstr ""
+
+#: includes/admin/metaboxes.php:267
+msgid "Enables or disables infinite navigation cycling of the lightbox."
+msgstr ""
+
+#: includes/admin/metaboxes.php:272
+msgid "Lightbox Transition Effect"
+msgstr ""
+
+#: includes/admin/metaboxes.php:282
+msgid "Type of transition between images in the lightbox view."
+msgstr ""
+
+#: includes/admin/metaboxes.php:287
+msgid "Keep Aspect Ratio?"
+msgstr ""
+
+#: includes/admin/metaboxes.php:291
+msgid ""
+"If enabled, images will always resize based on the original aspect ratio."
+msgstr ""
+
+#: includes/admin/metaboxes.php:296
+msgid "Enable Lightbox Thumbnails?"
+msgstr ""
+
+#: includes/admin/metaboxes.php:300
+msgid "Enables or disables lightbox thumbnails."
+msgstr ""
+
+#: includes/admin/metaboxes.php:305
+msgid "Lightbox Thumbnails Width"
+msgstr ""
+
+#: includes/admin/metaboxes.php:308 includes/admin/metaboxes.php:317
+msgid "px"
+msgstr ""
+
+#: includes/admin/metaboxes.php:309
+msgid "Sets the width of each lightbox thumbnail."
+msgstr ""
+
+#: includes/admin/metaboxes.php:314
+msgid "Lightbox Thumbnails Height"
+msgstr ""
+
+#: includes/admin/metaboxes.php:318
+msgid "Sets the height of each lightbox thumbnail."
+msgstr ""
+
+#: includes/admin/metaboxes.php:323
+msgid "Lightbox Thumbnails Position"
+msgstr ""
+
+#: includes/admin/metaboxes.php:333
+msgid "Sets the position of the lightbox thumbnails."
+msgstr ""
+
+#: includes/admin/metaboxes.php:338
+msgid "HTML5 Output?"
+msgstr ""
+
+#: includes/admin/metaboxes.php:342
+msgid ""
+"If enabled, uses data-soliloquy-lightbox instead of rel attributes for W3C "
+"HTML5 validation."
+msgstr ""
+
+#: includes/admin/metaboxes.php:368 includes/admin/metaboxes.php:392
+msgid "Load in Lightbox?"
+msgstr ""
+
+#: includes/admin/metaboxes.php:394
+msgid ""
+"Opens slide in lightbox, requires Lightbox to be enabled within the Lightbox "
+"tab."
+msgstr ""
+
+#: includes/global/common.php:55
+msgid "Base"
+msgstr ""
+
+#: includes/global/common.php:59
+msgid "Classic"
+msgstr ""
+
+#: includes/global/common.php:64
+msgid "Karisma"
+msgstr ""
+
+#: includes/global/common.php:69
+msgid "Metro"
+msgstr ""
+
+#: includes/global/common.php:91
+msgid "Float"
+msgstr ""
+
+#: includes/global/common.php:95
+msgid "Inside"
+msgstr ""
+
+#: includes/global/common.php:99
+msgid "Outside"
+msgstr ""
+
+#: includes/global/common.php:103
+msgid "Over"
+msgstr ""
+
+#: includes/global/common.php:123
+msgid "Fade"
+msgstr ""
+
+#: includes/global/common.php:127
+msgid "Elastic"
+msgstr ""
+
+#: includes/global/common.php:131
+msgid "No Effect"
+msgstr ""
+
+#: includes/global/common.php:151
+msgid "Bottom"
+msgstr ""
+
+#: includes/global/common.php:155
+msgid "Top"
+msgstr ""
+
+#: includes/global/shortcode.php:256
+msgid "The requested content cannot be loaded.<br/>Please try again later.</p>"
+msgstr ""
+
+#: includes/global/shortcode.php:257
+msgid "Close"
+msgstr ""
+
+#: includes/global/shortcode.php:258
+msgid "Next"
+msgstr ""
+
+#: includes/global/shortcode.php:259
+msgid "Previous"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Soliloquy - Lightbox Addon"
+msgstr ""
+
+#. #-#-#-#-#  soliloquy-lightbox.pot (Soliloquy - Lightbox Addon 2.3.1)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  soliloquy-lightbox.pot (Soliloquy - Lightbox Addon 2.3.1)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://soliloquywp.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Enables responsive lightbox support for Soliloquy sliders."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Soliloquy Team"
+msgstr ""

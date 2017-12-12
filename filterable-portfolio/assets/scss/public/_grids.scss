@@ -1,0 +1,36 @@
+.grids {
+    margin-left: -1rem;
+    margin-right: -1rem;
+    display: flex;
+    flex-wrap: wrap;
+
+    &:before,
+    &:after {
+        display: table;
+        content: "";
+    }
+    &:after {
+        clear: both;
+    }
+
+    [class*="grid"] {
+        float: left;
+        padding: 1rem;
+        vertical-align: top;
+        width: 99.99999%;
+    }
+}
+
+@include grids('xs');
+
+@media only screen and (min-width: $screen-small) {
+    @include grids('s');
+}
+
+@media only screen and (min-width: $screen-medium) {
+    @include grids('m');
+}
+
+@media only screen and (min-width: $screen-large) {
+    @include grids('l');
+}

@@ -1,0 +1,213 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: jub-portfolio-gallery\n"
+"POT-Creation-Date: 2017-01-27 17:15+0100\n"
+"PO-Revision-Date: 2017-01-27 17:15+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ../admin\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;esc_html__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: class-jub-portfolio-gallery-admin.php:179
+#: class-jub-portfolio-gallery-admin.php:182
+msgid "All Portfolios"
+msgstr "Alle Portfolios"
+
+#: class-jub-portfolio-gallery-admin.php:180
+msgid "JB Portfolio"
+msgstr ""
+
+#: class-jub-portfolio-gallery-admin.php:181
+#: class-jub-portfolio-gallery-admin.php:183
+msgid "Add New Portfolio"
+msgstr "Neues Portfolio"
+
+#: class-jub-portfolio-gallery-admin.php:184
+msgid "Edit Portfolio"
+msgstr "Portfolio bearbeiten"
+
+#: class-jub-portfolio-gallery-admin.php:185
+msgid "New Portfolio"
+msgstr "Neues Portfolio"
+
+#: class-jub-portfolio-gallery-admin.php:186
+msgid "View Portfolio"
+msgstr "Portfolio ansehen"
+
+#: class-jub-portfolio-gallery-admin.php:187
+msgid "Search Portfolio"
+msgstr ""
+
+#: class-jub-portfolio-gallery-admin.php:188
+msgid "No Portfolio"
+msgstr "Kein Portfolio"
+
+#: class-jub-portfolio-gallery-admin.php:189
+msgid "No Portfolio found in Trash"
+msgstr "Nichts im Papierkorb"
+
+#: class-jub-portfolio-gallery-admin.php:191
+msgid "JUB Portfolio"
+msgstr "JUB Portfolio"
+
+#: class-jub-portfolio-gallery-admin.php:236
+msgid "Portfolio-Settings"
+msgstr "Portfolio-Einstellungen"
+
+#: class-jub-portfolio-gallery-admin.php:237
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: class-jub-portfolio-gallery-admin.php:245
+msgid "Help-Page"
+msgstr "Hilfe"
+
+#: class-jub-portfolio-gallery-admin.php:246
+msgid "Help"
+msgstr "Hilfe"
+
+#: class-jub-portfolio-gallery-admin.php:298
+msgid "Layout"
+msgstr ""
+
+#: class-jub-portfolio-gallery-admin.php:305
+msgid "Rollover"
+msgstr ""
+
+#: class-jub-portfolio-gallery-admin.php:312
+msgid "Filter"
+msgstr ""
+
+#: class-jub-portfolio-gallery-admin.php:319
+msgid "Items"
+msgstr ""
+
+#: class-jub-portfolio-gallery-admin.php:373
+#: class-jub-portfolio-gallery-admin.php:704
+msgid "Columns"
+msgstr "Spalten"
+
+#: class-jub-portfolio-gallery-admin.php:395
+msgid "Horizontal gap in %"
+msgstr "Horizontaler Abstand in %"
+
+#: class-jub-portfolio-gallery-admin.php:408
+msgid "Vertical gap in %"
+msgstr "Vertikaler Abstand in %"
+
+#: class-jub-portfolio-gallery-admin.php:421
+msgid "Title below image"
+msgstr "Titel unter Bild"
+
+#: class-jub-portfolio-gallery-admin.php:432
+msgid "Excerpt below image"
+msgstr "Kurzbeschreibung unter Bild"
+
+#: class-jub-portfolio-gallery-admin.php:443
+#: class-jub-portfolio-gallery-admin.php:719
+msgid "Image Background Color"
+msgstr "Hintergrundfarbe"
+
+#: class-jub-portfolio-gallery-admin.php:459
+msgid "Hover Tranformation"
+msgstr ""
+
+#: class-jub-portfolio-gallery-admin.php:503
+msgid "Overlay Animation"
+msgstr ""
+
+#: class-jub-portfolio-gallery-admin.php:523
+msgid "Disable Hover Overlay"
+msgstr "Hover Overlay deaktivieren"
+
+#: class-jub-portfolio-gallery-admin.php:535
+msgid "Opacity"
+msgstr "Sichtbarkeit"
+
+#: class-jub-portfolio-gallery-admin.php:540
+msgid "Opacity (1 = visible, 0.5 = semitransparent, 0 = invisible"
+msgstr "1 = sichtbar, 0.5 = halbtransparent, 0 = unsichtbar"
+
+#: class-jub-portfolio-gallery-admin.php:549
+#: class-jub-portfolio-gallery-admin.php:731
+msgid "Overlay Color"
+msgstr "Overlay Farbe"
+
+#: class-jub-portfolio-gallery-admin.php:563
+msgid "Font Size"
+msgstr "Schriftgröße"
+
+#: class-jub-portfolio-gallery-admin.php:576
+msgid "Font Color"
+msgstr "Schriftfarbe"
+
+#: class-jub-portfolio-gallery-admin.php:590
+msgid "Hide Filter"
+msgstr "Filter verstecken"
+
+#: class-jub-portfolio-gallery-admin.php:602
+msgid "Filter Color"
+msgstr "Filter Button-Farbe"
+
+#: class-jub-portfolio-gallery-admin.php:615
+msgid "Filter Hover Color"
+msgstr "Filter Hover-Farbe"
+
+#: class-jub-portfolio-gallery-admin.php:628
+msgid "Filter Text-Color"
+msgstr "Filter Textfarbe"
+
+#: class-jub-portfolio-gallery-admin.php:641
+msgid "Filter Text Hover-Color"
+msgstr "Filter Textfarbe Hover"
+
+#: class-jub-portfolio-gallery-admin.php:654
+msgid "Filter-Position"
+msgstr ""
+
+#: class-jub-portfolio-gallery-admin.php:687
+msgid "Item: "
+msgstr ""
+
+#: class-jub-portfolio-gallery-admin.php:718
+msgid "Background Color"
+msgstr "Overlay-Farbe"
+
+#: class-jub-portfolio-gallery-admin.php:743
+msgid "Custom Link"
+msgstr ""
+
+#: class-jub-portfolio-gallery-admin.php:744
+msgid " Shows the portfolio item if no link provided"
+msgstr "Öffnet Portfolio Item, wenn kein Link angegeben"
+
+#: partials/jub-portfolio-gallery-admin-settings.php:14
+msgid "Show Preview"
+msgstr "Zeige Vorschau"
+
+#: partials/jub-portfolio-gallery-admin-settings.php:17
+msgid "Hide Preview"
+msgstr "Verstecke Vorschau"
+
+#: partials/jub-portfolio-gallery-admin-settings.php:27
+msgid "Save as Default"
+msgstr "Als Default speichern"
+
+#: partials/jub-portfolio-gallery-admin-settings.php:33
+msgid "Generate Shortcode"
+msgstr "Shortcode generieren"
+
+#: partials/jub-portfolio-gallery-admin-settings.php:36
+msgid "Copy to clipboard"
+msgstr "in Zwischenablage kopieren"
+
+#~ msgid "Enable Viewport Animations"
+#~ msgstr "Viewport Animationen"

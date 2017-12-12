@@ -37,7 +37,7 @@ if ( $wpsl_settings['radius_dropdown'] || $wpsl_settings['results_dropdown']  ) 
     $output .= "\t\t\t" . '</div>' . "\r\n";
 }
 
-if ( $wpsl_settings['category_filter'] ) {
+if ( $this->use_category_filter() ) {
     $output .= $this->create_category_filter();
 }
  

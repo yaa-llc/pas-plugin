@@ -2,7 +2,7 @@
 Contributors: mattkeys
 Tags: Advanced Custom Fields, ACF, Font Awesome, FontAwesome
 Requires at least: 3.5
-Tested up to: 4.8
+Tested up to: 4.9
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -50,6 +50,9 @@ This ACF field type is compatible with:
 2. Searchable list of all icons, including large live preview
 
 == Changelog ==
+
+= 2.1.0 =
+* Preventing any automatic updates to version 5.x of FontAwesome that could break plugin functionality and result in broken icons on sites currently using 4.x FontAwesome icons.
 
 = 2.0.9 =
 * Fixed bug effecting null value fields created in 1.x of this plugin would return a string of 'null' instead of boolean false when used in 2.x versions of this plugin.
@@ -150,6 +153,9 @@ This ACF field type is compatible with:
 * Initial Release.
 
 == Upgrade Notice ==
+
+= 2.1.0 =
+* Preventing any automatic updates to version 5.x of FontAwesome that could break plugin functionality and result in broken icons on sites currently using 4.x FontAwesome icons.
 
 = 2.0.9 =
 * Fixed bug effecting null value fields created in 1.x of this plugin would return a string of 'null' instead of boolean false when used in 2.x versions of this plugin.

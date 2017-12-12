@@ -1,0 +1,42 @@
+.portfolio-terms {
+	margin: 0 0 0.5rem;
+	border-bottom: 1px solid $color-button-bg;
+	padding-bottom: 0.5rem;
+
+	&:before,
+	&:after {
+		display: table;
+		content: "";
+	}
+	&:after {
+		clear: both;
+	}
+
+	.filter-options {
+		float: right;
+	}
+
+	button {
+		font-size: 1rem;
+		line-height: 1;
+		padding: 0.5rem 1rem;
+		margin-right: 0.5rem;
+		background-color: transparent;
+		border: 1px solid $color-button-bg;
+		color: $color-button-bg;
+		display: inline-block;
+		cursor: pointer;
+
+		&.active,
+		&:hover,
+		&:focus {
+			border: 1px solid $color-button-bg;
+			background-color: $color-button-bg;
+			color: $color-button-txt;
+		}
+
+		&:last-child {
+			margin-right: 0;
+		}
+	}
+}

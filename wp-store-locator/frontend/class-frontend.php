@@ -58,10 +58,10 @@ if ( !class_exists( 'WPSL_Frontend' ) ) {
             
             add_filter( 'the_content',                 array( $this, 'cpt_template' ) );
             
-            add_shortcode( 'wpsl',                 array( $this, 'show_store_locator' ) );
-            add_shortcode( 'wpsl_address',         array( $this, 'show_store_address' ) );
-            add_shortcode( 'wpsl_hours',           array( $this, 'show_opening_hours' ) );
-            add_shortcode( 'wpsl_map',             array( $this, 'show_store_map' ) );
+            add_shortcode( 'wpsl',                     array( $this, 'show_store_locator' ) );
+            add_shortcode( 'wpsl_address',             array( $this, 'show_store_address' ) );
+            add_shortcode( 'wpsl_hours',               array( $this, 'show_opening_hours' ) );
+            add_shortcode( 'wpsl_map',                 array( $this, 'show_store_map' ) );
 		}
         
         /**
@@ -527,7 +527,7 @@ if ( !class_exists( 'WPSL_Frontend' ) ) {
         public function create_opening_hours_tabel( $hours, $hide_closed ) {
             
             $opening_days = wpsl_get_weekdays();
-            
+
             // Make sure that we have actual opening hours, and not every day is empty.
             if ( $this->not_always_closed( $hours ) ) {
                 $hour_table = '<table class="wpsl-opening-hours">';
@@ -606,28 +606,10 @@ if ( !class_exists( 'WPSL_Frontend' ) ) {
          */
         public function check_sl_shortcode_atts( $atts ) {
 
-            // Change the category slugs into category ids.
-            if ( isset( $atts['category'] ) && $atts['category'] ) {
-                $term_ids = array();
-                $cats     = explode( ',', $atts['category'] );
-
-                foreach ( $cats as $key => $cat_slug ) {
-                    $term_data = get_term_by( 'slug', $cat_slug, 'wpsl_store_category' );
-
-                    if ( isset( $term_data->term_id ) && $term_data->term_id ) {
-                        $term_ids[] = $term_data->term_id;
-                    }
-                }
-
-                if ( $term_ids ) {
-                    $this->sl_shortcode_atts['js']['categoryIds'] = implode( ',', $term_ids );
-                }
-            }
-            
             /*
-             * Use a custom start location? 
-             * 
-             * If the provided location fails to geocode, 
+             * Use a custom start location?
+             *
+             * If the provided location fails to geocode,
              * then the start location from the settings page is used.
              */
             if ( isset( $atts['start_location'] ) && $atts['start_location'] ) {
@@ -635,7 +617,7 @@ if ( !class_exists( 'WPSL_Frontend' ) ) {
                 $transient_name = 'wpsl_' . trim( strtolower( $name_section[0] ) ) . '_latlng';
 
                 /*
-                 * Check if we still need to geocode the start location, 
+                 * Check if we still need to geocode the start location,
                  * or if a transient with the start latlng already exists.
                  */
                 if ( false === ( $start_latlng = get_transient( $transient_name ) ) ) {
@@ -647,13 +629,42 @@ if ( !class_exists( 'WPSL_Frontend' ) ) {
                     $this->sl_shortcode_atts['js']['startLatlng'] = $start_latlng;
                 }
             }
-            
-            if ( isset( $atts['category_filter_type'] ) && in_array( $atts['category_filter_type'], array( 'dropdown', 'checkboxes' ) ) ) {              
+
+            if ( isset( $atts['auto_locate'] ) && $atts['auto_locate'] ) {
+                $this->sl_shortcode_atts['js']['autoLocate'] = ( $atts['auto_locate'] == 'true' ) ? 1 : 0;
+            }
+
+            // Change the category slugs into category ids.
+            if ( isset( $atts['category'] ) && $atts['category'] ) {
+                $term_ids = wpsl_get_term_ids( $atts['category'] );
+
+                if ( $term_ids ) {
+                    $this->sl_shortcode_atts['js']['categoryIds'] = implode( ',', $term_ids );
+                }
+            }
+
+            if ( isset( $atts['category_selection'] ) && $atts['category_selection'] ) {
+                $this->sl_shortcode_atts['category_selection'] = wpsl_get_term_ids( $atts['category_selection'] );
+            }
+
+            if ( isset( $atts['category_filter_type'] ) && in_array( $atts['category_filter_type'], array( 'dropdown', 'checkboxes' ) ) ) {
                 $this->sl_shortcode_atts['category_filter_type'] = $atts['category_filter_type'];
             }
-                        
+
             if ( isset( $atts['checkbox_columns'] ) && is_numeric( $atts['checkbox_columns'] ) ) {
                 $this->sl_shortcode_atts['checkbox_columns'] = $atts['checkbox_columns'];
+            }
+
+            if ( isset( $atts['map_type'] ) && array_key_exists( $atts['map_type'], wpsl_get_map_types() ) ) {
+                $this->sl_shortcode_atts['js']['mapType'] = $atts['map_type'];
+            }
+
+            if ( isset( $atts['start_marker'] ) && $atts['start_marker'] ) {
+                $this->sl_shortcode_atts['js']['startMarker'] = $atts['start_marker'] . '@2x.png';
+            }
+
+            if ( isset( $atts['store_marker'] ) && $atts['store_marker'] ) {
+                $this->sl_shortcode_atts['js']['storeMarker'] = $atts['store_marker'] . '@2x.png';
             }
         }
         
@@ -670,20 +681,25 @@ if ( !class_exists( 'WPSL_Frontend' ) ) {
             
             $atts = shortcode_atts( array(
                 'template'             => $wpsl_settings['template_id'],
-                'category'             => '',
-                'category_filter_type' => '',
                 'start_location'       => '',
-                'checkbox_columns'     => '3'
+                'auto_locate'          => '',
+                'category'             => '',
+                'category_selection'   => '',
+                'category_filter_type' => '',
+                'checkbox_columns'     => '3',
+                'map_type'             => '',
+                'start_marker'         => '',
+                'store_marker'         => ''
             ), $atts );
 
             $this->check_sl_shortcode_atts( $atts );
-               
+
             // Make sure the required scripts are included for the wpsl shortcode.
             array_push( $this->load_scripts, 'wpsl_store_locator' );
 
             $template_list = wpsl_get_templates();
             $template_path = '';
-            
+
             // Loop over the template list and look for a matching id with the one set on the settings page.
             foreach ( $template_list as $template ) {
                 if ( $atts['template'] == $template['id'] ) {
@@ -1275,6 +1291,27 @@ if ( !class_exists( 'WPSL_Frontend' ) ) {
 		}
 
         /**
+         * Check if we need to use a dropdown or checkboxes
+         * to filter the search results by categories.
+         *
+         * @since 2.2.10
+         * @return bool $use_filter
+         */
+		public function use_category_filter() {
+
+            global $wpsl_settings;
+
+            $use_filter = false;
+
+            // Is a filter type set through the shortcode, or is the filter option enable on the settings page?
+            if ( isset( $this->sl_shortcode_atts['category_filter_type'] ) || $wpsl_settings['category_filter'] ) {
+                $use_filter = true;
+            }
+
+            return $use_filter;
+        }
+
+        /**
          * Create the category filter. 
          *
          * @todo create another func that accepts a meta key param to generate 
@@ -1302,7 +1339,7 @@ if ( !class_exists( 'WPSL_Frontend' ) ) {
 
                 // Either use the shortcode atts filter type or the one from the settings page.
                 if ( isset( $this->sl_shortcode_atts['category_filter_type'] ) ) {
-                    $filter_type = $this->sl_shortcode_atts['category_filter_type'];               
+                    $filter_type = $this->sl_shortcode_atts['category_filter_type'];
                 } else {
                     $filter_type = $wpsl_settings['category_filter_type'];
                 }
@@ -1314,7 +1351,7 @@ if ( !class_exists( 'WPSL_Frontend' ) ) {
                     }
 
                     if ( isset( $checkbox_columns ) && $checkbox_columns ) {
-                        $column_count = $checkbox_columns;                        
+                        $column_count = $checkbox_columns;
                     } else {
                         $column_count = 3;
                     }
@@ -1364,23 +1401,48 @@ if ( !class_exists( 'WPSL_Frontend' ) ) {
          * Set the selected category item.
          *
          * @since 2.1.2
-         * @todo maybe add support in the future to make it check a query string for set cat?
-         * @return string|void $category The ID of the selected option.
+         * @param  string      $filter_type  The type of filter being used ( dropdown or checkbox )
+         * @param  int|string  $term_id      The term id ( checkbox only )
+         * @return string|void $category     The ID of the selected option, or checked='checked' if it's for a checkbox
          */
-        public function set_selected_category( $filter_type, $id = '' ) {
+        public function set_selected_category( $filter_type, $term_id = '' ) {
 
-            $selected_id = isset( $_REQUEST['wpsl-widget-categories'] ) ? ( absint( $_REQUEST['wpsl-widget-categories'] ) ) : '';
+            $selected_id = '';
+
+            // Check if the ID for the selected cat is either passed through the widget, or shortcode
+            if ( isset( $_REQUEST['wpsl-widget-categories'] ) ) {
+                $selected_id = absint( $_REQUEST['wpsl-widget-categories'] );
+            } else if ( isset( $this->sl_shortcode_atts['category_selection'] ) ) {
+
+                /*
+                 * When the term_id is set, then it's a checkbox.
+                 *
+                 * Otherwise select the first value from the provided list since
+                 * multiple selections are not supported in dropdowns.
+                 */
+                if ( $term_id ) {
+
+                    // Check if the passed term id exists in the set shortcode value.
+                    $key = array_search( $term_id, $this->sl_shortcode_atts['category_selection'] );
+
+                    if ( $key !== false ) {
+                        $selected_id = $this->sl_shortcode_atts['category_selection'][$key];
+                    }
+                } else {
+                    $selected_id = $this->sl_shortcode_atts['category_selection'][0];
+                }
+            }
             
             if ( $selected_id ) {
                 
                 /* 
                  * Based on the filter type, either return the ID of the selected category, 
-                 * or check if the checkbox needs to be set to checked="checked.
+                 * or check if the checkbox needs to be set to checked="checked".
                  */
                 if ( $filter_type == 'dropdown' ) {
                     return $selected_id;
                 } else {
-                    return checked( $selected_id, $id, false );
+                    return checked( $selected_id, $term_id, false );
                 }
             }
         }
@@ -1546,27 +1608,6 @@ if ( !class_exists( 'WPSL_Frontend' ) ) {
         }
 
         /**
-         * Get the URL to the admin-ajax.php
-         * 
-         * @since 2.2.3
-         * @return string $ajax_url URL to the admin-ajax.php possibly with the WPML lang param included.
-         */
-        public function get_ajax_url() {
-            
-            global $wpsl;
-            
-            $param = '';
-            
-            if ( $wpsl->i18n->wpml_exists() ) {
-                $param = '?lang=' . ICL_LANGUAGE_CODE;
-            }
-            
-            $ajax_url = admin_url( 'admin-ajax.php' . $param );
-            
-            return $ajax_url;
-        }
-
-        /**
          * Get the used travel direction mode.
          *
          * @since 2.2.8
@@ -1584,6 +1625,25 @@ if ( !class_exists( 'WPSL_Frontend' ) ) {
             }
 
             return strtoupper( $travel_mode );
+        }
+
+        /**
+         * Get the map tab anchors.
+         *
+         * If the wpsl/wpsl_map shortcode is used in one or more tabs,
+         * then a JS fix ( the fixGreyTabMap function ) needs to run
+         * to make sure the map doesn't turn grey.
+         *
+         * For the fix to work need to know the used anchor(s).
+         *
+         * @since 2.2.10
+         * @return string|array $map_tab_anchor One or more anchors used to show the map(s)
+         */
+        public function get_map_tab_anchor() {
+
+            $map_tab_anchor = apply_filters( 'wpsl_map_tab_anchor', 'wpsl-map-tab' );
+
+            return $map_tab_anchor;
         }
 
         /**
@@ -1631,7 +1691,7 @@ if ( !class_exists( 'WPSL_Frontend' ) ) {
                 'storeUrl'              => $wpsl_settings['store_url'],
                 'maxDropdownHeight'     => apply_filters( 'wpsl_max_dropdown_height', 300 ),
                 'enableStyledDropdowns' => apply_filters( 'wpsl_enable_styled_dropdowns', true ),
-                'mapTabAnchor'          => apply_filters( 'wpsl_map_tab_anchor', 'wpsl-map-tab' ),
+                'mapTabAnchor'          => $this->get_map_tab_anchor(),
                 'mapTabAnchorReturn'    => apply_filters( 'wpsl_map_tab_anchor_return', false ),
                 'gestureHandling'       => apply_filters( 'wpsl_gesture_handling', 'auto' ),
                 'directionsTravelMode'  => $this->get_directions_travel_mode(),
@@ -1659,7 +1719,7 @@ if ( !class_exists( 'WPSL_Frontend' ) ) {
                 'searchRadius'      => $dropdown_defaults['search_radius'],
 				'distanceUnit'      => wpsl_get_distance_unit(),
                 'geoLocationTimout' => apply_filters( 'wpsl_geolocation_timeout', 5000 ),
-				'ajaxurl'           => $this->get_ajax_url(),
+				'ajaxurl'           => wpsl_get_ajax_url(),
                 'mapControls'       => $this->get_map_controls()
 			);
             

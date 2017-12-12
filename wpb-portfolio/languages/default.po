@@ -1,0 +1,927 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPB Filterable Portfolio\n"
+"POT-Creation-Date: 2017-02-04 04:06+0600\n"
+"PO-Revision-Date: 2017-02-04 04:06+0600\n"
+"Last-Translator: wpbean <imranmodel35@gmail.com>\n"
+"Language-Team: WpBean <imranmodel35@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: assets\n"
+"X-Poedit-SearchPath-1: admin\n"
+"X-Poedit-SearchPath-2: inc\n"
+
+#: admin/metaboxes/meta_box.php:256
+msgid "Add Gallery"
+msgstr ""
+
+#: admin/metaboxes/meta_box.php:257
+msgid "Edit Gallery"
+msgstr ""
+
+#: admin/metaboxes/meta_box.php:258
+msgid "Clear"
+msgstr ""
+
+#: admin/updater/plugin-updater.php:204
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: admin/updater/plugin-updater.php:212
+#, php-format
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: admin/updater/plugin-updater.php:366
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: admin/updater/plugin-updater.php:366
+msgid "Error"
+msgstr ""
+
+#: admin/updater/updater-init.php:12 admin/updater/updater-init.php:13
+msgid "License"
+msgstr ""
+
+#: admin/updater/updater-init.php:26
+msgid "WPB filterable portfolio license activation"
+msgstr ""
+
+#: admin/updater/updater-init.php:35
+msgid "License Key"
+msgstr ""
+
+#: admin/updater/updater-init.php:39
+msgid "Enter your license key here. Required for getting automatic updates."
+msgstr ""
+
+#: admin/updater/updater-init.php:45 admin/updater/updater-init.php:54
+msgid "Activate License"
+msgstr ""
+
+#: admin/updater/updater-init.php:49
+msgid "active"
+msgstr ""
+
+#: admin/updater/updater-init.php:51
+msgid "Deactivate License"
+msgstr ""
+
+#: admin/updater/updater-init.php:118 admin/updater/updater-init.php:165
+#: admin/updater/updater-init.php:227
+msgid "An error occurred, please try again."
+msgstr ""
+
+#: admin/updater/updater-init.php:132
+#, php-format
+msgid "Your license key expired on %s."
+msgstr ""
+
+#: admin/updater/updater-init.php:139
+msgid "Your license key has been disabled."
+msgstr ""
+
+#: admin/updater/updater-init.php:144
+msgid "Invalid license."
+msgstr ""
+
+#: admin/updater/updater-init.php:150
+msgid "Your license is not active for this URL."
+msgstr ""
+
+#: admin/updater/updater-init.php:155
+#, php-format
+msgid "This appears to be an invalid license key for %s."
+msgstr ""
+
+#: admin/updater/updater-init.php:160
+msgid "Your license key has reached its activation limit."
+msgstr ""
+
+#: admin/wpb-class.settings-api.php:316
+msgid "Browse"
+msgstr ""
+
+#: admin/wpb-fp-admin.php:20
+msgid "Portfolio Featured Image"
+msgstr ""
+
+#: admin/wpb-fp-admin.php:21 admin/wpb_fp_shortcode_generator.php:163
+msgid "Date"
+msgstr ""
+
+#: admin/wpb-fp-admin.php:38
+msgid "This portfolio has no featured image"
+msgstr ""
+
+#: admin/wpb-settings-config.php:41 admin/wpb-settings-config.php:42
+msgid "Portfolio Settings"
+msgstr ""
+
+#: admin/wpb-settings-config.php:54
+msgid "General Settings"
+msgstr ""
+
+#: admin/wpb-settings-config.php:58
+msgid "Advanced Settings"
+msgstr ""
+
+#: admin/wpb-settings-config.php:62
+msgid "Style Settings"
+msgstr ""
+
+#: admin/wpb-settings-config.php:80
+msgid "Columns"
+msgstr ""
+
+#: admin/wpb-settings-config.php:81
+msgid "Number of portfolio column."
+msgstr ""
+
+#: admin/wpb-settings-config.php:92
+msgid "Filter Position"
+msgstr ""
+
+#: admin/wpb-settings-config.php:93
+msgid "Portfolio filter position. Options: left, right, center. Default: left."
+msgstr ""
+
+#: admin/wpb-settings-config.php:104
+msgid "Counting post"
+msgstr ""
+
+#: admin/wpb-settings-config.php:105
+msgid ""
+"Portfolio filter on mouse hover show number of post avaiable. Default: Show."
+msgstr ""
+
+#: admin/wpb-settings-config.php:115
+msgid "Number of post"
+msgstr ""
+
+#: admin/wpb-settings-config.php:116
+msgid "Number of post to show. Default -1, means show all."
+msgstr ""
+
+#: admin/wpb-settings-config.php:122
+msgid "Portfolio Gallery Support"
+msgstr ""
+
+#: admin/wpb-settings-config.php:123 admin/wpb-settings-config.php:378
+#: admin/wpb-settings-config.php:384
+msgid "No."
+msgstr ""
+
+#: admin/wpb-settings-config.php:128
+msgid "Portfolio Title Character Limit"
+msgstr ""
+
+#: admin/wpb-settings-config.php:129 admin/wpb-settings-config.php:136
+#: inc/wpb-fp-functions.php:191 inc/wpb-fp-functions.php:198
+#: inc/wpb-fp-functions.php:204 inc/wpb-fp-functions.php:238
+msgid "Yes."
+msgstr ""
+
+#: admin/wpb-settings-config.php:135
+msgid "Portfolio Pagination"
+msgstr ""
+
+#: admin/wpb-settings-config.php:142
+msgid "Number of Characters in Title"
+msgstr ""
+
+#: admin/wpb-settings-config.php:143
+msgid ""
+"Number of characters in title to show. Default 16. You have to must check "
+"Portfolio Title Character Limit to function this limit."
+msgstr ""
+
+#: admin/wpb-settings-config.php:149
+msgid "After Title Content"
+msgstr ""
+
+#: admin/wpb-settings-config.php:150
+msgid ""
+"If checked Portfolio Title Character Limit, the title will be cut off and "
+"will be add this content after the title."
+msgstr ""
+
+#: admin/wpb-settings-config.php:156
+msgid "Filter All Button Text"
+msgstr ""
+
+#: admin/wpb-settings-config.php:157
+msgid "Portfolio filter all button text."
+msgstr ""
+
+#: admin/wpb-settings-config.php:159 inc/wpb-fp-shortcode.php:143
+#: inc/wpb-fp-shortcode.php:147
+msgid "All"
+msgstr ""
+
+#: admin/wpb-settings-config.php:165
+msgid "Post Type"
+msgstr ""
+
+#: admin/wpb-settings-config.php:166
+msgid ""
+"You can select your own custom post type. Default: Our portfolio post type "
+"that come with plugin."
+msgstr ""
+
+#: admin/wpb-settings-config.php:173
+msgid "Taxonomy"
+msgstr ""
+
+#: admin/wpb-settings-config.php:174
+msgid ""
+"You can select your own custom taxonomy ( taxonomy means custom category ).  "
+"Default: Our portfolio category that come with plugin."
+msgstr ""
+
+#: admin/wpb-settings-config.php:181
+msgid "Post type portfolio options support"
+msgstr ""
+
+#: admin/wpb-settings-config.php:182
+msgid "Select post types you want to add portfolio options (meta box) support."
+msgstr ""
+
+#: admin/wpb-settings-config.php:189
+msgid "Exclude categories"
+msgstr ""
+
+#: admin/wpb-settings-config.php:190
+msgid "You can exclude selected categories form portfolio."
+msgstr ""
+
+#: admin/wpb-settings-config.php:196 admin/wpb_fp_shortcode_generator.php:247
+#: inc/wpb-fp-functions.php:223
+msgid "Image Width"
+msgstr ""
+
+#: admin/wpb-settings-config.php:197
+msgid "Portfolio thumbnail width in Px. Minimum 200. Default 680"
+msgstr ""
+
+#: admin/wpb-settings-config.php:204 inc/wpb-fp-functions.php:230
+msgid "Image height"
+msgstr ""
+
+#: admin/wpb-settings-config.php:205
+msgid "Portfolio thumbnail height in Px. Minimum 200. Default 680"
+msgstr ""
+
+#: admin/wpb-settings-config.php:212
+msgid "Image Hard Crop"
+msgstr ""
+
+#: admin/wpb-settings-config.php:213
+msgid ""
+"If you disable / hide the hard crop the images is not going to crop form the "
+"shortcode builder, you can only set the images width and height here in the "
+"settings. And you have to regenerate thumbnails everytime you change those."
+msgstr ""
+
+#: admin/wpb-settings-config.php:223
+msgid "Portfolio overlay"
+msgstr ""
+
+#: admin/wpb-settings-config.php:224
+msgid "Portfolio overlay on mouse hover. Default: Show."
+msgstr ""
+
+#: admin/wpb-settings-config.php:234
+msgid "Full Grid Linking"
+msgstr ""
+
+#: admin/wpb-settings-config.php:235
+msgid ""
+"If you disable / hide the overlay on mouse hover the grid, you may want to "
+"link full grid itself."
+msgstr ""
+
+#: admin/wpb-settings-config.php:245
+msgid "Full Grid Link type"
+msgstr ""
+
+#: admin/wpb-settings-config.php:246
+msgid ""
+"If you disable / hide the overlay on mouse hover the grid and enable the "
+"full grid linking, you may want to link either portfolio details page or "
+"qiickview popup."
+msgstr ""
+
+#: admin/wpb-settings-config.php:256
+msgid "Portfolio Quick View Icon"
+msgstr ""
+
+#: admin/wpb-settings-config.php:257
+msgid "Portfolio on mouse hover showing quick view link. Default: Show."
+msgstr ""
+
+#: admin/wpb-settings-config.php:267
+msgid "Portfolio Single Page Link Icon"
+msgstr ""
+
+#: admin/wpb-settings-config.php:268
+msgid ""
+"Portfolio on mouse hover showing single portfolio page. If set to hide, it "
+"will only show the icon when portfolio has external link set."
+msgstr ""
+
+#: admin/wpb-settings-config.php:278
+msgid "Portfolio Filtering"
+msgstr ""
+
+#: admin/wpb-settings-config.php:279
+msgid "Portfolio filtering can be enable or disable. Default: Enable."
+msgstr ""
+
+#: admin/wpb-settings-config.php:289
+msgid "View Portfolio Button Text"
+msgstr ""
+
+#: admin/wpb-settings-config.php:290
+msgid ""
+"View portfolio button that allow you to link your external site or anything "
+"else. You can change that button text."
+msgstr ""
+
+#: admin/wpb-settings-config.php:296
+msgid "View Portfolio Button Target."
+msgstr ""
+
+#: admin/wpb-settings-config.php:306
+msgid "Portfolio Slug"
+msgstr ""
+
+#: admin/wpb-settings-config.php:307
+msgid ""
+"After updating the portfolio slug, make sure you Flush Rewrite Rules. You "
+"can use <a href=\"https://wordpress.org/plugins/rewrite-flush-button/\" "
+"target=\"_blank\">this plugin</a> for doing this. If you not, portfolio link "
+"may show you NOT Found or 404 NOT FOUND"
+msgstr ""
+
+#: admin/wpb-settings-config.php:315
+msgid "Primary color"
+msgstr ""
+
+#: admin/wpb-settings-config.php:316
+msgid "Select your portfolio primary color. Default: #21cdec"
+msgstr ""
+
+#: admin/wpb-settings-config.php:322
+msgid "Quick View Effect."
+msgstr ""
+
+#: admin/wpb-settings-config.php:323
+msgid "Select your Quick View Effect popup effect."
+msgstr ""
+
+#: admin/wpb-settings-config.php:337
+msgid "Hover Effect."
+msgstr ""
+
+#: admin/wpb-settings-config.php:338
+msgid "Select an effect for mouse hover on portfolio."
+msgstr ""
+
+#: admin/wpb-settings-config.php:351
+msgid "Filter style"
+msgstr ""
+
+#: admin/wpb-settings-config.php:352
+msgid "Select a style for portfolio filter."
+msgstr ""
+
+#: admin/wpb-settings-config.php:363
+msgid "Portfolio title font size."
+msgstr ""
+
+#: admin/wpb-settings-config.php:364
+msgid "Font size for portfolio title. Default 20px."
+msgstr ""
+
+#: admin/wpb-settings-config.php:370
+msgid "Portfolio Custom CSS"
+msgstr ""
+
+#: admin/wpb-settings-config.php:371
+msgid "You can write you own custom css code here."
+msgstr ""
+
+#: admin/wpb-settings-config.php:377
+msgid "Load Font Awesome ?"
+msgstr ""
+
+#: admin/wpb-settings-config.php:383
+msgid "Load Magnific Popup ?"
+msgstr ""
+
+#: admin/wpb_fp_metabox_conig.php:19
+msgid "Portfolio External Link"
+msgstr ""
+
+#: admin/wpb_fp_metabox_conig.php:20
+msgid ""
+"Portfolio external link, If not provided it will linking to single portfolio."
+msgstr ""
+
+#: admin/wpb_fp_metabox_conig.php:25
+msgid "Disable Overlay"
+msgstr ""
+
+#: admin/wpb_fp_metabox_conig.php:26
+msgid "Portfolio grid can be disable for specific item."
+msgstr ""
+
+#: admin/wpb_fp_metabox_conig.php:31
+msgid "Grid Content Type"
+msgstr ""
+
+#: admin/wpb_fp_metabox_conig.php:37 admin/wpb_fp_metabox_conig.php:60
+msgid "Feature Image"
+msgstr ""
+
+#: admin/wpb_fp_metabox_conig.php:41 admin/wpb_fp_metabox_conig.php:64
+msgid "Video"
+msgstr ""
+
+#: admin/wpb_fp_metabox_conig.php:47
+msgid "Video Iframe"
+msgstr ""
+
+#: admin/wpb_fp_metabox_conig.php:48
+msgid "YouTube, Vimeo or any other video iframe"
+msgstr ""
+
+#: admin/wpb_fp_metabox_conig.php:54
+msgid "Quick View Content Type"
+msgstr ""
+
+#: admin/wpb_fp_metabox_conig.php:70
+msgid "Quick View Video Iframe"
+msgstr ""
+
+#: admin/wpb_fp_metabox_conig.php:71
+msgid "Large iframe for quick view lightbox."
+msgstr ""
+
+#: admin/wpb_fp_metabox_conig.php:87
+msgid "Portfolio Options"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:23
+#: admin/wpb_fp_shortcode_generator.php:24
+#: admin/wpb_fp_shortcode_generator.php:38
+msgid "Portfolio Shortcode"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:25
+msgid "Parent Portfolio Shortcode:"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:26
+msgid "Portfolio Shortcodes"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:27
+msgid "Add New Portfolio Shortcode"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:28
+msgid "Add New Shortcode"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:29
+msgid "New Portfolio Shortcode"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:30
+msgid "Edit Portfolio Shortcode"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:31
+msgid "Update Portfolio Shortcode"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:32
+msgid "View Portfolio Shortcode"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:33
+msgid "Search Portfolio Shortcode"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:34 inc/wpb-fp-post-type.php:33
+msgid "Not found"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:35 inc/wpb-fp-post-type.php:34
+msgid "Not found in Trash"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:39
+msgid "Post Type For Portfolio Shortcode Generator "
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:69
+msgid "Shortcode Name"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:83
+#: admin/wpb_fp_shortcode_generator.php:84
+msgid "Shortcode updated."
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:85
+msgid "Shortcode published."
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:86
+msgid "Shortcode submitted."
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:87
+msgid "Shortcode draft updated."
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:128 inc/wpb-fp-functions.php:421
+msgid "Shortcode"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:129
+msgid "Shortcode to use."
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:135
+msgid "Number of portfolio"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:136
+msgid "Number of portfolio, default -1, it will show all the portfolios"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:145
+msgid "Need Pagination"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:146
+msgid "Default: off. Check it for showing the Pagination"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:151
+msgid "Need Filtering"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:152
+msgid "Default: On. Check it for disable the Filtering"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:157
+msgid "Portfolio Order By"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:158
+msgid "Default: date."
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:167
+msgid "Title"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:171
+msgid "ID"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:175
+msgid "Last modified"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:179
+msgid "Random"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:183
+msgid "Menu Order"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:189
+msgid "Portfolio Order"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:190
+msgid "Default: DESC."
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:195
+msgid "Descending"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:199
+msgid "Ascending"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:205
+msgid "Portfolio columns"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:206
+msgid "Default 4 columns."
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:211
+msgid "Select portfolio column"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:215
+msgid "6 Columns"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:219
+msgid "4 Columns"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:223
+msgid "3 Columns"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:227
+msgid "2 Columns"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:233
+msgid "Portfolio Category [ Include ]"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:234
+msgid "This shortcode will show the selected cateories portfolios."
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:240
+msgid "Portfolio Category [ Exclude ]"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:241
+msgid "This shortcode will not show the selected cateories portfolios."
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:248
+msgid "Portfolio thumbnail image width. Default 680px"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:253
+msgid "Image Height"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:254
+msgid "Portfolio thumbnail image height. Default 680px"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:259
+msgid "Portfolio Post Type"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:260
+#: admin/wpb_fp_shortcode_generator.php:267
+msgid "Default :"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:266
+msgid "Portfolio Taxonomy"
+msgstr ""
+
+#: admin/wpb_fp_shortcode_generator.php:284
+msgid "Shortcode Options"
+msgstr ""
+
+#: inc/wpb-fp-functions.php:166
+msgid "Gallery Settings"
+msgstr ""
+
+#: inc/wpb-fp-functions.php:190
+msgid "Feature Image in Gallery"
+msgstr ""
+
+#: inc/wpb-fp-functions.php:197
+msgid "Gallery Autoplay ?"
+msgstr ""
+
+#: inc/wpb-fp-functions.php:203
+msgid "Gallery Image Caption"
+msgstr ""
+
+#: inc/wpb-fp-functions.php:210
+msgid "Gallery Speed"
+msgstr ""
+
+#: inc/wpb-fp-functions.php:211
+msgid "Quickview gallery spped. Default: 600"
+msgstr ""
+
+#: inc/wpb-fp-functions.php:217
+msgid "No need to resize the gallery images."
+msgstr ""
+
+#: inc/wpb-fp-functions.php:218
+msgid "Load full size images."
+msgstr ""
+
+#: inc/wpb-fp-functions.php:224
+msgid ""
+"Quickview gallery image width. Default 756. Use <a href=\"https://wordpress."
+"org/plugins/regenerate-thumbnails/\" target=\"_blank\">Regenerate "
+"Thumbnails</a> plugin & regenerate all thumbnails after changing the size "
+"and other image settings."
+msgstr ""
+
+#: inc/wpb-fp-functions.php:231
+msgid "Quickview gallery image height. Default 423"
+msgstr ""
+
+#: inc/wpb-fp-functions.php:237
+msgid "Hard crop gallery images."
+msgstr ""
+
+#: inc/wpb-fp-functions.php:244
+msgid "X crop position"
+msgstr ""
+
+#: inc/wpb-fp-functions.php:245 inc/wpb-fp-functions.php:257
+msgid ""
+"When setting a crop position, the first value in the array is the x axis "
+"crop position, the second is the y axis crop position. <a href=\"https://"
+"developer.wordpress.org/reference/functions/add_image_size/#crop-mode\" "
+"target=\"_blank\">Details</a>"
+msgstr ""
+
+#: inc/wpb-fp-functions.php:249 inc/wpb-fp-functions.php:261
+msgid "Center"
+msgstr ""
+
+#: inc/wpb-fp-functions.php:250
+msgid "Left"
+msgstr ""
+
+#: inc/wpb-fp-functions.php:251
+msgid "Right"
+msgstr ""
+
+#: inc/wpb-fp-functions.php:256
+msgid "Y crop position"
+msgstr ""
+
+#: inc/wpb-fp-functions.php:262
+msgid "Top"
+msgstr ""
+
+#: inc/wpb-fp-functions.php:263
+msgid "Bottom"
+msgstr ""
+
+#: inc/wpb-fp-functions.php:321
+msgid "&laquo;"
+msgstr ""
+
+#: inc/wpb-fp-functions.php:322
+msgid "&raquo;"
+msgstr ""
+
+#: inc/wpb-fp-functions.php:333
+#, php-format
+msgid "page %s of %s"
+msgstr ""
+
+#: inc/wpb-fp-functions.php:351
+msgid "Select a shortcode"
+msgstr ""
+
+#: inc/wpb-fp-functions.php:412
+msgid "WPB Portfolio"
+msgstr ""
+
+#: inc/wpb-fp-functions.php:416
+msgid "WPB filterable portfolio."
+msgstr ""
+
+#: inc/wpb-fp-functions.php:424
+msgid ""
+"Choose a shortcode. Go to shortcode generator for adding a new shortcode."
+msgstr ""
+
+#: inc/wpb-fp-post-type.php:24 inc/wpb-fp-post-type.php:46
+msgid "Portfolio"
+msgstr ""
+
+#: inc/wpb-fp-post-type.php:25
+msgid "Parent Portfolio:"
+msgstr ""
+
+#: inc/wpb-fp-post-type.php:26
+msgid "All Portfolios"
+msgstr ""
+
+#: inc/wpb-fp-post-type.php:27
+msgid "View Portfolio"
+msgstr ""
+
+#: inc/wpb-fp-post-type.php:28
+msgid "Add New Portfolio"
+msgstr ""
+
+#: inc/wpb-fp-post-type.php:29
+msgid "Add New"
+msgstr ""
+
+#: inc/wpb-fp-post-type.php:30
+msgid "Edit Portfolio"
+msgstr ""
+
+#: inc/wpb-fp-post-type.php:31
+msgid "Update Portfolio"
+msgstr ""
+
+#: inc/wpb-fp-post-type.php:32
+msgid "Search Portfolio"
+msgstr ""
+
+#: inc/wpb-fp-post-type.php:47
+msgid "WPB Filterable Portfolio plugin post type"
+msgstr ""
+
+#: inc/wpb-fp-post-type.php:98
+msgid "Portfolio Category"
+msgstr ""
+
+#: inc/wpb-fp-post-type.php:99
+msgid "All Categories"
+msgstr ""
+
+#: inc/wpb-fp-post-type.php:100
+msgid "Parent Category"
+msgstr ""
+
+#: inc/wpb-fp-post-type.php:101
+msgid "Parent Category:"
+msgstr ""
+
+#: inc/wpb-fp-post-type.php:102
+msgid "New Category Name"
+msgstr ""
+
+#: inc/wpb-fp-post-type.php:103
+msgid "Add New Category"
+msgstr ""
+
+#: inc/wpb-fp-post-type.php:104
+msgid "Edit Category"
+msgstr ""
+
+#: inc/wpb-fp-post-type.php:105
+msgid "Update Category"
+msgstr ""
+
+#: inc/wpb-fp-post-type.php:106
+msgid "Separate categories with commas"
+msgstr ""
+
+#: inc/wpb-fp-post-type.php:107
+msgid "Search categories"
+msgstr ""
+
+#: inc/wpb-fp-post-type.php:108
+msgid "Add or remove Categories"
+msgstr ""
+
+#: inc/wpb-fp-post-type.php:109
+msgid "Choose from the most used categories"
+msgstr ""
+
+#: inc/wpb-fp-post-type.php:110
+msgid "Not Found"
+msgstr ""
+
+#: inc/wpb-fp-shortcode.php:292
+msgid "No portfolio found."
+msgstr ""
+
+#: inc/wpb_fp_gallery.php:38
+msgid "Image Gallery"
+msgstr ""
+
+#: inc/wpb_fp_gallery.php:41
+msgid "Choose images for gallery here."
+msgstr ""

@@ -2,860 +2,308 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ed36713-f509-4e97-b362-9e32f300a181" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-store-locator/frontend/templates/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-store-locator/frontend/templates/.idea/templates.iml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/acf-address-map-field-master/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/acf-address-map-field-master/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/acf-address-map-field-master/acf-address-map-v4.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/acf-address-map-field-master/acf-address-map-v5.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/acf-address-map-field-master/acf-address-map.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/acf-address-map-field-master/css/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/acf-address-map-field-master/css/input.v4.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/acf-address-map-field-master/css/input.v5.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/acf-address-map-field-master/images/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/acf-address-map-field-master/js/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/acf-address-map-field-master/js/input.v4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/acf-address-map-field-master/js/input.v5.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/acf-address-map-field-master/lang/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/easy-fancybox.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/fancybox/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/fancybox/fancy_close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/fancybox/fancy_loading.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/fancybox/fancy_nav_left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/fancybox/fancy_nav_right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/fancybox/fancy_shadow_e.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/fancybox/fancy_shadow_n.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/fancybox/fancy_shadow_ne.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/fancybox/fancy_shadow_nw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/fancybox/fancy_shadow_s.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/fancybox/fancy_shadow_se.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/fancybox/fancy_shadow_sw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/fancybox/fancy_shadow_w.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/fancybox/fancy_title_left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/fancybox/fancy_title_main.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/fancybox/fancy_title_over.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/fancybox/fancy_title_right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/fancybox/fancybox-x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/fancybox/fancybox-y.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/fancybox/fancybox.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/fancybox/jquery.fancybox-1.3.8.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/fancybox/jquery.fancybox-1.3.8.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/fancybox/jquery.fancybox-1.3.8.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/fancybox/jquery.fancybox-1.3.8.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/images/light-mask.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/inc/class-easyfancybox-admin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/inc/class-easyfancybox-options.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/inc/class-easyfancybox.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/inc/translation-strings.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/js/jquery.easing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/js/jquery.easing.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/js/jquery.metadata.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/js/jquery.metadata.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/js/jquery.mousewheel.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/js/jquery.mousewheel.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-bel.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-bel.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-cs_CZ.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-cs_CZ.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-el_GR.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-el_GR.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-es_ES.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-es_ES.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-fa_IR.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-fa_IR.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-fr_FR.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-fr_FR.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-gu_IN.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-gu_IN.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-hi_IN.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-hi_IN.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-hr.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-hr.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-id_ID.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-id_ID.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-lt_LT.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-lt_LT.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-nl.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-nl_NL.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-nl_NL.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-pl_PL.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-pl_PL.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-readme-bel.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-readme-bel.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-ro_RO.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-ro_RO.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-ru_RU.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-ru_RU.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-sk_SK.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-sk_SK.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-sr_RS.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-sr_RS.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-tr_TR.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-tr_TR.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-ua_UA.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-ua_UA.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-xx_XX.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox-xx_XX.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/easy-fancybox.pot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/languages/instructions.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easy-fancybox/readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/admin-init.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/config_fields_extended.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/options-init.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-extensions/extensions-init.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/color-picker/color-picker.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/color-picker/color-picker.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/import_export/import_export.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/media/media.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/media/media.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/redux-admin.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/redux-admin.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/redux-fields.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/redux-vendor.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/rtl.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/elusive-icons/elusive-icons.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/elusive-icons/fonts/elusiveicons-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/elusive-icons/fonts/elusiveicons-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/elusive-icons/fonts/elusiveicons-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/elusive-icons/fonts/elusiveicons-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/elusive-icons/scss/_animated.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/elusive-icons/scss/_bordered-pulled.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/elusive-icons/scss/_core.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/elusive-icons/scss/_fixed-width.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/elusive-icons/scss/_icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/elusive-icons/scss/_larger.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/elusive-icons/scss/_list.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/elusive-icons/scss/_mixins.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/elusive-icons/scss/_path.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/elusive-icons/scss/_rotated-flipped.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/elusive-icons/scss/_stacked.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/elusive-icons/scss/_variables.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/elusive-icons/scss/elusive-icons.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/elusive-icons/scss/elusive-icons.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/elusive-icons/scss/elusive-icons.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/jquery-ui-bootstrap/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/jquery-ui-bootstrap/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/jquery-ui-bootstrap/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/jquery-ui-bootstrap/images/ui-bg_glass_75_dadada_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/jquery-ui-bootstrap/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/jquery-ui-bootstrap/images/ui-bg_glass_75_ffffff_1x400.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/jquery-ui-bootstrap/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/jquery-ui-bootstrap/images/ui-bg_inset-soft_95_fef1ec_1x100.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/jquery-ui-bootstrap/images/ui-icons_222222_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/jquery-ui-bootstrap/images/ui-icons_2e83ff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/jquery-ui-bootstrap/images/ui-icons_454545_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/jquery-ui-bootstrap/images/ui-icons_888888_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/jquery-ui-bootstrap/images/ui-icons_cd0a0a_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/jquery-ui-bootstrap/images/ui-icons_f6cf3b_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/jquery-ui-bootstrap/images/ui-icons_ffffff_256x240.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/jquery-ui-bootstrap/jquery-ui-1.10.0.custom.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/jquery-ui-bootstrap/jquery-ui-1.10.0.custom.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/jquery-ui-bootstrap/jquery-ui-1.10.0.custom.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/qtip/jquery.qtip.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/qtip/jquery.qtip.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/spectrum/redux-spectrum.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/css/vendor/spectrum/redux-spectrum.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/img/1c.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/img/1col.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/img/2-col-portfolio.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/img/2cl.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/img/2cr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/img/3-col-portfolio.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/img/3cl.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/img/3cm.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/img/3cr.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/img/4-col-portfolio.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/img/ajax.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/img/menu_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/img/toggle_tabs.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/media/media.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/media/media.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/redux.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/redux.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/cookie.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/jquery.alphanum.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/jquery.serializeForm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/jquery.typewatch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/jsonview.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/jsonview.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/lte-ie7.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/qtip/jquery.qtip.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/qtip/jquery.qtip.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/redux.select2.sortable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/redux.select2.sortable.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/release.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2-bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2-spinner.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2.jquery.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_ar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_az.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_bg.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_ca.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_cs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_da.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_de.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_el.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_en.js.template" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_es.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_et.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_eu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_fa.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_fi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_fr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_gl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_he.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_hr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_hu.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_id.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_is.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_it.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_ja.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_ka.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_ko.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_lt.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_lv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_mk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_ms.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_nb.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_nl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_pl.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_pt-BR.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_pt-PT.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_ro.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_rs.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_ru.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_sk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_sv.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_th.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_tr.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_ug-CN.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_uk.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_vi.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_zh-CN.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2_locale_zh-TW.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/select2/select2x2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/spectrum/redux-spectrum.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/assets/js/vendor/spectrum/redux-spectrum.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/core/dashboard.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/core/enqueue.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/core/newsflash.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/core/panel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/core/required.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/framework.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/browser.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/class.p.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/class.redux_admin_notices.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/class.redux_api.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/class.redux_cdn.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/class.redux_filesystem.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/class.redux_functions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/class.redux_helpers.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/class.redux_instances.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/class.thirdparty.fixes.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/extensions/color_alpha/color_alpha/color_alpha.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/extensions/color_alpha/color_alpha/field_color_alpha.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/extensions/color_alpha/color_alpha/wp-color-picker-alpha.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/extensions/color_alpha/extension_color_alpha.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/extensions/customizer/extension_customizer.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/extensions/customizer/extension_customizer.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/extensions/customizer/extension_customizer.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/extensions/customizer/extension_customizer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/extensions/customizer/extension_customizer.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/extensions/customizer/inc/customizer_control.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/extensions/customizer/inc/customizer_devs.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/extensions/customizer/inc/customizer_fields.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/extensions/customizer/inc/customizer_panel.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/extensions/customizer/inc/customizer_section.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/extensions/import_export/extension_import_export.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/extensions/import_export/import_export/field_import_export.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/extensions/import_export/import_export/field_import_export.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/extensions/import_export/import_export/field_import_export.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/extensions/import_export/import_export/field_import_export.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/extensions/import_export/import_export/field_import_export.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/extensions/options_object/extension_options_object.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/extensions/options_object/options_object/field_options_object.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/extensions/options_object/options_object/field_options_object.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/extensions/options_object/options_object/field_options_object.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/extensions/options_object/options_object/field_options_object.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/extensions/options_object/options_object/field_options_object.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/extensions/select_extended/extension_select_extended.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/extensions/select_extended/select_extended/field_select_extended.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/extensions/select_extended/select_extended/field_select_extended.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/extensions/select_extended/select_extended/genericons.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/extensions/select_extended/select_extended/select_extended.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/field_ace_editor.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/field_ace_editor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/field_ace_editor.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/field_ace_editor.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/field_ace_editor.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/vendor/ace.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/vendor/ext-emmet.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/vendor/ext-searchbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/vendor/mode-css.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/vendor/mode-html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/vendor/mode-javascript.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/vendor/mode-json.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/vendor/mode-less.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/vendor/mode-markdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/vendor/mode-mysql.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/vendor/mode-php.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/vendor/mode-plain_text.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/vendor/mode-sass.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/vendor/mode-scss.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/vendor/mode-text.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/vendor/mode-xml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/vendor/snippets/css.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/vendor/snippets/html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/vendor/snippets/javascript.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/vendor/snippets/json.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/vendor/snippets/less.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/vendor/snippets/markdown.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/vendor/snippets/mysql.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/vendor/snippets/php.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/vendor/snippets/plain_text.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/vendor/snippets/sass.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/vendor/snippets/scss.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/vendor/snippets/text.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/vendor/snippets/xml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/vendor/theme-chrome.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/vendor/theme-monokai.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/vendor/worker-css.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/vendor/worker-html.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/vendor/worker-javascript.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/vendor/worker-json.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/ace_editor/vendor/worker-php.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/background/field_background.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/background/field_background.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/background/field_background.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/background/field_background.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/background/field_background.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/border/field_border.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/border/field_border.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/border/field_border.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/border/field_border.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/border/field_border.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/button_set/field_button_set.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/button_set/field_button_set.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/button_set/field_button_set.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/checkbox/field_checkbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/checkbox/field_checkbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/checkbox/field_checkbox.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/checkbox/field_checkbox.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/checkbox/field_checkbox.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/color/field_color.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/color/field_color.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/color/field_color.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/color_gradient/field_color_gradient.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/color_gradient/field_color_gradient.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/color_gradient/field_color_gradient.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/color_gradient/field_color_gradient.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/color_gradient/field_color_gradient.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/color_rgba/field_color_rgba.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/color_rgba/field_color_rgba.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/color_rgba/field_color_rgba.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/color_rgba/field_color_rgba.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/color_rgba/field_color_rgba.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/date/field_date.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/date/field_date.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/date/field_date.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/date/field_date.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/date/field_date.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/dimensions/field_dimensions.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/dimensions/field_dimensions.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/dimensions/field_dimensions.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/dimensions/field_dimensions.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/dimensions/field_dimensions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/dimensions/field_dimensions.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/divide/field_divide.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/divide/field_divide.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/divide/field_divide.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/editor/field_editor.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/editor/field_editor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/editor/field_editor.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/editor/field_editor.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/editor/field_editor.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/editor/field_editor_c.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/gallery/field_gallery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/gallery/field_gallery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/gallery/field_gallery.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/image_select/field_image_select.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/image_select/field_image_select.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/image_select/field_image_select.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/image_select/field_image_select.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/image_select/field_image_select.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/link_color/field_link_color.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/link_color/field_link_color.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/link_color/field_link_color.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/link_color/field_link_color.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/link_color/field_link_color.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/media/field_media.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/media/field_media.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/media/field_media.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/media/field_media.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/multi_text/field_multi_text.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/multi_text/field_multi_text.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/multi_text/field_multi_text.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/multi_text/field_multi_text.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/multi_text/field_multi_text.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/palette/field_palette.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/palette/field_palette.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/palette/field_palette.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/palette/field_palette.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/palette/field_palette.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/password/field_password.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/radio/field_radio.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/raw/field_raw.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/raw/parsedown.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/section/field_section.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/section/field_section.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/section/field_section.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/select/elusive-icons.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/select/field_select.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/select/field_select.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/select/field_select.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/select/field_select.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/select/field_select.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/select_image/field_select_image.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/select_image/field_select_image.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/select_image/field_select_image.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/select_image/field_select_image.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/select_image/field_select_image.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/slider/field_slider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/slider/field_slider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/slider/field_slider.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/slider/field_slider.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/slider/field_slider.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/slider/vendor/nouislider/redux.jquery.nouislider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/slider/vendor/nouislider/redux.jquery.nouislider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/slider/vendor/nouislider/redux.jquery.nouislider.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/slides/field_slides.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/slides/field_slides.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/slides/field_slides.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/slides/field_slides.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/slides/field_slides.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/sortable/field_sortable.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/sortable/field_sortable.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/sortable/field_sortable.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/sortable/field_sortable.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/sortable/field_sortable.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/sorter/field_sorter.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/sorter/field_sorter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/sorter/field_sorter.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/sorter/field_sorter.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/sorter/field_sorter.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/spacing/field_spacing.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/spacing/field_spacing.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/spacing/field_spacing.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/spacing/field_spacing.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/spacing/field_spacing.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/spinner/arrow_left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/spinner/arrow_right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/spinner/field_spinner.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/spinner/field_spinner.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/spinner/field_spinner.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/spinner/field_spinner.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/spinner/field_spinner.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/spinner/vendor/spinner_custom.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/switch/field_switch.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/switch/field_switch.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/switch/field_switch.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/switch/field_switch.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/switch/field_switch.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/switch/slider-control.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/switch/switch.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/text/field_text.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/text/field_text.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/text/field_text.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/textarea/field_textarea.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/typography/field_typography.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/typography/field_typography.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/typography/field_typography.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/typography/field_typography.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/typography/field_typography.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/fields/typography/googlefonts.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/lib.redux_instances.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/scssphp/scss.inc.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/themecheck/checks/embedded.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/themecheck/checks/full_package.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/themecheck/checks/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/themecheck/class.redux_themecheck.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/themecheck/css/admin.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/themecheck/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/themecheck/js/admin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/themecheck/lang/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/themecheck/lang/themeforest-check.pot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/tracking.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/validation/color/validation_color.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/validation/color_rgba/validation_color_rgba.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/validation/colorrgba/validation_colorrgba.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/validation/comma_numeric/validation_comma_numeric.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/validation/css/validation_css.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/validation/date/validation_date.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/validation/email/validation_email.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/validation/email_not_empty/validation_email_not_empty.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/validation/html/validation_html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/validation/html_custom/validation_html_custom.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/validation/js/validation_js.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/validation/no_html/validation_no_html.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/validation/no_special_chars/validation_no_special_chars.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/validation/not_empty/validation_not_empty.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/validation/numeric/validation_numeric.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/validation/numeric_not_empty/validation_numeric_not_empty.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/validation/preg_replace/validation_preg_replace.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/validation/str_replace/validation_str_replace.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/validation/unique_slug/validation_unique_slug.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/validation/url/validation_url.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/welcome/css/redux-welcome.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/welcome/css/redux-welcome.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/welcome/js/jquery.easing.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/welcome/js/redux-welcome-admin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/welcome/js/zeroclipboard/ZeroClipboard.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/welcome/js/zeroclipboard/jquery.zeroclipboard.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/welcome/js/zeroclipboard/jquery.zeroclipboard.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/welcome/views/about.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/welcome/views/changelog.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/welcome/views/credits.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/welcome/views/extensions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/welcome/views/status_report.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/welcome/views/support.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/inc/welcome/welcome.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/ar.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/bg_BG.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/bn_BD.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/cs_CZ.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/da_DK.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/de_DE.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/el.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/es_ES.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/es_MX.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/fa_IR.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/fi.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/fr_FR.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/he_IL.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/hi_IN.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/hr.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/hu_HU.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/id_ID.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/it_IT.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/ja.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/km.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/lt_LT.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/nb_NO.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/ne_NP.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/nl_NL.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/pl_PL.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/pt_BR.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/pt_PT.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/redux-framework-ar.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/redux-framework-bg_BG.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/redux-framework-bn_BD.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/redux-framework-cs_CZ.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/redux-framework-da_DK.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/redux-framework-de_DE.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/redux-framework-el.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/redux-framework-es_ES.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/redux-framework-es_MX.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/redux-framework-fa_IR.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/redux-framework-fi.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/redux-framework-fr_FR.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/redux-framework-he_IL.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/redux-framework-hi_IN.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/redux-framework-hr.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/redux-framework-hu_HU.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/redux-framework-id_ID.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/redux-framework-it_IT.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/redux-framework-ja.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/redux-framework-km.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/redux-framework-lt_LT.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/redux-framework-nb_NO.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/redux-framework-ne_NP.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/redux-framework-nl_NL.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/redux-framework-pl_PL.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/redux-framework-pt_BR.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/redux-framework-pt_PT.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/redux-framework-ro_RO.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/redux-framework-ru_RU.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/redux-framework-sk_SK.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/redux-framework-sl_SI.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/redux-framework-sv_SE.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/redux-framework-th.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/redux-framework-tr_TR.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/redux-framework-zh_CN.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/redux-framework.pot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/ro_RO.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/ru_RU.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/sk_SK.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/sl_SI.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/sv_SE.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/th.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/tr_TR.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/languages/zh_CN.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/templates/panel/container.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/templates/panel/content.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/templates/panel/footer.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/templates/panel/header.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/templates/panel/header_stickybar.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/admin/redux-framework/templates/panel/menu_container.tpl.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/admin.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/admin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/class.NimblePortfolio.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/class.NimblePortfolioItem.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/class.NimblePortfolioLessC.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/class.NimblePortfolioRecentItemsWidget.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/class.NimblePortfolioShortcodeWidget.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/class.NimblePortfolioSkin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/nimble-portfolio.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/nimble-portfolio.less" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/admin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/download-image.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/img/pp_download.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/img/pp_themes/dark_rounded/btnNext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/img/pp_themes/dark_rounded/btnPrevious.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/img/pp_themes/dark_rounded/contentPattern.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/img/pp_themes/dark_rounded/default_thumbnail.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/img/pp_themes/dark_rounded/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/img/pp_themes/dark_rounded/sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/img/pp_themes/dark_square/btnNext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/img/pp_themes/dark_square/btnPrevious.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/img/pp_themes/dark_square/contentPattern.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/img/pp_themes/dark_square/default_thumbnail.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/img/pp_themes/dark_square/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/img/pp_themes/dark_square/sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/img/pp_themes/default/default_thumb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/img/pp_themes/default/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/img/pp_themes/default/sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/img/pp_themes/default/sprite_next.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/img/pp_themes/default/sprite_prev.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/img/pp_themes/default/sprite_x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/img/pp_themes/default/sprite_y.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/img/pp_themes/facebook/btnNext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/img/pp_themes/facebook/btnPrevious.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/img/pp_themes/facebook/contentPatternBottom.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/img/pp_themes/facebook/contentPatternLeft.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/img/pp_themes/facebook/contentPatternRight.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/img/pp_themes/facebook/contentPatternTop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/img/pp_themes/facebook/default_thumbnail.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/img/pp_themes/facebook/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/img/pp_themes/facebook/sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/img/pp_themes/light_rounded/btnNext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/img/pp_themes/light_rounded/btnPrevious.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/img/pp_themes/light_rounded/default_thumbnail.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/img/pp_themes/light_rounded/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/img/pp_themes/light_rounded/sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/img/pp_themes/light_square/btnNext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/img/pp_themes/light_square/btnPrevious.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/img/pp_themes/light_square/default_thumbnail.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/img/pp_themes/light_square/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/img/pp_themes/light_square/sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/nimble-prettyPhoto.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/nimble-prettyphoto.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/prettyphoto.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/prettyphoto/prettyphoto.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/shortcode-generator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/sort.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/spectrum/spectrum.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/spectrum/spectrum.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/tinymce-plugin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/includes/tinymce-plugin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/languages/nimble_portfolio.pot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/nimble-portfolio.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/screenshot-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/screenshot-10.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/screenshot-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/screenshot-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/screenshot-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/screenshot-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/screenshot-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/screenshot-7.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/screenshot-8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/screenshot-9.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/skins/default/admin.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/skins/default/admin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/skins/default/filters.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/skins/default/genericon/genericons-regular-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/skins/default/genericon/genericons-regular-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/skins/default/genericon/genericons-regular-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/skins/default/genericon/genericons-regular-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/skins/default/genericon/genericons.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/skins/default/images/round.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/skins/default/images/round1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/skins/default/items.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/skins/default/overrides.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/skins/default/overrides.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/skins/default/paging.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/skins/default/recent-items.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/skins/default/skin.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/nimble-portfolio/skins/default/skin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/fancybox/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/fancybox/fancy_close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/fancybox/fancy_loading.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/fancybox/fancy_nav_left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/fancybox/fancy_nav_right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/fancybox/fancy_shadow_e.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/fancybox/fancy_shadow_n.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/fancybox/fancy_shadow_ne.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/fancybox/fancy_shadow_nw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/fancybox/fancy_shadow_s.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/fancybox/fancy_shadow_se.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/fancybox/fancy_shadow_sw.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/fancybox/fancy_shadow_w.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/fancybox/fancy_title_left.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/fancybox/fancy_title_main.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/fancybox/fancy_title_over.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/fancybox/fancy_title_right.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/fancybox/fancybox-x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/fancybox/fancybox-y.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/fancybox/fancybox.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/fancybox/jquery.easing-1.3.pack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/fancybox/jquery.fancybox-1.3.4.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/fancybox/jquery.fancybox-1.3.4.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/fancybox/jquery.mousewheel-3.0.4.pack.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/featherlight/featherlight.gallery.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/featherlight/featherlight.gallery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/featherlight/featherlight.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/featherlight/featherlight.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/imagelightbox/css/imagelightbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/imagelightbox/js/imagelightbox.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/nivo/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/nivo/license.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/nivo/nivo-lightbox.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/nivo/nivo-lightbox.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/nivo/themes/default/close.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/nivo/themes/default/close@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/nivo/themes/default/default.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/nivo/themes/default/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/nivo/themes/default/loading@2x.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/nivo/themes/default/next.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/nivo/themes/default/next@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/nivo/themes/default/prev.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/nivo/themes/default/prev@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/css/prettyPhoto.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/images/prettyPhoto/dark_rounded/btnNext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/images/prettyPhoto/dark_rounded/btnPrevious.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/images/prettyPhoto/dark_rounded/contentPattern.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/images/prettyPhoto/dark_rounded/default_thumbnail.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/images/prettyPhoto/dark_rounded/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/images/prettyPhoto/dark_rounded/sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/images/prettyPhoto/dark_square/btnNext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/images/prettyPhoto/dark_square/btnPrevious.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/images/prettyPhoto/dark_square/contentPattern.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/images/prettyPhoto/dark_square/default_thumbnail.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/images/prettyPhoto/dark_square/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/images/prettyPhoto/dark_square/sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/images/prettyPhoto/default/default_thumb.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/images/prettyPhoto/default/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/images/prettyPhoto/default/sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/images/prettyPhoto/default/sprite_next.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/images/prettyPhoto/default/sprite_prev.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/images/prettyPhoto/default/sprite_x.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/images/prettyPhoto/default/sprite_y.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/images/prettyPhoto/facebook/btnNext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/images/prettyPhoto/facebook/btnPrevious.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/images/prettyPhoto/facebook/contentPatternBottom.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/images/prettyPhoto/facebook/contentPatternLeft.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/images/prettyPhoto/facebook/contentPatternRight.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/images/prettyPhoto/facebook/contentPatternTop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/images/prettyPhoto/facebook/default_thumbnail.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/images/prettyPhoto/facebook/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/images/prettyPhoto/facebook/sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/images/prettyPhoto/light_rounded/btnNext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/images/prettyPhoto/light_rounded/btnPrevious.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/images/prettyPhoto/light_rounded/default_thumbnail.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/images/prettyPhoto/light_rounded/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/images/prettyPhoto/light_rounded/sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/images/prettyPhoto/light_square/btnNext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/images/prettyPhoto/light_square/btnPrevious.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/images/prettyPhoto/light_square/default_thumbnail.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/images/prettyPhoto/light_square/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/images/prettyPhoto/light_square/sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/prettyphoto/js/jquery.prettyPhoto.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/swipebox/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/swipebox/css/swipebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/swipebox/css/swipebox.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/swipebox/img/icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/swipebox/img/icons.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/swipebox/img/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/swipebox/js/jquery.swipebox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/swipebox/js/jquery.swipebox.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/tosrus/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/tosrus/css/jquery.tosrus.all.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/tosrus/js/hammer.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/tosrus/js/jquery.tosrus.min.all.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/assets/tosrus/js/jquery.tosrus.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/css/admin.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/images/logo-dfactory.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/includes/class-frontend.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/includes/class-settings.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/includes/class-widgets.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/index.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/js/admin-widgets.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/js/admin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/js/front.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/languages/responsive-lightbox.pot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/responsive-lightbox/responsive-lightbox.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/admin/metaboxes/css/chosen.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/admin/metaboxes/css/jqueryui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/admin/metaboxes/css/meta_box.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/admin/metaboxes/images/chosen-sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/admin/metaboxes/images/image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/admin/metaboxes/images/sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/admin/metaboxes/js/chosen.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/admin/metaboxes/js/scripts.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/admin/metaboxes/meta_box.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/admin/updater/plugin-updater.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/admin/updater/updater-init.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/admin/wpb-class.settings-api.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/admin/wpb-fp-admin.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/admin/wpb-fp-getting-options.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/admin/wpb-settings-config.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/admin/wpb_aq_resizer.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/admin/wpb_fp_metabox_conig.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/admin/wpb_fp_shortcode_generator.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/assets/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/assets/css/hover-effects.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/assets/css/lightslider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/assets/css/lightslider.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/assets/css/magnific-popup.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/assets/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/assets/css/tooltipster.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/assets/css/wpb-custom-bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/assets/fonts/FontAwesome.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/assets/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/assets/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/assets/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/assets/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/assets/img/controls.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/assets/js/jquery.magnific-popup.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/assets/js/jquery.mixitup.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/assets/js/jquery.tooltipster.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/assets/js/lightslider.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/assets/js/lightslider.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/assets/js/main.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/assets/js/wpb_fp_ajax.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/inc/content-portfolio-lightbox.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/inc/wpb-fp-functions.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/inc/wpb-fp-post-type.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/inc/wpb-fp-shortcode.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/inc/wpb_fp_gallery.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/inc/wpb_scripts.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/languages/default.mo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/languages/default.po" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wpb-portfolio/main.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/admin-global-580-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/admin-global-580.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/adminbar-580-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/adminbar-580.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/alerts-580-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/alerts-580.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/dashboard-580-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/dashboard-580.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/edit-page-580-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/edit-page-580.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/featured-image-580-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/featured-image-580.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/filter-explanation-580-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/filter-explanation-580.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/inside-editor-580-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/inside-editor-580.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/metabox-580-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/metabox-580.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/metabox-primary-category-580-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/metabox-primary-category-580.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/snippet-580-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/snippet-580.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/toggle-switch-580-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/toggle-switch-580.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/wpseo-dismissible-580-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/wpseo-dismissible-580.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/yoast-components-580-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/yoast-components-580.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/yoast-extensions-580-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/yoast-extensions-580.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/yst_plugin_tools-580-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/yst_plugin_tools-580.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/yst_seo_score-580-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/yst_seo_score-580.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/configuration-wizard-580.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-admin-580.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-admin-global-580.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-admin-gsc-580.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-admin-media-580.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-api-580.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-babel-polyfill-580.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-bulk-editor-580.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-dashboard-widget-580.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-dismissible-580.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-edit-page-580.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-featured-image-580.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-filter-explanation-580.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-help-center-580.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-metabox-580.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-metabox-category-580.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-post-scraper-580.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-quick-edit-handler-580.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-recalculate-580.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-reindex-links-580.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-replacevar-plugin-580.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-shortcode-plugin-580.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-term-scraper-580.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-store-locator/frontend/templates/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-store-locator/frontend/templates/.idea/templates.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-store-locator/frontend/templates/.idea/workspace.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-ar.mo" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-ar.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-de_CH.mo" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-de_CH.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-de_DE.mo" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-de_DE.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-de_DE_formal.mo" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-de_DE_formal.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-fa_IR.mo" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-fa_IR.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-it_IT.mo" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-it_IT.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-nl_NL.mo" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-nl_NL.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-pt_BR.mo" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-pt_BR.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-pt_PT.mo" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-pt_PT.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/languages/wpsl-es_ES.mo" afterPath="$PROJECT_DIR$/wp-store-locator/languages/wpsl-es_ES.mo" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/languages/wpsl-nl_NL.mo" afterPath="$PROJECT_DIR$/wp-store-locator/languages/wpsl-nl_NL.mo" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pas-custom-fields.php" afterPath="$PROJECT_DIR$/pas-custom-fields.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-font-awesome/acf-font-awesome.php" afterPath="$PROJECT_DIR$/advanced-custom-fields-font-awesome/acf-font-awesome.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-font-awesome/assets/inc/class-ACFFAL.php" afterPath="$PROJECT_DIR$/advanced-custom-fields-font-awesome/assets/inc/class-ACFFAL.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-font-awesome/readme.txt" afterPath="$PROJECT_DIR$/advanced-custom-fields-font-awesome/readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/acf.php" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/acf.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/assets/css/acf-field-group.css" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/assets/css/acf-field-group.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/assets/css/acf-input.css" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/assets/css/acf-input.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/assets/js/acf-field-group.js" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/assets/js/acf-field-group.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/assets/js/acf-field-group.min.js" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/assets/js/acf-field-group.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/assets/js/acf-input.js" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/assets/js/acf-input.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/assets/js/acf-input.min.js" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/assets/js/acf-input.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/api/api-helpers.php" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/api/api-helpers.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/api/api-input.php" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/api/api-input.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/fields/class-acf-field-tab.php" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/fields/class-acf-field-tab.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/forms/form-attachment.php" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/forms/form-attachment.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/forms/form-comment.php" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/forms/form-comment.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/forms/form-front.php" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/forms/form-front.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/forms/form-nav-menu.php" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/forms/form-nav-menu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/forms/form-taxonomy.php" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/forms/form-taxonomy.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/forms/form-user.php" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/forms/form-user.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/forms/form-widget.php" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/forms/form-widget.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/walkers/class-acf-walker-nav-menu-edit.php" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/walkers/class-acf-walker-nav-menu-edit.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-ar.po" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-ar.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-de_CH.po" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-de_CH.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-de_DE.po" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-de_DE.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-de_DE_formal.po" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-de_DE_formal.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-fa_IR.po" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-fa_IR.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-it_IT.po" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-it_IT.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-nl_NL.po" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-nl_NL.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-pt_BR.po" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-pt_BR.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-pt_PT.po" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-pt_PT.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/pro/assets/js/acf-pro-field-group.js" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/pro/assets/js/acf-pro-field-group.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/pro/assets/js/acf-pro-field-group.min.js" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/pro/assets/js/acf-pro-field-group.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/pro/assets/js/acf-pro-input.js" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/pro/assets/js/acf-pro-input.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/pro/assets/js/acf-pro-input.min.js" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/pro/assets/js/acf-pro-input.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/pro/fields/class-acf-field-flexible-content.php" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/pro/fields/class-acf-field-flexible-content.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/readme.txt" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/instagram-feed/README.txt" afterPath="$PROJECT_DIR$/instagram-feed/README.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/instagram-feed/instagram-feed.php" afterPath="$PROJECT_DIR$/instagram-feed/instagram-feed.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/ajax.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/ajax.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/class-admin-asset-manager.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/class-admin-asset-manager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/class-admin-init.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/class-admin-init.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/class-admin-utils.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/class-admin-utils.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/class-admin.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/class-admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/class-bulk-editor-list-table.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/class-bulk-editor-list-table.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/class-config.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/class-config.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/class-cornerstone-field.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/class-cornerstone-field.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/class-cornerstone.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/class-cornerstone.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/class-help-center.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/class-help-center.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/class-import-aioseo.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/class-import-aioseo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/class-import-woothemes-seo.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/class-import-woothemes-seo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/class-meta-columns.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/class-meta-columns.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/class-plugin-availability.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/class-plugin-availability.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/class-social-admin.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/class-social-admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/class-social-facebook.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/class-social-facebook.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/class-suggested-plugins.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/class-suggested-plugins.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/config-ui/factories/class-factory-post-type.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/config-ui/factories/class-factory-post-type.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/config-ui/fields/class-field-success-message.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/config-ui/fields/class-field-success-message.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/filters/class-abstract-post-filter.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/filters/class-abstract-post-filter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/filters/class-cornerstone-filter.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/filters/class-cornerstone-filter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/formatter/class-metabox-formatter.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/formatter/class-metabox-formatter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/google_search_console/class-gsc.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/google_search_console/class-gsc.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/links/class-link-columns.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/links/class-link-columns.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/links/class-link-notifier.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/links/class-link-notifier.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/links/class-link-reindex-dashboard.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/links/class-link-reindex-dashboard.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/links/class-link-reindex-post-service.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/links/class-link-reindex-post-service.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/links/class-link-utils.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/links/class-link-utils.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/links/class-link-watcher.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/links/class-link-watcher.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/metabox/class-metabox.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/metabox/class-metabox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/onpage/class-ryte-service.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/onpage/class-ryte-service.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/pages/dashboard.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/pages/dashboard.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/taxonomy/class-taxonomy-fields-presenter.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/taxonomy/class-taxonomy-fields-presenter.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/views/tabs/advanced/breadcrumbs.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/views/tabs/advanced/breadcrumbs.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/views/tabs/dashboard/dashboard.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/views/tabs/dashboard/dashboard.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/views/tabs/metas/home.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/views/tabs/metas/home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/views/tabs/metas/post-types.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/views/tabs/metas/post-types.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/views/tabs/sitemaps/post-types.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/views/tabs/sitemaps/post-types.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/views/tabs/sitemaps/taxonomies.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/views/tabs/sitemaps/taxonomies.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/views/tabs/social/facebook.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/views/tabs/social/facebook.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/views/tool-import-export.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/views/tool-import-export.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/frontend/class-breadcrumbs.php" afterPath="$PROJECT_DIR$/wordpress-seo/frontend/class-breadcrumbs.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/frontend/class-frontend.php" afterPath="$PROJECT_DIR$/wordpress-seo/frontend/class-frontend.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/frontend/class-opengraph-image.php" afterPath="$PROJECT_DIR$/wordpress-seo/frontend/class-opengraph-image.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/frontend/class-opengraph.php" afterPath="$PROJECT_DIR$/wordpress-seo/frontend/class-opengraph.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/inc/class-rewrite.php" afterPath="$PROJECT_DIR$/wordpress-seo/inc/class-rewrite.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/inc/class-wpseo-replace-vars.php" afterPath="$PROJECT_DIR$/wordpress-seo/inc/class-wpseo-replace-vars.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/inc/class-wpseo-utils.php" afterPath="$PROJECT_DIR$/wordpress-seo/inc/class-wpseo-utils.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/inc/options/class-wpseo-option-internallinks.php" afterPath="$PROJECT_DIR$/wordpress-seo/inc/options/class-wpseo-option-internallinks.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/inc/options/class-wpseo-option-ms.php" afterPath="$PROJECT_DIR$/wordpress-seo/inc/options/class-wpseo-option-ms.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/inc/options/class-wpseo-option-titles.php" afterPath="$PROJECT_DIR$/wordpress-seo/inc/options/class-wpseo-option-titles.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/inc/options/class-wpseo-option-xml.php" afterPath="$PROJECT_DIR$/wordpress-seo/inc/options/class-wpseo-option-xml.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/inc/options/class-wpseo-options.php" afterPath="$PROJECT_DIR$/wordpress-seo/inc/options/class-wpseo-options.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/inc/sitemaps/class-post-type-sitemap-provider.php" afterPath="$PROJECT_DIR$/wordpress-seo/inc/sitemaps/class-post-type-sitemap-provider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/inc/sitemaps/class-sitemap-timezone.php" afterPath="$PROJECT_DIR$/wordpress-seo/inc/sitemaps/class-sitemap-timezone.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/inc/sitemaps/class-sitemaps.php" afterPath="$PROJECT_DIR$/wordpress-seo/inc/sitemaps/class-sitemaps.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/inc/sitemaps/class-taxonomy-sitemap-provider.php" afterPath="$PROJECT_DIR$/wordpress-seo/inc/sitemaps/class-taxonomy-sitemap-provider.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/inc/wpseo-functions-deprecated.php" afterPath="$PROJECT_DIR$/wordpress-seo/inc/wpseo-functions-deprecated.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/ar.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/ar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/az.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/az.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/bg.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/bg.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/ca.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/ca.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/cs.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/cs.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/da.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/da.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/de.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/de.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/el.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/el.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/en.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/en.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/es.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/es.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/et.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/et.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/eu.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/eu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/fa.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/fa.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/fi.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/fi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/fr.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/fr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/gl.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/gl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/he.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/he.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/hi.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/hi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/hr.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/hr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/hu.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/hu.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/hy.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/hy.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/id.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/id.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/is.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/is.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/it.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/it.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/ja.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/ja.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/km.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/km.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/ko.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/ko.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/lt.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/lt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/lv.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/lv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/mk.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/mk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/ms.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/ms.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/nb.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/nb.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/nl.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/nl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/pl.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/pl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/pt-BR.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/pt-BR.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/pt.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/pt.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/ro.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/ro.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/ru.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/ru.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/sk.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/sk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/sl.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/sl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/sr-Cyrl.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/sr-Cyrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/sr.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/sr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/sv.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/sv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/th.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/th.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/tr.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/tr.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/uk.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/uk.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/vi.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/vi.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/zh-CN.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/zh-CN.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/zh-TW.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/zh-TW.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/select2.full.min.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/select2.full.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-bg_BG.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-bg_BG.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-ca.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-ca.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-cs_CZ.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-cs_CZ.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-da_DK.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-da_DK.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-de_CH.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-de_CH.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-de_DE.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-de_DE.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-en_AU.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-en_AU.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-en_CA.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-en_CA.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-en_GB.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-en_GB.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-en_NZ.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-en_NZ.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-es_AR.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-es_AR.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-es_CL.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-es_CL.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-es_ES.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-es_ES.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-es_MX.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-es_MX.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-es_VE.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-es_VE.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-eu.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-eu.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-fa_IR.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-fa_IR.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-fi.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-fi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-fr_CA.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-fr_CA.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-fr_FR.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-fr_FR.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-gl_ES.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-gl_ES.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-he_IL.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-he_IL.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-hr.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-hr.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-hu_HU.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-hu_HU.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-it_IT.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-it_IT.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-ja.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-ja.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-nb_NO.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-nb_NO.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-nl_BE.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-nl_BE.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-nl_NL.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-nl_NL.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-pl_PL.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-pl_PL.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-pt_BR.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-pt_BR.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-pt_PT.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-pt_PT.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-ro_RO.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-ro_RO.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-ru_RU.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-ru_RU.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-sk_SK.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-sk_SK.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-sq.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-sq.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-sr_RS.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-sr_RS.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-sv_SE.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-sv_SE.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-tr_TR.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-tr_TR.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-zh_CN.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-zh_CN.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-zh_HK.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-zh_HK.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-zh_TW.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-zh_TW.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/yoast-components-nl_NL.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/yoast-components-nl_NL.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/yoast-components-pt_PT.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/yoast-components-pt_PT.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/yoast-components-ru_RU.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/yoast-components-ru_RU.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/yoast-components.php" afterPath="$PROJECT_DIR$/wordpress-seo/languages/yoast-components.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/yoast-seo-js.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/yoast-seo-js.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/yoast-seo-js.php" afterPath="$PROJECT_DIR$/wordpress-seo/languages/yoast-seo-js.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/readme.txt" afterPath="$PROJECT_DIR$/wordpress-seo/readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/vendor/autoload.php" afterPath="$PROJECT_DIR$/wordpress-seo/vendor/autoload.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/vendor/autoload_52.php" afterPath="$PROJECT_DIR$/wordpress-seo/vendor/autoload_52.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/wordpress-seo/vendor/composer/autoload_classmap.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/wordpress-seo/vendor/composer/autoload_real.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/vendor/composer/autoload_real_52.php" afterPath="$PROJECT_DIR$/wordpress-seo/vendor/composer/autoload_real_52.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/wordpress-seo/vendor/composer/autoload_static.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/wp-seo-main.php" afterPath="$PROJECT_DIR$/wordpress-seo/wp-seo-main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/wp-seo.php" afterPath="$PROJECT_DIR$/wordpress-seo/wp-seo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/admin/EDD_SL_Plugin_Updater.php" afterPath="$PROJECT_DIR$/wp-store-locator/admin/EDD_SL_Plugin_Updater.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/admin/class-admin.php" afterPath="$PROJECT_DIR$/wp-store-locator/admin/class-admin.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/admin/class-geocode.php" afterPath="$PROJECT_DIR$/wp-store-locator/admin/class-geocode.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/admin/class-metaboxes.php" afterPath="$PROJECT_DIR$/wp-store-locator/admin/class-metaboxes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/admin/class-settings.php" afterPath="$PROJECT_DIR$/wp-store-locator/admin/class-settings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/admin/css/style-3.8.css" afterPath="$PROJECT_DIR$/wp-store-locator/admin/css/style-3.8.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/admin/css/style-3.8.min.css" afterPath="$PROJECT_DIR$/wp-store-locator/admin/css/style-3.8.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/admin/css/style.css" afterPath="$PROJECT_DIR$/wp-store-locator/admin/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/admin/css/style.min.css" afterPath="$PROJECT_DIR$/wp-store-locator/admin/css/style.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/admin/js/wpsl-admin.js" afterPath="$PROJECT_DIR$/wp-store-locator/admin/js/wpsl-admin.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/admin/js/wpsl-admin.min.js" afterPath="$PROJECT_DIR$/wp-store-locator/admin/js/wpsl-admin.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/admin/templates/map-settings.php" afterPath="$PROJECT_DIR$/wp-store-locator/admin/templates/map-settings.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/css/styles.css" afterPath="$PROJECT_DIR$/wp-store-locator/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/css/styles.min.css" afterPath="$PROJECT_DIR$/wp-store-locator/css/styles.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/frontend/class-frontend.php" afterPath="$PROJECT_DIR$/wp-store-locator/frontend/class-frontend.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/frontend/templates/default.php" afterPath="$PROJECT_DIR$/wp-store-locator/frontend/templates/default.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/frontend/templates/store-listings-below.php" afterPath="$PROJECT_DIR$/wp-store-locator/frontend/templates/store-listings-below.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/inc/class-i18n.php" afterPath="$PROJECT_DIR$/wp-store-locator/inc/class-i18n.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/inc/wpsl-functions.php" afterPath="$PROJECT_DIR$/wp-store-locator/inc/wpsl-functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/js/wpsl-gmap.js" afterPath="$PROJECT_DIR$/wp-store-locator/js/wpsl-gmap.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/js/wpsl-gmap.min.js" afterPath="$PROJECT_DIR$/wp-store-locator/js/wpsl-gmap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/languages/wpsl-es_ES.po" afterPath="$PROJECT_DIR$/wp-store-locator/languages/wpsl-es_ES.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/languages/wpsl-nl_NL.po" afterPath="$PROJECT_DIR$/wp-store-locator/languages/wpsl-nl_NL.po" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/languages/wpsl.pot" afterPath="$PROJECT_DIR$/wp-store-locator/languages/wpsl.pot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/readme.txt" afterPath="$PROJECT_DIR$/wp-store-locator/readme.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/uninstall.php" afterPath="$PROJECT_DIR$/wp-store-locator/uninstall.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/wp-store-locator.php" afterPath="$PROJECT_DIR$/wp-store-locator/wp-store-locator.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -879,8 +327,8 @@
       <file leaf-file-name="pas-custom-fields.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pas-custom-fields.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="614">
-              <caret line="2485" column="6" lean-forward="false" selection-start-line="2485" selection-start-column="6" selection-end-line="2485" selection-end-column="6" />
+            <state relative-caret-position="72">
+              <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="36" />
               <folding>
                 <element signature="e#6#270#0#PHP" expanded="true" />
               </folding>
@@ -899,6 +347,11 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>(</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -920,11 +373,11 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="4" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="5" />
     <option name="y" value="23" />
-    <option name="width" value="1436" />
-    <option name="height" value="877" />
+    <option name="width" value="1411" />
+    <option name="height" value="870" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -989,27 +442,33 @@
       <workItem from="1511441244998" duration="2599000" />
       <workItem from="1511453223328" duration="2135000" />
       <workItem from="1511478667337" duration="4092000" />
-      <workItem from="1511556072300" duration="2976000" />
+      <workItem from="1511556072300" duration="6843000" />
+      <workItem from="1511727705341" duration="2176000" />
+      <workItem from="1511789464490" duration="1436000" />
+      <workItem from="1511894077453" duration="2000" />
+      <workItem from="1512754651424" duration="964000" />
+      <workItem from="1512844361549" duration="363000" />
+      <workItem from="1513008739826" duration="2901000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48352000" />
+    <option name="totallyTimeSpent" value="60061000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="1436" height="877" extended-state="0" />
+    <frame x="4" y="23" width="1436" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1046,11 +505,115 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pas-custom-post-type.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pas-custom-taxonomy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pas-custom-fields.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="36" />
+          <folding>
+            <element signature="e#6#270#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pas-custom-post-type.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pas-custom-taxonomy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pas-custom-fields.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58920">
+          <caret line="2463" column="3" lean-forward="false" selection-start-line="2463" selection-start-column="3" selection-end-line="2463" selection-end-column="3" />
+          <folding>
+            <element signature="e#6#270#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pas-custom-post-type.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pas-custom-taxonomy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pas-custom-fields.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58920">
+          <caret line="2463" column="3" lean-forward="false" selection-start-line="2463" selection-start-column="3" selection-end-line="2463" selection-end-column="3" />
+          <folding>
+            <element signature="e#6#270#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pas-custom-post-type.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pas-custom-taxonomy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pas-custom-fields.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58920">
+          <caret line="2463" column="3" lean-forward="false" selection-start-line="2463" selection-start-column="3" selection-end-line="2463" selection-end-column="3" />
+          <folding>
+            <element signature="e#6#270#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pas-custom-post-type.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1283,8 +846,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pas-custom-fields.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="2485" column="6" lean-forward="false" selection-start-line="2485" selection-start-column="6" selection-end-line="2485" selection-end-column="6" />
+        <state relative-caret-position="72">
+          <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="36" />
           <folding>
             <element signature="e#6#270#0#PHP" expanded="true" />
           </folding>

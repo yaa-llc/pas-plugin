@@ -41,7 +41,7 @@ function wpsl_uninstall() {
     }
     
     // Delete the options used by the plugin.
-    $options = array( 'wpsl_version', 'wpsl_settings', 'wpsl_notices', 'wpsl_legacy_support', 'wpsl_flush_rewrite', 'wpsl_delete_transient', 'wpsl_convert_cpt' ); 
+    $options = array( 'wpsl_version', 'wpsl_settings', 'wpsl_notices', 'wpsl_legacy_support', 'wpsl_flush_rewrite', 'wpsl_delete_transient', 'wpsl_convert_cpt', 'wpsl_valid_server_key' );
     
     foreach ( $options as $option ) {
         delete_option( $option );    

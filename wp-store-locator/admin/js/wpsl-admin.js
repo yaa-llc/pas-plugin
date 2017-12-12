@@ -1,8 +1,25 @@
-jQuery( document ).ready( function( $ ) { 
+jQuery( document ).ready( function( $ ) {
 var map, geocoder, markersArray = [];
 
 if ( $( "#wpsl-gmap-wrap" ).length ) {
 	initializeGmap();
+}
+
+/*
+ * If we're on the settings page, then check for returned
+ * browser key errors from the autocomplete field
+ * and validate the server key when necessary.
+ */
+if ( $( "#wpsl-map-settings").length ) {
+	observeBrowserKeyErrors();
+
+    /**
+	 * Check if we need to validate the server key, and if no
+	 * error message is already visible after saving the setting page.
+     */
+    if ( $( "#wpsl-api-server-key" ).hasClass( "wpsl-validate-me" ) && !$( "#setting-error-server-key" ).length ) {
+    	validateServerKey();
+	}
 }
 
 /**
@@ -36,7 +53,7 @@ function initializeGmap() {
 /**
  * Check if we have an existing latlng value.
  * 
- * If there is an latlng value we add a marker to the map. 
+ * If there is an latlng value, then we add a marker to the map.
  * This can only happen on the edit store page.
  *
  * @since	1.0.0
@@ -104,7 +121,7 @@ function addMarker( location ) {
 }
 
 // Lookup the provided location with the Google Maps API.
-$( "#wpsl-lookup-location" ).on( "click", function( e ) {	
+$( "#wpsl-lookup-location" ).on( "click", function( e ) {
 	e.preventDefault();
 	codeAddress();
 });
@@ -146,7 +163,7 @@ function codeAddress() {
 		geocoder.geocode( { 'address': geocodeAddress }, function( response, status ) {
 			if ( status === google.maps.GeocoderStatus.OK ) {
 
-				// If we have a previous marker on the map remove it.
+				// If we have a previous marker on the map we remove it.
 				if ( typeof( markersArray[0] ) !== "undefined" ) {
 					if ( markersArray[0].draggable ) {
 						markersArray[0].setMap( null );
@@ -157,10 +174,12 @@ function codeAddress() {
 				// Center and zoom to the searched location.
 				map.setCenter( response[0].geometry.location );
 				map.setZoom( 16 );
-				addMarker( response[0].geometry.location );				
+
+				addMarker( response[0].geometry.location );
 				setLatlng( response[0].geometry.location, "store" );
 
 				filteredResponse = filterApiResponse( response );
+
 				$( "#wpsl-country" ).val( filteredResponse.country.long_name );
 				$( "#wpsl-country_iso" ).val( filteredResponse.country.short_name );
 			} else {
@@ -185,23 +204,27 @@ function codeAddress() {
  * @returns {boolean} error  Whether all the required fields contained data.
  */
 function validatePreviewFields() {
-	var i, fieldData, 
-		requiredFields = [ "address", "city", "country" ],
-		error		   = false;
-	
+	var i, fieldData, requiredFields,
+		error = false;
+
 	$( ".wpsl-store-meta input" ).removeClass( "wpsl-error" );
-	
-	// Check if all the required fields contain data.
-	for ( i = 0; i < requiredFields.length; i++ ) {
-		fieldData = $.trim( $( "#wpsl-" + requiredFields[i] ).val() );
 
-		if ( !fieldData ) {
-			$( "#wpsl-" + requiredFields[i] ).addClass( "wpsl-error" );
-			error = true;
-		}
+	// Check which fields are required.
+    if ( typeof wpslSettings.requiredFields !== "undefined" && _.isArray( wpslSettings.requiredFields ) ) {
+        requiredFields = wpslSettings.requiredFields;
 
-		fieldData = '';
-	}
+        // Check if all the required fields contain data.
+        for ( i = 0; i < requiredFields.length; i++ ) {
+            fieldData = $.trim( $( "#wpsl-" + requiredFields[i] ).val() );
+
+            if ( !fieldData ) {
+                $( "#wpsl-" + requiredFields[i] ).addClass( "wpsl-error" );
+                error = true;
+            }
+
+            fieldData = '';
+        }
+    }
 
 	return error;
 }
@@ -248,9 +271,9 @@ function filterApiResponse( response ) {
 		addressLength = response[0].address_components.length;
 	
 	// Loop over the API response.
-	for ( i = 0; i < addressLength; i++ ){
+	for ( i = 0; i < addressLength; i++ ) {
 		responseType = response[0].address_components[i].types;
-		
+
 		// Filter out the country name.
 		if ( /^country,political$/.test( responseType ) ) {
 			country = {
@@ -461,7 +484,7 @@ function activateStoreTab( $target ) {
 }
 
 /**
- * Get the id or class of the first element that is required but is empty.
+ * Get the id or class of the first element that's an required field, but is empty.
  * 
  * We need this to determine which tab we need to set active,
  * which will be the tab were the first error occured. 
@@ -471,9 +494,7 @@ function activateStoreTab( $target ) {
  * @returns {object} firstErrorElem The id/class set on the first elem that an error occured on and the attr value
  */
 function getFirstErrorElemAttr( elem ) {
-	var firstErrorElem = {};
-
-	firstErrorElem = { "type": "id", "val" : elem.attr( "id" ) };
+	var firstErrorElem = { "type": "id", "val" : elem.attr( "id" ) };
 
 	// If no ID value exists, then check if we can get the class name.
 	if ( typeof firstErrorElem.val === "undefined" ) {
@@ -678,8 +699,8 @@ function setSelectedOpeningHours( optionList, hrFormat ) {
 	 * value is still set as selected after changing the hr format.
 	 */			
 	$( ".wpsl-current-period" ).each( function() {
-		periodBlock  = $( this ),
-		hours 		 = { 
+		periodBlock = $( this ),
+		hours 		= {
 			"open": $( this ).find( ".wpsl-open-hour" ).val(),
 			"close": $( this ).find( ".wpsl-close-hour" ).val()
 		};
@@ -832,4 +853,94 @@ function tryParseJSON( jsonString ) {
     return false;
 }
 
+/**
+ * Look for changes on the start location input field.
+ *
+ * If there's a problem with the browser API key,
+ * then a 'gm-err-autocomplete' class is added to the input field.
+ *
+ * When this happens we create a notice explaining how to fix the issue.
+ *
+ * @since 2.2.10
+ * @return void
+ */
+function observeBrowserKeyErrors() {
+    var observer,
+		attributeValue 	 = '',
+		MutationObserver = window.MutationObserver || window.WebKitMutationObserver || window.MozMutationObserver,
+		$startName 		 = $( "#wpsl-start-name" );
+
+	if ( typeof MutationObserver !== "undefined" ) {
+		observer = new MutationObserver( function( mutations ) {
+
+			// Loop over the mutations.
+			mutations.forEach( function( mutation ) {
+				if ( mutation.attributeName === "class" ) {
+					attributeValue = $( mutation.target ).prop( mutation.attributeName );
+
+					// Look for a specific class that's added when there's a problem with the browser API key
+					if ( ( attributeValue.indexOf( "gm-err-autocomplete" ) !== -1 ) ) {
+                        createErrorNotice( wpslL10n.browserKeyError, "browser-key" );
+					}
+				}
+			});
+		});
+
+		observer.observe( $startName[0], {
+			attributes: true
+		});
+	}
+}
+
+/**
+ * Make a request to the geocode API with the
+ * provided server key to check for any errors.
+ *
+ * @since 2.2.10
+ * @return void
+ */
+function validateServerKey() {
+    var ajaxData = {
+        action: "validate_server_key",
+        server_key: $( "#wpsl-api-server-key" ).val()
+    };
+
+    $.get( wpslSettings.ajaxurl, ajaxData, function( response ) {
+        if ( !response.valid && typeof response.msg !== "undefined" ) {
+            createErrorNotice( response.msg, "server-key" );
+		} else {
+            $( "#wpsl-api-server-key" ).removeClass( "wpsl-error" );
+        }
+    });
+}
+
+/**
+ * Create the error notice.
+ *
+ * @since 2.2.10
+ * @param {string} errorMsg The error message to show
+ * @param {string} type 	The type of API key we need to show the notice for
+ * @return void
+ */
+function createErrorNotice( errorMsg, type ) {
+	var errorNotice, noticeLocation;
+
+	errorNotice = '<div id="setting-error-' + type + '" class="error settings-error notice is-dismissible">';
+	errorNotice += '<p><strong>' + errorMsg + '</strong></p>';
+	errorNotice += '<button type="button" class="notice-dismiss"><span class="screen-reader-text">' + wpslL10n.dismissNotice + '</span></button>';
+	errorNotice += '</div>';
+
+	noticeLocation = ( $( "#wpsl-tabs" ).length ) ? 'wpsl-tabs' : 'wpsl-settings-form';
+
+	$( "#" + noticeLocation + "" ).before( errorNotice );
+	$( "#wpsl-api-" + type + "").addClass( "wpsl-error" );
+}
+
+// Make sure the custom error notices can be removed
+$( "#wpsl-wrap" ).on( "click", "button.notice-dismiss", function() {
+    $( this ).closest( 'div.notice' ).remove();
+})
+
 });
+
+

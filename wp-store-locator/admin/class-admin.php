@@ -68,6 +68,7 @@ if ( !class_exists( 'WPSL_Admin' ) ) {
          * @return void
          */
         public function includes() {
+            require_once( WPSL_PLUGIN_DIR . 'admin/class-shortcode-generator.php' );
             require_once( WPSL_PLUGIN_DIR . 'admin/class-notices.php' );
             require_once( WPSL_PLUGIN_DIR . 'admin/class-license-manager.php' );
             require_once( WPSL_PLUGIN_DIR . 'admin/class-metaboxes.php' ); 
@@ -112,10 +113,10 @@ if ( !class_exists( 'WPSL_Admin' ) ) {
             if ( ( current_user_can( 'install_plugins' ) ) && is_admin() ) {
                 foreach ( $warnings as $setting_name => $warning ) {
                     if ( empty( $wpsl_settings[$setting_name] ) && !get_user_meta( $current_user->ID, 'wpsl_disable_' . $warning . '_warning' ) ) {
-                        if ( $warning == 'location' ) {
-                           $this->setting_warning[$warning] = sprintf( __( "Before adding the [wpsl] shortcode to a page, please don't forget to define a start point on the %ssettings%s page. %sDismiss%s", "wpsl" ), "<a href='" . admin_url( 'edit.php?post_type=wpsl_stores&page=wpsl_settings' ) . "'>", "</a>", "<a href='" . esc_url( wp_nonce_url( add_query_arg( 'wpsl-notice', 'location' ), 'wpsl_notices_nonce', '_wpsl_notice_nonce' ) ) . "'>", "</a>" ); 
+                        if ( $warning == 'key' ) {
+                            $this->setting_warning[$warning] = sprintf( __( "You need to create %sAPI keys%s for Google Maps before you can use the store locator! %sDismiss%s", "wpsl" ), '<a href="https://wpstorelocator.co/document/create-google-api-keys/">', "</a>", "<a href='" . esc_url( wp_nonce_url( add_query_arg( 'wpsl-notice', 'key' ), 'wpsl_notices_nonce', '_wpsl_notice_nonce' ) ) . "'>", "</a>" );
                         } else {
-                           $this->setting_warning[$warning] = sprintf( __( "As of %sJune 22, 2016%s Google Maps no longer allows request for new projects that doesn't include an %sAPI key%s. %sDismiss%s", "wpsl" ), '<a href="https://googlegeodevelopers.blogspot.nl/2016/06/building-for-scale-updates-to-google.html">', "</a>", '<a href="https://wpstorelocator.co/document/create-google-api-keys/">', "</a>", "<a href='" . esc_url( wp_nonce_url( add_query_arg( 'wpsl-notice', 'key' ), 'wpsl_notices_nonce', '_wpsl_notice_nonce' ) ) . "'>", "</a>" );
+                            $this->setting_warning[$warning] = sprintf( __( "Before adding the [wpsl] shortcode to a page, please don't forget to define a start point on the %ssettings%s page. %sDismiss%s", "wpsl" ), "<a href='" . admin_url( 'edit.php?post_type=wpsl_stores&page=wpsl_settings' ) . "'>", "</a>", "<a href='" . esc_url( wp_nonce_url( add_query_arg( 'wpsl-notice', 'location' ), 'wpsl_notices_nonce', '_wpsl_notice_nonce' ) ) . "'>", "</a>" );
                         }
                     }
                 }
@@ -290,15 +291,17 @@ if ( !class_exists( 'WPSL_Admin' ) ) {
         public function admin_js_l10n() {
             
             $admin_js_l10n = array(
-                'noAddress'      => __( 'Cannot determine the address at this location.', 'wpsl' ),
-                'geocodeFail'    => __( 'Geocode was not successful for the following reason', 'wpsl' ),
-                'securityFail'   => __( 'Security check failed, reload the page and try again.', 'wpsl' ),
-                'requiredFields' => __( 'Please fill in all the required store details.', 'wpsl' ),
-                'missingGeoData' => __( 'The map preview requires all the location details.', 'wpsl' ),
-                'closedDate'     => __( 'Closed', 'wpsl' ),
-                'styleError'     => __( 'The code for the map style is invalid.', 'wpsl' )
+                'noAddress'       => __( 'Cannot determine the address at this location.', 'wpsl' ),
+                'geocodeFail'     => __( 'Geocode was not successful for the following reason', 'wpsl' ),
+                'securityFail'    => __( 'Security check failed, reload the page and try again.', 'wpsl' ),
+                'requiredFields'  => __( 'Please fill in all the required store details.', 'wpsl' ),
+                'missingGeoData'  => __( 'The map preview requires all the location details.', 'wpsl' ),
+                'closedDate'      => __( 'Closed', 'wpsl' ),
+                'styleError'      => __( 'The code for the map style is invalid.', 'wpsl' ),
+                'browserKeyError' => sprintf( __( 'There\'s a problem with the provided %sbrowser key%s. %s You can read more about how to determine the exact issue, and how to solve it %shere%s.','wpsl' ), '<a href="https://wpstorelocator.co/document/create-google-api-keys/#browser-key">','</a>', '<br><br>', '<a href="https://wpstorelocator.co/document/create-google-api-keys/#troubleshooting">','</a>' ),
+                'dismissNotice'   => __( 'Dismiss this notice.', 'wpsl' )
             );
-            
+
             return $admin_js_l10n;
         }
         
@@ -313,12 +316,14 @@ if ( !class_exists( 'WPSL_Admin' ) ) {
             global $wpsl_settings;
 
             $js_settings = array(
-                'hourFormat'    => $wpsl_settings['editor_hour_format'],
-                'defaultLatLng' => $this->get_default_lat_lng(),
-                'defaultZoom'   => 6,
-                'mapType'       => $wpsl_settings['editor_map_type']
+                'hourFormat'     => $wpsl_settings['editor_hour_format'],
+                'defaultLatLng'  => $this->get_default_lat_lng(),
+                'defaultZoom'    => 6,
+                'mapType'        => $wpsl_settings['editor_map_type'],
+                'requiredFields' => array( 'address', 'city', 'country' ),
+                'ajaxurl'        => wpsl_get_ajax_url()
             );
-            
+
             return apply_filters( 'wpsl_admin_js_settings', $js_settings );
         }
 
@@ -350,7 +355,7 @@ if ( !class_exists( 'WPSL_Admin' ) ) {
          * @return void
          */
 		public function admin_scripts() {
-            
+
             $min = ( defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ) ? '' : '.min'; 
             
             // Always load the main js admin file to make sure the "dismiss" link in the location notice works.

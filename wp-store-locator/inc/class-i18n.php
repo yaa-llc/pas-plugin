@@ -52,7 +52,7 @@ if ( !class_exists( 'WPSL_i18n' ) ) {
             if ( $this->wpml_active == null ) {
                 $this->wpml_active = function_exists( 'icl_register_string' );
             }
-            
+
             return $this->wpml_active;
         } 
 
@@ -84,7 +84,7 @@ if ( !class_exists( 'WPSL_i18n' ) ) {
             $return_original_id = apply_filters( 'wpsl_return_original_wpml_id', true );
 
             // icl_object_id is deprecated as of 3.2
-            if ( version_compare( ICL_SITEPRESS_VERSION, 3.2, '>=' ) ) {
+            if ( defined( 'ICL_SITEPRESS_VERSION' ) && version_compare( ICL_SITEPRESS_VERSION, 3.2, '>=' ) ) {
                 $translated_id = apply_filters( 'wpml_object_id', $store_id, 'wpsl_stores', $return_original_id, ICL_LANGUAGE_CODE );
             } else {
                 $translated_id = icl_object_id( $store_id, 'wpsl_stores', $return_original_id, ICL_LANGUAGE_CODE );

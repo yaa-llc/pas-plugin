@@ -1,0 +1,63 @@
+.fp-theme-two {
+    &.portfolio-items {
+
+        figure {
+
+            &:hover figcaption {
+
+                &:after {
+                    left: 0;
+                }
+
+                h4 {
+                    right: 0;
+                }
+                .button {
+                    bottom: 1rem;
+                }
+            }
+        }
+
+        figcaption {
+            text-align: center;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            transition: .4s;
+
+            &:after {
+                background-color: #000;
+                content: "";
+                height: 100%;
+                left: -100%;
+                opacity: .6;
+                position: absolute;
+                top: 0;
+                width: 100%;
+                transition: .4s;
+            }
+
+            h4 {
+                position: absolute;
+                right: -100%;
+                bottom: 50px;
+                text-align: center;
+                width: 100%;
+                z-index: 10;
+                transition: .4s;
+            }
+
+            .button {
+                position: absolute;
+                left: 50%;
+                bottom: -25%;
+                transform: translateX(-50%);
+                display: table;
+                z-index: 10;
+                transition: .4s;
+            }
+        }
+    }
+}

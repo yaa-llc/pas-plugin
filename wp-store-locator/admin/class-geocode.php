@@ -68,8 +68,10 @@ if ( !class_exists( 'WPSL_Geocode' ) ) {
             if ( isset( $geocode_response['status'] ) ) {
                 switch ( $geocode_response['status'] ) {
                     case 'OK':
+                        $country = $this->filter_country_name( $geocode_response );
+
                         $location_data = array(
-                            'country_iso' => $this->filter_country_name( $geocode_response ),
+                            'country_iso' => $country['short_name'],
                             'latlng'      => $this->format_latlng( $geocode_response['results'][0]['geometry']['location'] )
                         );
 
@@ -109,7 +111,13 @@ if ( !class_exists( 'WPSL_Geocode' ) ) {
             $breaks = ( $inc_breaks ) ? '<br><br>' : '';
             
             if ( isset( $geocode_response['error_message'] ) && $geocode_response['error_message'] ) {
-                $error_msg = sprintf( __( '%sError message: %s', 'wpsl' ),  $breaks, $geocode_response['error_message'] );
+
+                // If the problem is IP based, then show a different error msg.
+                if ( strpos( $geocode_response['error_message'], 'IP' ) !== false  ) {
+                    $error_msg = sprintf( __( '%sError message: %s. %s Make sure the IP address mentioned in the error matches with the IP set as the %sreferrer%s for the server API key in the %sGoogle API Console%s.', 'wpsl' ), $breaks, $geocode_response['error_message'], $breaks, '<a href="https://wpstorelocator.co/document/create-google-api-keys/#server-key-referrer">', '</a>', '<a href="https://console.developers.google.com">', '</a>' );
+                } else {
+                    $error_msg = sprintf( __( '%sError message: %s %s Check if your issue is covered in the %stroubleshooting%s section, if not, then please open a %ssupport ticket%s.', 'wpsl' ),  $breaks, $geocode_response['error_message'], $breaks, '<a href="https://wpstorelocator.co/document/create-google-api-keys/#troubleshooting">', '</a>', '<a href="https://wpstorelocator.co/support/">', '</a>' );
+                }
             } else {
                 $error_msg = '';
             }
@@ -124,21 +132,33 @@ if ( !class_exists( 'WPSL_Geocode' ) ) {
          * @param  array        $store_data   The store data
          * @return array|string $geo_response The response from the Google Geocode API, or the wp_remote_get error message.
          */
-		public function get_latlng( $store_data ) {
-            
+        public function get_latlng( $store_data ) {
+
             $address  = $this->create_geocode_address( $store_data );
             $response = wpsl_call_geocode_api( $address );
 
             if ( is_wp_error( $response ) ) {
                 $geo_response = sprintf( __( 'Something went wrong connecting to the Google Geocode API: %s %s Please try again later.', 'wpsl' ), $response->get_error_message(), '<br><br>' );
+            } else if ( $response['response']['code'] == 500 ) {
+                $geo_response = sprintf( __( 'The Google Geocode API reported the following problem: error %s %s %s Please try again later.', 'wpsl' ), $response['response']['code'], $response['response']['message'], '<br><br>' );
+            } else if ( $response['response']['code'] == 400 ) {
+
+                // Check on which page the 400 error was triggered, and based on that adjust the msg.
+                if ( isset( $_GET['page'] ) && $_GET['page'] == 'wpsl_csv' ) {
+                    $data_issue = sprintf( __( 'You can fix this by making sure the CSV file uses %sUTF-8 encoding%s.', 'wpsl' ), '<a href="https://wpstorelocator.co/document/csv-manager/#utf8">', '</a>' );
+                } else if ( !$address ) {
+                    $data_issue = __( 'You need to provide the details for either the address, city, state or country before the API can return coordinates.', 'wpsl' ); // this is only possible if the required fields are disabled with custom code.
+                }
+
+                $geo_response = sprintf( __( 'The Google Geocode API reported the following problem: error %s %s %s %s', 'wpsl' ), $response['response']['code'], $response['response']['message'], '<br><br>', $data_issue );
             } else if ( $response['response']['code'] != 200 ) {
-                $geo_response = sprintf( __( 'The Google Geocode API reported the following problem: error %s %s %s Please contact %ssupport%s if the problem persists.', 'wpsl' ), $response['response']['code'], $response['response']['message'], '<br><br>', '<a href="https://wpstorelocator.co/support/">', '</a>' );                
+                $geo_response = sprintf( __( 'The Google Geocode API reported the following problem: error %s %s %s Please contact %ssupport%s if the problem persists.', 'wpsl' ), $response['response']['code'], $response['response']['message'], '<br><br>', '<a href="https://wpstorelocator.co/support/">', '</a>' );
             } else {
-                $geo_response = json_decode( $response['body'], true ); 
+                $geo_response = json_decode( $response['body'], true );
             }
-            
+
             return $geo_response;
-		}
+        }
         
         /** 
          * Create the address we need to Geocode.
@@ -214,30 +234,32 @@ if ( !class_exists( 'WPSL_Geocode' ) ) {
             
             return $latlng;
         }
-        
-        /** 
-         * Filter out the two letter country code from the api respsonse.
-         * 
+
+        /**
+         * Filter out the two letter country code from the Geocode API response.
+         *
          * @since 1.0.0
-         * @param  array  $response     The full API geocode response
-         * @return string $country_name The country code
+         * @param  array $response The full API geocode response
+         * @return array $country  The country ISO code and full name
          */
         public function filter_country_name( $response ) {
 
             $length = count( $response['results'][0]['address_components'] );
-            
-            // Loop over the address components untill we find the country, political part.
+
+            $country = array();
+
+            // Loop over the address components until we find the country, political part.
             for ( $i = 0; $i < $length; $i++ ) {
                 $address_component = $response['results'][0]['address_components'][$i]['types'];
 
                 if ( $address_component[0] == 'country' && $address_component[1] == 'political' ) {
-                    $country_name = $response['results'][0]['address_components'][$i]['short_name'];
-                    
+                    $country = $response['results'][0]['address_components'][$i];
+
                     break;
                 }
             }
 
-            return $country_name;
+            return $country;
         }
         
         /** 

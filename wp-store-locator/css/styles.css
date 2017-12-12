@@ -349,7 +349,7 @@ in street view mode doesn't cover the control area.
 }
 
 #wpsl-wrap #wpsl-result-list ul li {
-    list-style: disc !important;
+    list-style: none !important;
 }
 
 #wpsl-wrap #wpsl-result-list ol li {
@@ -395,30 +395,38 @@ in street view mode doesn't cover the control area.
     padding:0;
     border:none;
 }
+
 .wpsl-direction-index {
     float:left; 
     width:8%; 
     margin:0 5% 0 0;
 }
+
 .wpsl-direction-txt {
     float:left; 
     width:62%;
 }
+
 .wpsl-direction-distance {
     float:left; 
     width:20%; 
     margin:0 0 0 5%;
 }
+
 .wpsl-direction-txt span {
     display:block; 
     margin-top:10px;
 }
 
 .wpsl-street, 
-.wpsl-country, 
+.wpsl-country {
+    display: block;
+    border-bottom: none !important;
+}
+
 .wpsl-directions {
-    display:block;
-    border-bottom:none !important;
+    display: table;
+    border-bottom: none !important;
 }
 
 /* Preloader */

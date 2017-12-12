@@ -15,9 +15,11 @@ if ( !class_exists( 'WPSL_Settings' ) ) {
         public function __construct() {
             
             $this->manually_clear_transient();
-            
-            add_action( 'admin_init', array( $this, 'register_settings' ) );
-            add_action( 'admin_init', array( $this, 'maybe_flush_rewrite_and_transient' ) );
+
+            add_action( 'wp_ajax_validate_server_key',        array( $this, 'ajax_validate_server_key' ) );
+            add_action( 'wp_ajax_nopriv_validate_server_key', array( $this, 'ajax_validate_server_key' ) );
+            add_action( 'admin_init',                         array( $this, 'register_settings' ) );
+            add_action( 'admin_init',                         array( $this, 'maybe_flush_rewrite_and_transient' ) );
         }
 
         /**
@@ -99,7 +101,17 @@ if ( !class_exists( 'WPSL_Settings' ) ) {
                 'hide_country',
                 'hide_distance'
             );
-            
+
+            /*
+             * If the provided server key is different then the existing value,
+             * then we test if it's valid by making a call to the Geocode API.
+             */
+            if ( $_POST['wpsl_api']['server_key'] && $wpsl_settings['api_server_key'] != $_POST['wpsl_api']['server_key'] || !get_option( 'wpsl_valid_server_key' ) ) {
+                $server_key = sanitize_text_field( $_POST['wpsl_api']['server_key'] );
+
+                $this->validate_server_key( $server_key );
+            }
+
 			$output['api_server_key']        = sanitize_text_field( $_POST['wpsl_api']['server_key'] );
             $output['api_browser_key']       = sanitize_text_field( $_POST['wpsl_api']['browser_key'] );
 			$output['api_language']          = wp_filter_nohtml_kses( $_POST['wpsl_api']['language'] );
@@ -309,7 +321,71 @@ if ( !class_exists( 'WPSL_Settings' ) ) {
             }
             
 			return $output;
-		} 
+		}
+
+        /**
+         * Handle the AJAX call to validate the provided
+         * server key for the Google Maps API.
+         *
+         * @since 2.2.10
+         * @return void
+         */
+        public function ajax_validate_server_key() {
+
+            if ( ( current_user_can( 'manage_wpsl_settings' ) ) && is_admin() ) {
+                $server_key = sanitize_text_field( $_GET['server_key'] );
+
+                if ( $server_key ) {
+                    $this->validate_server_key( $server_key );
+                }
+            }
+        }
+
+        /**
+         * Check if the provided server key for
+         * the Google Maps API is valid.
+         *
+         * @since 2.2.10
+         * @param string $server_key The server key to validate
+         * @return json|void If the validation failed and AJAX is used, then json
+         */
+        public function validate_server_key( $server_key ) {
+
+            global $wpsl_admin;
+
+            // Test the server key by making a request to the Geocode API.
+            $address  = 'Manhattan, NY 10036, USA';
+            $url      = 'https://maps.googleapis.com/maps/api/geocode/json?address=' . urlencode( $address ) .'&key=' . $server_key;
+            $response = wp_remote_get( $url );
+
+            if ( !is_wp_error( $response ) ) {
+                $response = json_decode( $response['body'], true );
+
+                // If the state is not OK, then there's a problem with the key.
+                if ( $response['status'] !== 'OK' ) {
+                    $geocode_errors = $wpsl_admin->geocode->check_geocode_error_msg( $response, true );
+                    $error_msg      = sprintf( __( 'There\'s a problem with the provided %sserver key%s. %s' ), '<a href="https://wpstorelocator.co/document/create-google-api-keys/#server-key">', '</a>', $geocode_errors );
+
+                    update_option( 'wpsl_valid_server_key', 0 );
+
+                    // If the server key input field has 'wpsl-validate-me' class on it, then it's validated with AJAX in the background.
+                    if ( defined('DOING_AJAX' ) && DOING_AJAX ) {
+                        $key_status = array(
+                            'valid' => 0,
+                            'msg'   => $error_msg
+                        );
+
+                        wp_send_json( $key_status );
+
+                        exit();
+                    } else {
+                        add_settings_error( 'setting-errors', esc_attr( 'server-key' ), $error_msg, 'error' );
+                    }
+                } else {
+                    update_option( 'wpsl_valid_server_key', 1 );
+                }
+            }
+        }
 
         /**
          * Check if we need set the option that will be used to determine 
@@ -543,7 +619,7 @@ if ( !class_exists( 'WPSL_Settings' ) ) {
                         __('Cocos (Keeling) Islands', 'wpsl')          => 'cc',
                         __('Colombia', 'wpsl')                         => 'co',
                         __('Comoros', 'wpsl')                          => 'km',
-                        __('Congo (DRC', 'wpsl')                       => 'cd',
+                        __('Congo (DRC)', 'wpsl')                       => 'cd',
                         __('Congo (Republic)', 'wpsl')                 => 'cg',
                         __('Cook Islands', 'wpsl')                     => 'ck',
                         __('Costa Rica', 'wpsl')                       => 'cr',
@@ -881,7 +957,7 @@ if ( !class_exists( 'WPSL_Settings' ) ) {
             
             global $wpsl_settings;
             
-			$cluster_options = array( 
+			$cluster_options = array(
                 'cluster_zoom' => array(
                     'id'      => 'wpsl-marker-zoom',
                     'name'    => 'cluster_zoom',
@@ -986,14 +1062,12 @@ if ( !class_exists( 'WPSL_Settings' ) ) {
             global $wpsl_settings;
             
 			$dropdown = '<select id="wpsl-store-template" name="wpsl_ux[template_id]" autocomplete="off">';
-            $i = 0;
-            
+
             foreach ( wpsl_get_templates() as $template ) {
                 $template_id = ( isset( $template['id'] ) ) ? $template['id'] : '';
                 
 				$selected = ( $wpsl_settings['template_id'] == $template_id ) ? ' selected="selected"' : '';
 				$dropdown .= "<option value='" . esc_attr( $template_id ) . "' $selected>" . esc_html( $template['name'] ) . "</option>";
-                $i++;
             }
 			
 			$dropdown .= '</select>';

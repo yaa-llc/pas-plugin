@@ -115,8 +115,9 @@
     border-radius: 3px;
 }
 
+#wpsl-wrap.wpsl-settings .wpsl-error,
 .wpsl-store-meta .wpsl-error {
-    border:1px solid #c01313;
+    border: 1px solid #c01313;
 }
 
 #wpsl-lookup-location {
@@ -261,6 +262,7 @@
     min-width: 200px;
     background: #222;
     border-radius: 3px;
+    line-height: 1.4em;
 }
 
 #wpsl-map-preview .wpsl-info-text {
@@ -654,4 +656,18 @@ div.wpsl-active {
 
 .wpsl-add-on-status p {
     margin: 0 0 4px 0;
+}
+
+/* Classes to handle the API errors */
+.wpsl-api-error {
+    margin-top: 13px;
+    padding: 10px;
+    color: #fff;
+    border-radius: 3px;
+    background: #c01313;
+}
+
+.wpsl-api-error a {
+    font-weight: bold;
+    color: #fff !important;
 }
