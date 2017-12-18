@@ -2030,6 +2030,51 @@ if( function_exists('acf_add_local_field_group') ):
     ));
 
     acf_add_local_field_group(array(
+        'key' => 'group_5a37e0bc41613',
+        'title' => 'Stone Collection In Page Navigation',
+        'fields' => array(
+            array(
+                'key' => 'field_5a37e0f905eab',
+                'label' => 'Stone Collection',
+                'name' => 'stone_collection',
+                'type' => 'clone',
+                'instructions' => '',
+                'required' => 0,
+                'conditional_logic' => 0,
+                'wrapper' => array(
+                    'width' => '',
+                    'class' => '',
+                    'id' => '',
+                ),
+                'clone' => array(
+                    0 => 'field_5a0e100f14b50',
+                ),
+                'display' => 'seamless',
+                'layout' => 'block',
+                'prefix_label' => 0,
+                'prefix_name' => 0,
+            ),
+        ),
+        'location' => array(
+            array(
+                array(
+                    'param' => 'nav_menu',
+                    'operator' => '==',
+                    'value' => 'location/collection-menu',
+                ),
+            ),
+        ),
+        'menu_order' => 0,
+        'position' => 'normal',
+        'style' => 'default',
+        'label_placement' => 'top',
+        'instruction_placement' => 'label',
+        'hide_on_screen' => '',
+        'active' => 1,
+        'description' => '',
+    ));
+
+    acf_add_local_field_group(array(
         'key' => 'group_5a088a2ac6331',
         'title' => 'Stone Collection Page Fields',
         'fields' => array(
