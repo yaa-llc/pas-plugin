@@ -2,308 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ed36713-f509-4e97-b362-9e32f300a181" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/admin-global-580-rtl.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/admin-global-580.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/adminbar-580-rtl.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/adminbar-580.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/alerts-580-rtl.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/alerts-580.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/dashboard-580-rtl.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/dashboard-580.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/edit-page-580-rtl.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/edit-page-580.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/featured-image-580-rtl.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/featured-image-580.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/filter-explanation-580-rtl.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/filter-explanation-580.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/inside-editor-580-rtl.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/inside-editor-580.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/metabox-580-rtl.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/metabox-580.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/metabox-primary-category-580-rtl.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/metabox-primary-category-580.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/snippet-580-rtl.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/snippet-580.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/toggle-switch-580-rtl.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/toggle-switch-580.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/wpseo-dismissible-580-rtl.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/wpseo-dismissible-580.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/yoast-components-580-rtl.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/yoast-components-580.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/yoast-extensions-580-rtl.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/yoast-extensions-580.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/yst_plugin_tools-580-rtl.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/yst_plugin_tools-580.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/yst_seo_score-580-rtl.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/css/dist/yst_seo_score-580.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/configuration-wizard-580.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-admin-580.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-admin-global-580.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-admin-gsc-580.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-admin-media-580.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-api-580.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-babel-polyfill-580.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-bulk-editor-580.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-dashboard-widget-580.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-dismissible-580.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-edit-page-580.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-featured-image-580.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-filter-explanation-580.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-help-center-580.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-metabox-580.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-metabox-category-580.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-post-scraper-580.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-quick-edit-handler-580.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-recalculate-580.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-reindex-links-580.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-replacevar-plugin-580.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-shortcode-plugin-580.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/wp-seo-term-scraper-580.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-store-locator/frontend/templates/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-store-locator/frontend/templates/.idea/templates.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-store-locator/frontend/templates/.idea/workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-ar.mo" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-ar.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-de_CH.mo" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-de_CH.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-de_DE.mo" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-de_DE.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-de_DE_formal.mo" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-de_DE_formal.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-fa_IR.mo" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-fa_IR.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-it_IT.mo" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-it_IT.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-nl_NL.mo" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-nl_NL.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-pt_BR.mo" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-pt_BR.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-pt_PT.mo" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-pt_PT.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/languages/wpsl-es_ES.mo" afterPath="$PROJECT_DIR$/wp-store-locator/languages/wpsl-es_ES.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/languages/wpsl-nl_NL.mo" afterPath="$PROJECT_DIR$/wp-store-locator/languages/wpsl-nl_NL.mo" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-font-awesome/acf-font-awesome.php" afterPath="$PROJECT_DIR$/advanced-custom-fields-font-awesome/acf-font-awesome.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-font-awesome/assets/inc/class-ACFFAL.php" afterPath="$PROJECT_DIR$/advanced-custom-fields-font-awesome/assets/inc/class-ACFFAL.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-font-awesome/readme.txt" afterPath="$PROJECT_DIR$/advanced-custom-fields-font-awesome/readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/acf.php" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/acf.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/assets/css/acf-field-group.css" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/assets/css/acf-field-group.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/assets/css/acf-input.css" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/assets/css/acf-input.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/assets/js/acf-field-group.js" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/assets/js/acf-field-group.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/assets/js/acf-field-group.min.js" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/assets/js/acf-field-group.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/assets/js/acf-input.js" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/assets/js/acf-input.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/assets/js/acf-input.min.js" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/assets/js/acf-input.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/api/api-helpers.php" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/api/api-helpers.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/api/api-input.php" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/api/api-input.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/fields/class-acf-field-tab.php" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/fields/class-acf-field-tab.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/forms/form-attachment.php" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/forms/form-attachment.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/forms/form-comment.php" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/forms/form-comment.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/forms/form-front.php" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/forms/form-front.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/forms/form-nav-menu.php" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/forms/form-nav-menu.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/forms/form-taxonomy.php" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/forms/form-taxonomy.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/forms/form-user.php" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/forms/form-user.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/forms/form-widget.php" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/forms/form-widget.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/walkers/class-acf-walker-nav-menu-edit.php" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/includes/walkers/class-acf-walker-nav-menu-edit.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-ar.po" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-ar.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-de_CH.po" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-de_CH.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-de_DE.po" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-de_DE.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-de_DE_formal.po" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-de_DE_formal.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-fa_IR.po" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-fa_IR.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-it_IT.po" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-it_IT.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-nl_NL.po" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-nl_NL.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-pt_BR.po" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-pt_BR.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-pt_PT.po" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/lang/acf-pt_PT.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/pro/assets/js/acf-pro-field-group.js" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/pro/assets/js/acf-pro-field-group.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/pro/assets/js/acf-pro-field-group.min.js" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/pro/assets/js/acf-pro-field-group.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/pro/assets/js/acf-pro-input.js" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/pro/assets/js/acf-pro-input.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/pro/assets/js/acf-pro-input.min.js" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/pro/assets/js/acf-pro-input.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/pro/fields/class-acf-field-flexible-content.php" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/pro/fields/class-acf-field-flexible-content.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/advanced-custom-fields-pro/readme.txt" afterPath="$PROJECT_DIR$/advanced-custom-fields-pro/readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/instagram-feed/README.txt" afterPath="$PROJECT_DIR$/instagram-feed/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/instagram-feed/instagram-feed.php" afterPath="$PROJECT_DIR$/instagram-feed/instagram-feed.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/ajax.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/ajax.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/class-admin-asset-manager.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/class-admin-asset-manager.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/class-admin-init.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/class-admin-init.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/class-admin-utils.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/class-admin-utils.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/class-admin.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/class-admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/class-bulk-editor-list-table.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/class-bulk-editor-list-table.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/class-config.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/class-config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/class-cornerstone-field.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/class-cornerstone-field.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/class-cornerstone.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/class-cornerstone.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/class-help-center.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/class-help-center.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/class-import-aioseo.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/class-import-aioseo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/class-import-woothemes-seo.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/class-import-woothemes-seo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/class-meta-columns.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/class-meta-columns.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/class-plugin-availability.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/class-plugin-availability.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/class-social-admin.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/class-social-admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/class-social-facebook.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/class-social-facebook.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/class-suggested-plugins.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/class-suggested-plugins.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/config-ui/factories/class-factory-post-type.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/config-ui/factories/class-factory-post-type.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/config-ui/fields/class-field-success-message.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/config-ui/fields/class-field-success-message.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/filters/class-abstract-post-filter.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/filters/class-abstract-post-filter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/filters/class-cornerstone-filter.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/filters/class-cornerstone-filter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/formatter/class-metabox-formatter.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/formatter/class-metabox-formatter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/google_search_console/class-gsc.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/google_search_console/class-gsc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/links/class-link-columns.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/links/class-link-columns.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/links/class-link-notifier.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/links/class-link-notifier.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/links/class-link-reindex-dashboard.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/links/class-link-reindex-dashboard.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/links/class-link-reindex-post-service.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/links/class-link-reindex-post-service.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/links/class-link-utils.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/links/class-link-utils.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/links/class-link-watcher.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/links/class-link-watcher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/metabox/class-metabox.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/metabox/class-metabox.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/onpage/class-ryte-service.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/onpage/class-ryte-service.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/pages/dashboard.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/pages/dashboard.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/taxonomy/class-taxonomy-fields-presenter.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/taxonomy/class-taxonomy-fields-presenter.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/views/tabs/advanced/breadcrumbs.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/views/tabs/advanced/breadcrumbs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/views/tabs/dashboard/dashboard.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/views/tabs/dashboard/dashboard.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/views/tabs/metas/home.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/views/tabs/metas/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/views/tabs/metas/post-types.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/views/tabs/metas/post-types.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/views/tabs/sitemaps/post-types.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/views/tabs/sitemaps/post-types.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/views/tabs/sitemaps/taxonomies.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/views/tabs/sitemaps/taxonomies.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/views/tabs/social/facebook.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/views/tabs/social/facebook.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/admin/views/tool-import-export.php" afterPath="$PROJECT_DIR$/wordpress-seo/admin/views/tool-import-export.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/frontend/class-breadcrumbs.php" afterPath="$PROJECT_DIR$/wordpress-seo/frontend/class-breadcrumbs.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/frontend/class-frontend.php" afterPath="$PROJECT_DIR$/wordpress-seo/frontend/class-frontend.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/frontend/class-opengraph-image.php" afterPath="$PROJECT_DIR$/wordpress-seo/frontend/class-opengraph-image.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/frontend/class-opengraph.php" afterPath="$PROJECT_DIR$/wordpress-seo/frontend/class-opengraph.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/inc/class-rewrite.php" afterPath="$PROJECT_DIR$/wordpress-seo/inc/class-rewrite.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/inc/class-wpseo-replace-vars.php" afterPath="$PROJECT_DIR$/wordpress-seo/inc/class-wpseo-replace-vars.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/inc/class-wpseo-utils.php" afterPath="$PROJECT_DIR$/wordpress-seo/inc/class-wpseo-utils.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/inc/options/class-wpseo-option-internallinks.php" afterPath="$PROJECT_DIR$/wordpress-seo/inc/options/class-wpseo-option-internallinks.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/inc/options/class-wpseo-option-ms.php" afterPath="$PROJECT_DIR$/wordpress-seo/inc/options/class-wpseo-option-ms.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/inc/options/class-wpseo-option-titles.php" afterPath="$PROJECT_DIR$/wordpress-seo/inc/options/class-wpseo-option-titles.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/inc/options/class-wpseo-option-xml.php" afterPath="$PROJECT_DIR$/wordpress-seo/inc/options/class-wpseo-option-xml.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/inc/options/class-wpseo-options.php" afterPath="$PROJECT_DIR$/wordpress-seo/inc/options/class-wpseo-options.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/inc/sitemaps/class-post-type-sitemap-provider.php" afterPath="$PROJECT_DIR$/wordpress-seo/inc/sitemaps/class-post-type-sitemap-provider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/inc/sitemaps/class-sitemap-timezone.php" afterPath="$PROJECT_DIR$/wordpress-seo/inc/sitemaps/class-sitemap-timezone.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/inc/sitemaps/class-sitemaps.php" afterPath="$PROJECT_DIR$/wordpress-seo/inc/sitemaps/class-sitemaps.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/inc/sitemaps/class-taxonomy-sitemap-provider.php" afterPath="$PROJECT_DIR$/wordpress-seo/inc/sitemaps/class-taxonomy-sitemap-provider.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/inc/wpseo-functions-deprecated.php" afterPath="$PROJECT_DIR$/wordpress-seo/inc/wpseo-functions-deprecated.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/ar.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/ar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/az.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/az.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/bg.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/bg.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/ca.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/ca.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/cs.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/cs.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/da.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/da.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/de.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/de.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/el.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/el.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/en.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/en.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/es.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/es.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/et.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/et.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/eu.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/eu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/fa.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/fa.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/fi.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/fi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/fr.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/fr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/gl.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/gl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/he.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/he.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/hi.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/hi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/hr.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/hr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/hu.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/hu.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/hy.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/hy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/id.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/id.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/is.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/is.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/it.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/it.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/ja.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/ja.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/km.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/km.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/ko.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/ko.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/lt.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/lt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/lv.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/lv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/mk.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/mk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/ms.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/ms.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/nb.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/nb.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/nl.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/nl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/pl.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/pl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/pt-BR.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/pt-BR.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/pt.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/pt.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/ro.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/ro.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/ru.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/ru.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/sk.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/sk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/sl.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/sl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/sr-Cyrl.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/sr-Cyrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/sr.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/sr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/sv.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/sv.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/th.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/th.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/tr.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/tr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/uk.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/uk.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/vi.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/vi.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/zh-CN.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/zh-CN.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/zh-TW.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/i18n/zh-TW.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/select2.full.min.js" afterPath="$PROJECT_DIR$/wordpress-seo/js/dist/select2/select2.full.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-bg_BG.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-bg_BG.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-ca.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-ca.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-cs_CZ.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-cs_CZ.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-da_DK.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-da_DK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-de_CH.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-de_CH.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-de_DE.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-de_DE.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-en_AU.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-en_AU.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-en_CA.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-en_CA.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-en_GB.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-en_GB.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-en_NZ.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-en_NZ.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-es_AR.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-es_AR.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-es_CL.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-es_CL.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-es_ES.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-es_ES.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-es_MX.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-es_MX.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-es_VE.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-es_VE.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-eu.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-eu.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-fa_IR.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-fa_IR.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-fi.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-fi.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-fr_CA.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-fr_CA.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-fr_FR.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-fr_FR.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-gl_ES.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-gl_ES.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-he_IL.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-he_IL.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-hr.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-hr.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-hu_HU.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-hu_HU.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-it_IT.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-it_IT.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-ja.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-ja.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-nb_NO.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-nb_NO.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-nl_BE.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-nl_BE.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-nl_NL.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-nl_NL.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-pl_PL.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-pl_PL.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-pt_BR.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-pt_BR.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-pt_PT.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-pt_PT.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-ro_RO.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-ro_RO.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-ru_RU.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-ru_RU.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-sk_SK.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-sk_SK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-sq.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-sq.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-sr_RS.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-sr_RS.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-sv_SE.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-sv_SE.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-tr_TR.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-tr_TR.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-zh_CN.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-zh_CN.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-zh_HK.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-zh_HK.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-zh_TW.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/wordpress-seo-zh_TW.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/yoast-components-nl_NL.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/yoast-components-nl_NL.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/yoast-components-pt_PT.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/yoast-components-pt_PT.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/yoast-components-ru_RU.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/yoast-components-ru_RU.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/yoast-components.php" afterPath="$PROJECT_DIR$/wordpress-seo/languages/yoast-components.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/yoast-seo-js.json" afterPath="$PROJECT_DIR$/wordpress-seo/languages/yoast-seo-js.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/languages/yoast-seo-js.php" afterPath="$PROJECT_DIR$/wordpress-seo/languages/yoast-seo-js.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/readme.txt" afterPath="$PROJECT_DIR$/wordpress-seo/readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/vendor/autoload.php" afterPath="$PROJECT_DIR$/wordpress-seo/vendor/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/vendor/autoload_52.php" afterPath="$PROJECT_DIR$/wordpress-seo/vendor/autoload_52.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/wordpress-seo/vendor/composer/autoload_classmap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/wordpress-seo/vendor/composer/autoload_real.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/vendor/composer/autoload_real_52.php" afterPath="$PROJECT_DIR$/wordpress-seo/vendor/composer/autoload_real_52.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/vendor/composer/autoload_static.php" afterPath="$PROJECT_DIR$/wordpress-seo/vendor/composer/autoload_static.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/wp-seo-main.php" afterPath="$PROJECT_DIR$/wordpress-seo/wp-seo-main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordpress-seo/wp-seo.php" afterPath="$PROJECT_DIR$/wordpress-seo/wp-seo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/admin/EDD_SL_Plugin_Updater.php" afterPath="$PROJECT_DIR$/wp-store-locator/admin/EDD_SL_Plugin_Updater.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/admin/class-admin.php" afterPath="$PROJECT_DIR$/wp-store-locator/admin/class-admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/admin/class-geocode.php" afterPath="$PROJECT_DIR$/wp-store-locator/admin/class-geocode.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/admin/class-metaboxes.php" afterPath="$PROJECT_DIR$/wp-store-locator/admin/class-metaboxes.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/admin/class-settings.php" afterPath="$PROJECT_DIR$/wp-store-locator/admin/class-settings.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/admin/css/style-3.8.css" afterPath="$PROJECT_DIR$/wp-store-locator/admin/css/style-3.8.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/admin/css/style-3.8.min.css" afterPath="$PROJECT_DIR$/wp-store-locator/admin/css/style-3.8.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/admin/css/style.css" afterPath="$PROJECT_DIR$/wp-store-locator/admin/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/admin/css/style.min.css" afterPath="$PROJECT_DIR$/wp-store-locator/admin/css/style.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/admin/js/wpsl-admin.js" afterPath="$PROJECT_DIR$/wp-store-locator/admin/js/wpsl-admin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/admin/js/wpsl-admin.min.js" afterPath="$PROJECT_DIR$/wp-store-locator/admin/js/wpsl-admin.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/admin/templates/map-settings.php" afterPath="$PROJECT_DIR$/wp-store-locator/admin/templates/map-settings.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/css/styles.css" afterPath="$PROJECT_DIR$/wp-store-locator/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/css/styles.min.css" afterPath="$PROJECT_DIR$/wp-store-locator/css/styles.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/frontend/class-frontend.php" afterPath="$PROJECT_DIR$/wp-store-locator/frontend/class-frontend.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/frontend/templates/default.php" afterPath="$PROJECT_DIR$/wp-store-locator/frontend/templates/default.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/frontend/templates/store-listings-below.php" afterPath="$PROJECT_DIR$/wp-store-locator/frontend/templates/store-listings-below.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/inc/class-i18n.php" afterPath="$PROJECT_DIR$/wp-store-locator/inc/class-i18n.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/inc/wpsl-functions.php" afterPath="$PROJECT_DIR$/wp-store-locator/inc/wpsl-functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/js/wpsl-gmap.js" afterPath="$PROJECT_DIR$/wp-store-locator/js/wpsl-gmap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/js/wpsl-gmap.min.js" afterPath="$PROJECT_DIR$/wp-store-locator/js/wpsl-gmap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/languages/wpsl-es_ES.po" afterPath="$PROJECT_DIR$/wp-store-locator/languages/wpsl-es_ES.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/languages/wpsl-nl_NL.po" afterPath="$PROJECT_DIR$/wp-store-locator/languages/wpsl-nl_NL.po" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/languages/wpsl.pot" afterPath="$PROJECT_DIR$/wp-store-locator/languages/wpsl.pot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/readme.txt" afterPath="$PROJECT_DIR$/wp-store-locator/readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/uninstall.php" afterPath="$PROJECT_DIR$/wp-store-locator/uninstall.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-store-locator/wp-store-locator.php" afterPath="$PROJECT_DIR$/wp-store-locator/wp-store-locator.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nimble-portfolio/skins/default/overrides.css" afterPath="$PROJECT_DIR$/nimble-portfolio/skins/default/overrides.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pas-custom-fields.php" afterPath="$PROJECT_DIR$/pas-custom-fields.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wpb-portfolio/assets/js/main.js" afterPath="$PROJECT_DIR$/wpb-portfolio/assets/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wpb-portfolio/inc/content-portfolio-lightbox.php" afterPath="$PROJECT_DIR$/wpb-portfolio/inc/content-portfolio-lightbox.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wpb-portfolio/inc/wpb-fp-functions.php" afterPath="$PROJECT_DIR$/wpb-portfolio/inc/wpb-fp-functions.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wpb-portfolio/inc/wpb-fp-shortcode.php" afterPath="$PROJECT_DIR$/wpb-portfolio/inc/wpb-fp-shortcode.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wpb-portfolio/main.php" afterPath="$PROJECT_DIR$/wpb-portfolio/main.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -327,10 +33,11 @@
       <file leaf-file-name="pas-custom-fields.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pas-custom-fields.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="36" />
+            <state relative-caret-position="264">
+              <caret line="2386" column="6" lean-forward="false" selection-start-line="2386" selection-start-column="6" selection-end-line="2386" selection-end-column="6" />
               <folding>
                 <element signature="e#6#270#0#PHP" expanded="true" />
+                <element signature="e#272#118960#0#PHP" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -373,8 +80,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="5" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="4" />
     <option name="y" value="23" />
     <option name="width" value="1411" />
     <option name="height" value="870" />
@@ -448,15 +155,17 @@
       <workItem from="1511894077453" duration="2000" />
       <workItem from="1512754651424" duration="964000" />
       <workItem from="1512844361549" duration="363000" />
-      <workItem from="1513008739826" duration="2901000" />
+      <workItem from="1513008739826" duration="3259000" />
+      <workItem from="1513264463955" duration="933000" />
+      <workItem from="1513278814394" duration="2369000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60061000" />
+    <option name="totallyTimeSpent" value="63721000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="1436" height="877" extended-state="6" />
+    <frame x="4" y="23" width="1411" height="870" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -505,7 +214,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -528,10 +237,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pas-custom-fields.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55656">
+          <caret line="2319" column="6" lean-forward="false" selection-start-line="2319" selection-start-column="6" selection-end-line="2319" selection-end-column="6" />
+          <folding>
+            <element signature="e#6#270#0#PHP" expanded="true" />
+            <element signature="e#272#118960#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pas-custom-post-type.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pas-custom-taxonomy.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pas-custom-fields.php">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="36" />
           <folding>
             <element signature="e#6#270#0#PHP" expanded="true" />
+            <element signature="e#272#118960#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -558,6 +295,7 @@
           <caret line="2463" column="3" lean-forward="false" selection-start-line="2463" selection-start-column="3" selection-end-line="2463" selection-end-column="3" />
           <folding>
             <element signature="e#6#270#0#PHP" expanded="true" />
+            <element signature="e#272#118960#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -584,6 +322,7 @@
           <caret line="2463" column="3" lean-forward="false" selection-start-line="2463" selection-start-column="3" selection-end-line="2463" selection-end-column="3" />
           <folding>
             <element signature="e#6#270#0#PHP" expanded="true" />
+            <element signature="e#272#118960#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -610,6 +349,7 @@
           <caret line="2463" column="3" lean-forward="false" selection-start-line="2463" selection-start-column="3" selection-end-line="2463" selection-end-column="3" />
           <folding>
             <element signature="e#6#270#0#PHP" expanded="true" />
+            <element signature="e#272#118960#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -636,6 +376,7 @@
           <caret line="2485" column="6" lean-forward="false" selection-start-line="2485" selection-start-column="6" selection-end-line="2485" selection-end-column="6" />
           <folding>
             <element signature="e#6#270#0#PHP" expanded="true" />
+            <element signature="e#272#118960#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -662,6 +403,7 @@
           <caret line="2585" column="6" lean-forward="false" selection-start-line="2585" selection-start-column="6" selection-end-line="2585" selection-end-column="6" />
           <folding>
             <element signature="e#6#270#0#PHP" expanded="true" />
+            <element signature="e#272#118960#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -688,6 +430,7 @@
           <caret line="1675" column="6" lean-forward="false" selection-start-line="1675" selection-start-column="6" selection-end-line="1675" selection-end-column="6" />
           <folding>
             <element signature="e#6#270#0#PHP" expanded="true" />
+            <element signature="e#272#118960#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -714,6 +457,7 @@
           <caret line="1630" column="28" lean-forward="false" selection-start-line="1630" selection-start-column="28" selection-end-line="1630" selection-end-column="28" />
           <folding>
             <element signature="e#6#270#0#PHP" expanded="true" />
+            <element signature="e#272#118960#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -740,6 +484,7 @@
           <caret line="1630" column="28" lean-forward="false" selection-start-line="1630" selection-start-column="28" selection-end-line="1630" selection-end-column="28" />
           <folding>
             <element signature="e#6#270#0#PHP" expanded="true" />
+            <element signature="e#272#118960#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -766,6 +511,7 @@
           <caret line="1282" column="6" lean-forward="false" selection-start-line="1282" selection-start-column="6" selection-end-line="1282" selection-end-column="6" />
           <folding>
             <element signature="e#6#270#0#PHP" expanded="true" />
+            <element signature="e#272#118960#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -784,6 +530,7 @@
           <caret line="1001" column="6" lean-forward="false" selection-start-line="1001" selection-start-column="6" selection-end-line="1001" selection-end-column="6" />
           <folding>
             <element signature="e#6#270#0#PHP" expanded="true" />
+            <element signature="e#272#118960#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -810,6 +557,7 @@
           <caret line="959" column="6" lean-forward="false" selection-start-line="959" selection-start-column="6" selection-end-line="959" selection-end-column="6" />
           <folding>
             <element signature="e#6#270#0#PHP" expanded="true" />
+            <element signature="e#272#118960#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -846,10 +594,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pas-custom-fields.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="13" column="36" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="36" />
+        <state relative-caret-position="264">
+          <caret line="2386" column="6" lean-forward="false" selection-start-line="2386" selection-start-column="6" selection-end-line="2386" selection-end-column="6" />
           <folding>
             <element signature="e#6#270#0#PHP" expanded="true" />
+            <element signature="e#272#118960#0#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
